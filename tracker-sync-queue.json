@@ -1,5 +1,5 @@
 {
-  "requestId": "bootstrap-sync-2026-09-04",
+  "requestId": "bootstrap-sync-2026-09-04-v2",
   "commitMessage": "Job tracker: clean duplicates and improve sync",
   "jobUpserts": [],
   "detailUpserts": [],

@@ -1,0 +1,9 @@
+{
+  "requestId": "bootstrap-sync-2026-09-04",
+  "commitMessage": "Job tracker: clean duplicates and improve sync",
+  "jobUpserts": [],
+  "detailUpserts": [],
+  "removeJobIds": ["d27-7", "d27-4"],
+  "removeDetailIds": ["d27-7", "d27-4"],
+  "upgradeSyncButton": true
+}

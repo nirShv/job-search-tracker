@@ -1,15 +1,14 @@
 {
-  "requestId": "cv-queue-90plus-2026-09-06-a",
-  "commitMessage": "Job tracker: mark 90+ Apply roles for CV",
+  "requestId": "tailor-brands-cv-2026-09-06-a",
+  "commitMessage": "Job tracker: link Tailor Brands CV",
   "jobUpserts": [
-    {"id":"s06-1","status":"cv_requested","updated":"2026-09-06"},
-    {"id":"s06-2","status":"cv_requested","updated":"2026-09-06"},
-    {"id":"s06-3","status":"cv_requested","updated":"2026-09-06"},
-    {"id":"s05-1","status":"cv_requested","updated":"2026-09-06"},
-    {"id":"s05-2","status":"cv_requested","updated":"2026-09-06"},
-    {"id":"s05-3","status":"cv_requested","updated":"2026-09-06"},
-    {"id":"s01-14","status":"cv_requested","updated":"2026-09-06"},
-    {"id":"s01-15","status":"cv_requested","updated":"2026-09-06"}
+    {
+      "id": "s05-1",
+      "cv": "Nir_Shvarchberg_CV_Tailor_Brands_Product_Manager.docx",
+      "status": "active",
+      "updated": "2026-09-06",
+      "next": "להגיש"
+    }
   ],
   "detailUpserts": [],
   "removeJobIds": [],

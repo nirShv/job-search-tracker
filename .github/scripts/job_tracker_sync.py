@@ -66,7 +66,12 @@ def main():
             if "status" in patch:
                 old_status = current.get("status")
                 new_status = patch.get("status")
-                if STATUS_RANK.get(old_status, 0) > STATUS_RANK.get(new_status, 0):
+                cv_ready_transition = (
+                    old_status == "cv_requested"
+                    and new_status == "active"
+                    and bool(patch.get("cv") or current.get("cv"))
+                )
+                if STATUS_RANK.get(old_status, 0) > STATUS_RANK.get(new_status, 0) and not cv_ready_transition:
                     patch.pop("status")
             current.update(patch)
         else:

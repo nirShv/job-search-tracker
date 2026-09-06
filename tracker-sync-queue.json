@@ -1,6 +1,6 @@
 {
-  "requestId": "tailor-brands-cv-2026-09-06-a",
-  "commitMessage": "Job tracker: link Tailor Brands CV",
+  "requestId": "tailor-brands-cv-2026-09-06-b",
+  "commitMessage": "Job tracker: activate Tailor Brands CV",
   "jobUpserts": [
     {
       "id": "s05-1",

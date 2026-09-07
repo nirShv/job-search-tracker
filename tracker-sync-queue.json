@@ -1,16 +1,152 @@
 {
-  "requestId": "tailor-brands-cv-2026-09-06-b",
-  "commitMessage": "Job tracker: activate Tailor Brands CV",
+  "requestId": "job-search-2026-09-07-a",
+  "commitMessage": "Job tracker: add 3 PM roles from Sep 7 search",
   "jobUpserts": [
     {
-      "id": "s05-1",
-      "cv": "Nir_Shvarchberg_CV_Tailor_Brands_Product_Manager.docx",
+      "id": "s07-1",
+      "company": "Wix",
+      "role": "Product Manager - Premium Growth",
+      "location": "תל אביב — מהמשרד",
+      "match": 97,
+      "date": "2026-09-07",
+      "job": "https://careers.wix.com/position/oracle-c3ca7595-b6a9-5113-aad1-32db6250eb8b-T1787130157-744000147683319",
+      "cv": "",
+      "status": "cv_requested",
+      "daily": 1,
+      "note": "Apply; התאמה חזקה מאוד ל-growth, self-serve, monetization, KPI/funnels, UX, APIs ו-AI-assisted product workflows; אין פער חובה מהותי מאומת",
+      "updated": "2026-09-07",
+      "next": "להכין קורות חיים ולצרף קישור"
+    },
+    {
+      "id": "s07-2",
+      "company": "Tenable",
+      "role": "Product Manager - AI Exposure",
+      "location": "תל אביב — משרד",
+      "match": 90,
+      "date": "2026-09-07",
+      "job": "https://job-boards.greenhouse.io/tenableinc/jobs/5410190008",
+      "cv": "",
+      "status": "cv_requested",
+      "daily": 2,
+      "note": "Apply; roadmap, discovery, customer requirements, E2E ownership, technical translation ו-cross-functional GTM מתאימים; Cybersecurity/AI product background הוא יתרון ולא חובה, אך זה פער domain אמיתי",
+      "updated": "2026-09-07",
+      "next": "להכין קורות חיים ולצרף קישור"
+    },
+    {
+      "id": "s07-3",
+      "company": "Guardoc Health",
+      "role": "Product Manager",
+      "location": "תל אביב — 4 ימים במשרד",
+      "match": 87,
+      "date": "2026-09-07",
+      "job": "https://www.guardoc.health/careers/",
+      "cv": "",
       "status": "active",
-      "updated": "2026-09-06",
-      "next": "להגיש"
+      "daily": 3,
+      "note": "Consider; B2B SaaS, execution, specs, delivery, AI-assisted prototyping ורקע במערכות רפואיות מתאימים; פער משמעותי ב-clinical workflow judgment ובשימוש Claude ספציפי כפי שנדרש",
+      "updated": "2026-09-07",
+      "next": "לבדוק אם הפער הקליני מקובל ואז להחליט על הגשה"
     }
   ],
-  "detailUpserts": [],
+  "detailUpserts": [
+    {
+      "id": "s07-1",
+      "detail": {
+        "source": "Wix Careers — אתר החברה",
+        "language": "אנגלית",
+        "posted": "פורסמה 06.09.2026 ואומתה פעילה 07.09.2026",
+        "summary": "Product Manager בצוות Premium Growth האחראי על מוצרי ההכנסה המרכזיים של Wix, עם ownership מלא על lifecycle, growth, KPI, UX/UI, מחקר משתמשים, עבודה עם Engineering ושימוש AI כחלק מתהליך המוצר.",
+        "requirements": [
+          "3+ שנות Product Management",
+          "product and business growth thinking",
+          "AI-native product workflows למחקר, ניתוח, הגדרת מוצר וממשק",
+          "UX instincts חזקים",
+          "technical understanding ועבודה עם architecture ו-APIs",
+          "ownership, execution, communication ו-analytics"
+        ],
+        "scoreExplanation": "97%: ניסיון B2C/B2B SaaS, funnels, monetization, subscriptions/payments, GA/Firebase, UX, APIs, ownership מקצה לקצה ו-Cursor/AI-assisted prototyping חופפים כמעט ישירות לדרישות. לא זוהתה דרישת חובה מרכזית שאינה נתמכת, אך אין לטעון לניסיון AI product שלא סופק.",
+        "why": [
+          "CallApp for Business כולל onboarding, activation, subscriptions/payments, analytics ו-optimization של מסעות self-serve.",
+          "GA4/Firebase, funnel analysis ו-KPI work מתאימים ישירות ל-growth product ownership.",
+          "Tapuhi מוסיף B2C eCommerce, 0-to-1, checkout/payments והבנת SMB/business users.",
+          "Cursor ו-AI-assisted prototyping תומכים בדרישת AI-native workflow, בלי לטעון לבניית מודלי AI."
+        ],
+        "gaps": [
+          "אין להציג ניסיון בבניית מוצרי AI עצמם אם לא בוצע; הדרישה מתמקדת גם בשימוש AI כחלק מתהליך העבודה.",
+          "המשרה מוצגת כמשרה מתל אביב; מקור חיצוני מסווג אותה on-site, בעוד דף Wix אינו מפרט מודל היברידי."
+        ],
+        "verification": "אומתה ב-07.09.2026 בדף Wix Careers הרשמי עם כפתור Apply Now; מקור מעקב חיצוני מתעד Posting ID 744000147683319 ופרסום ב-06.09.2026.",
+        "recommendation": "Apply — עדיפות ראשונה היום.",
+        "cvMode": "tailored",
+        "cvPlan": "להתאים לגרסת הרפרנס הקבועה: להוביל עם Growth/Self-Serve, funnels ו-KPIs, monetization/subscriptions/payments, B2C eCommerce ב-Tapuhi, UX/APIs ו-Cursor/AI-assisted prototyping. לא להמציא AI product ownership."
+      }
+    },
+    {
+      "id": "s07-2",
+      "detail": {
+        "source": "Tenable Greenhouse — דף הגשה ישיר",
+        "language": "אנגלית",
+        "posted": "פורסמה בתחילת ספטמבר ואומתה פעילה 07.09.2026",
+        "summary": "Product Manager ל-AI Exposure בתוך פלטפורמת Exposure Management של Tenable, עם roadmap, discovery מול לקוחות, product vision, Engineering/UX/AI collaboration ו-Go-to-Market.",
+        "requirements": [
+          "3+ שנות Product Management או תפקיד קרוב",
+          "strategic thinking ויכולת לתרגם concepts טכניים ל-product impact",
+          "end-to-end ownership",
+          "stakeholder management",
+          "אנגלית מצוינת",
+          "Cybersecurity ו/או AI product background הם advantage"
+        ],
+        "scoreExplanation": "90%: ניסיון PM, discovery, requirements, roadmap, API/technical translation, cross-functional execution ו-GTM מתאים היטב. ההפחתה היא בגלל היעדר ניסיון מקצועי מאומת ב-Cybersecurity או ownership של AI products; המודעה מגדירה זאת כיתרון ולא כחובה.",
+        "why": [
+          "CallApp for Business מספק roadmap, customer requirements, B2B SaaS ו-E2E product ownership.",
+          "API integrations ורקע Full Stack תומכים בתרגום בין צרכים עסקיים למושגים טכניים.",
+          "עבודה עם Sales, Marketing, Support, Engineering ו-UX חופפת למודל ה-cross-functional של התפקיד.",
+          "שימוש hands-on בכלי AI תומך ביכולת להיכנס לעולם AI, אך אינו מוצג כניסיון AI product."
+        ],
+        "gaps": [
+          "אין ניסיון Cybersecurity מקצועי מאומת.",
+          "אין ownership מאומת על מוצר AI; Tenable מציינת Cybersecurity/AI background כיתרון ולא כחובה.",
+          "נדרש ramp-up משמעותי ל-AI security ו-exposure management."
+        ],
+        "verification": "אומתה ב-07.09.2026 בדף Greenhouse הישיר של Tenable עם טופס Apply פעיל, Job ID 5410190008.",
+        "recommendation": "Apply — stretch איכותי עם פער domain גלוי אך לא חוסם.",
+        "cvMode": "tailored",
+        "cvPlan": "להוביל עם B2B SaaS, discovery, roadmap, customer requirements, APIs/technical fluency, GTM ו-data-informed decisions. לציין AI-assisted tools באופן מדויק; לא לטעון לניסיון Cybersecurity או AI product שלא קיים."
+      }
+    },
+    {
+      "id": "s07-3",
+      "detail": {
+        "source": "Guardoc Health Careers — אתר החברה",
+        "language": "אנגלית",
+        "posted": "אומתה פעילה 07.09.2026",
+        "summary": "Product Manager hands-on ו-AI-first בחברת healthtech, עם execution מהגדרה עד adoption ו-iteration, specifications, scope, עבודה עם Engineering/Clinical/Design/CS ו-prototyping מהיר.",
+        "requirements": [
+          "3-4+ שנות PM ב-B2B SaaS, healthtech, AI או workflow-heavy products",
+          "specifications, prioritization, scope management, delivery ו-launch",
+          "AI-native operator עם Claude וכלים דומים ל-POCs ושיפורים קטנים",
+          "clinical judgment ו-technical fluency",
+          "customer-facing confidence ואנגלית גבוהה"
+        ],
+        "scoreExplanation": "87%: ניסיון B2B SaaS, delivery, requirements, technical fluency, prototyping ורקע קודם בפרויקטים של מערכות רפואיות תומכים בהתאמה. הפער המרכזי הוא דרישה מפורשת ל-clinical judgment ולשימוש Claude/AI ברמת עבודה יומיומית כפי שהמשרה מתארת, שאינם מאומתים במלואם.",
+        "why": [
+          "CallApp כולל specs, prioritization, launch, iteration ועבודה צמודה עם Engineering/UX/Support.",
+          "Cursor ו-AI-assisted prototyping תואמים חלק משמעותי ל-builder profile.",
+          "ניסיון קודם בניהול פרויקטים במערכות רפואיות נותן זיקה אמיתית ל-healthtech.",
+          "API/integration experience ורקע Full Stack תומכים ב-technical fluency."
+        ],
+        "gaps": [
+          "אין clinical workflow judgment מאומת ברמה שהמשרה מדגישה.",
+          "לא תועד שימוש יומיומי ספציפי ב-Claude או shipping עצמאי של low-risk production changes.",
+          "4 ימים בשבוע במשרד בתל אביב."
+        ],
+        "verification": "אומתה ב-07.09.2026 באתר Guardoc Health Careers; המשרה מוצגת Full-time בתל אביב, 4 ימים on-site, עם טופס הגשה פעיל.",
+        "recommendation": "Consider — מעניינת מאוד, אך לקרוא את דרישת ה-clinical judgment לפני השקעה ב-CV ייעודי.",
+        "cvMode": "tailored",
+        "cvPlan": "אם מגישים, להדגיש B2B SaaS execution, specs, AI-assisted prototyping, APIs ורקע במערכות רפואיות; לא לטעון ל-clinical expertise או Claude usage שלא סופקו."
+      }
+    }
+  ],
   "removeJobIds": [],
   "removeDetailIds": [],
   "upgradeSyncButton": false

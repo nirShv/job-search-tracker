@@ -21,6 +21,7 @@
     .tools input{min-width:260px;flex:1;border:1px solid #b9c6d8;border-radius:9px;padding:10px 12px;background:#fff}
     .tools select{border:1px solid #b9c6d8;border-radius:9px;padding:9px 10px;background:#fff}
     .hint{color:var(--muted);font-size:13px;margin-right:auto}
+    .sync-warning{display:none;align-items:center;gap:8px;background:#fff4dc;border:1px solid #e8bb64;color:#7a4a00;border-radius:10px;padding:10px 12px;margin:-2px 0 12px;font-size:14px;font-weight:700}.sync-warning.show{display:flex}.sync-warning strong{font-size:16px}.sync-badge{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 7px;border-radius:999px;background:#b86a00;color:#fff;font-size:12px;font-weight:900;margin-inline-start:6px}
     .table-wrap{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:auto;box-shadow:0 5px 18px rgba(25,48,83,.06)}
     table{width:100%;border-collapse:collapse;min-width:1320px}th{position:sticky;top:0;z-index:1;background:#edf3fa;color:#294365;font-size:13px;text-align:right;padding:11px 9px;border-bottom:1px solid #cbd7e6}
     td{padding:11px 9px;border-bottom:1px solid #e8edf4;vertical-align:top;line-height:1.4}tr:last-child td{border-bottom:0}tbody tr{cursor:pointer}tbody tr:hover{outline:2px solid #bed4f4;outline-offset:-2px}tbody tr:focus{outline:3px solid #7db0f2;outline-offset:-3px}tr[data-status=cv_requested]{background:#edfafa}tr[data-status=submitted]{background:#f1faf6}tr[data-status=interview]{background:#f5f0ff}tr[data-status=followup]{background:#fff8ed}tr[data-status=rejected_employer],tr[data-status=withdrawn],tr[data-status=inactive]{background:#f7f8fa;color:#596476}
@@ -59,11 +60,12 @@
     <div class="tools">
       <input id="search" type="search" placeholder="חיפוש חברה, תפקיד, מיקום או הערה" aria-label="חיפוש">
       <select id="sort" aria-label="מיון"><option value="match">התאמה — מהגבוה לנמוך</option><option value="date">תאריך — מהחדש לישן</option><option value="company">חברה — א׳ עד ת׳</option></select>
-      <button id="copySummary">העתק שינויים לסנכרון</button>
+      <button id="copySummary">העתק שינויים לסנכרון <span id="syncPendingCount" class="sync-badge" hidden>0</span></button>
       <button id="copyCvQueue">העתק בקשות CV</button>
       <button id="clearChanges">סמן שינויים כסונכרנו</button>
       <span class="hint">לחץ על שורת משרה לפירוט. השינויים נשמרים אוטומטית; בחירת "צור קורות חיים" מוסיפה בקשה לתור ההכנה.</span>
     </div>
+    <div id="syncWarning" class="sync-warning" role="status" aria-live="polite"><strong>⚠ שינויים ממתינים לסנכרון</strong><span id="syncWarningText"></span></div>
     <div class="table-wrap">
       <table>
         <thead><tr><th>חברה ומשרה</th><th>התאמה</th><th>עדכון אחרון</th><th>קישור</th><th>קורות חיים</th><th>קשר / הפניה</th><th>הפעולה הבאה</th><th>הערה</th><th>שלב</th></tr></thead>
@@ -521,7 +523,7 @@
     function saveChange(id,target,details){
       const before=current(jobs.find(function(j){return j.id===id;})),now=new Date().toISOString().slice(0,10),update=Object.assign({status:target,updated:now},details||{});
       if(!update.next)update.next=defaultNext(target);overrides[id]=Object.assign({},overrides[id]||{},update);localStorage.setItem(storageKey,JSON.stringify(overrides));
-      changes.push({id:id,company:before.company,role:before.role,from:before.status,to:target,updated:now,reason:update.reason||"",note:update.note||"",next:update.next||"",nextDate:update.nextDate||""});localStorage.setItem(changesKey,JSON.stringify(changes));render();
+      changes.push({id:id,company:before.company,role:before.role,from:before.status,to:target,updated:now,reason:update.reason||"",note:update.note||"",next:update.next||"",nextDate:update.nextDate||""});localStorage.setItem(changesKey,JSON.stringify(changes));updateSyncIndicator();render();
     }
     function openStatusDialog(id,target){
       const j=current(jobs.find(function(x){return x.id===id;})),reason=document.getElementById("reasonInput");pendingChange={id:id,target:target};document.getElementById("dialogTitle").textContent=j.company+" — "+labels[target];reason.innerHTML=(reasonOptions[target]||["עדכון סטטוס"]).map(function(x){return'<option>'+x+'</option>';}).join("");document.getElementById("nextInput").value=target==="interview"?(j.next||"להתכונן לריאיון"):target==="followup"?(j.next||""):"";document.getElementById("nextDateInput").value=(target==="interview"||target==="followup")?(j.nextDate||""):"";document.getElementById("noteInput").value=j.note||"";document.getElementById("statusDialog").showModal();
@@ -584,13 +586,20 @@
     document.getElementById("copySingleCvRequest").addEventListener("click",async function(){const text=document.getElementById("cvRequestText").textContent;try{await navigator.clipboard.writeText(text);alert("הבקשה הועתקה. הדבק אותה בשיחה עם Codex כדי להתחיל ביצירה מיד.");}catch(e){window.prompt("העתק את הבקשה לשיחה:",text);}});
     document.querySelectorAll(".tab").forEach(function(btn){btn.addEventListener("click",function(){activeTab=btn.dataset.tab;document.querySelectorAll(".tab").forEach(function(b){b.classList.toggle("active",b===btn);});render();});});
     document.getElementById("search").addEventListener("input",render);document.getElementById("sort").addEventListener("change",render);
+    function updateSyncIndicator(){
+      const count=changes.length,badge=document.getElementById("syncPendingCount"),warning=document.getElementById("syncWarning"),text=document.getElementById("syncWarningText");
+      if(badge){badge.textContent=count;badge.hidden=count===0;}
+      if(warning){warning.classList.toggle("show",count>0);}
+      if(text){text.textContent=count>0?count+" שינוי"+(count===1?"":"ים")+" נשמר"+(count===1?"":"ו")+" רק בדפדפן. יש להעתיק לסנכרון ולהדביק בשיחת ChatGPT לפני סימון כסונכרן.":"";}
+    }
     document.getElementById("copySummary").addEventListener("click",async function(){
       const payload={type:"job_tracker_sync_delta",version:1,generatedAt:new Date().toISOString(),changes:changes.map(function(x){return{id:x.id,company:x.company,role:x.role,from:x.from,to:x.to,updated:x.updated,reason:x.reason||"",note:x.note||"",next:x.next||"",nextDate:x.nextDate||""};})};
       if(!payload.changes.length){alert("אין שינויים מקומיים חדשים לסנכרון.");return;}
       const text=JSON.stringify(payload,null,2);try{await navigator.clipboard.writeText(text);alert(payload.changes.length+" שינויים הועתקו לסנכרון. הדבק אותם בשיחת ChatGPT; אחרי שהסנכרון ל-GitHub הושלם, לחץ על 'סמן שינויים כסונכרנו'.");}catch(e){window.prompt("העתק את השינויים לסנכרון:",text);}
     });
     document.getElementById("copyCvQueue").addEventListener("click",async function(){const queue=jobs.map(current).filter(function(j){return j.status==="cv_requested";});if(!queue.length){alert("אין כרגע משרות בשלב 'צור קורות חיים'.");return;}const text="בקשות קורות חיים ממרכז המעקב\n\n"+queue.map(buildCvRequest).join("\n\n--------------------\n\n");try{await navigator.clipboard.writeText(text);alert(queue.length+" בקשות הועתקו. הדבק אותן בשיחה אחת; Codex יכין את הקבצים לפי הסדר ויעדכן את הקישורים.");}catch(e){window.prompt("העתק את הבקשות לשיחה:",text);}});
-    document.getElementById("clearChanges").addEventListener("click",function(){if(confirm("לנקות רק את רשימת השינויים שסונכרנו? הסטטוסים עצמם יישארו ללא שינוי.")){changes.length=0;localStorage.setItem(changesKey,"[]");alert("רשימת השינויים נוקתה; הסטטוסים נשמרו.");}});
+    document.getElementById("clearChanges").addEventListener("click",function(){if(confirm("לנקות רק את רשימת השינויים שסונכרנו? הסטטוסים עצמם יישארו ללא שינוי.")){changes.length=0;localStorage.setItem(changesKey,"[]");updateSyncIndicator();alert("רשימת השינויים נוקתה; הסטטוסים נשמרו.");}});
+    updateSyncIndicator();
     render();
   </script>
 </body>

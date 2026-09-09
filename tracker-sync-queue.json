@@ -1,103 +1,101 @@
 {
-  "requestId": "job-search-2026-09-08-a",
-  "commitMessage": "Job tracker: add 2 PM roles from Sep 8 search",
+  "requestId": "job-search-2026-09-09-a",
+  "commitMessage": "Job tracker: add 2 PM roles from Sep 9 search",
   "jobUpserts": [
     {
-      "id": "s08-1",
-      "company": "Glow",
-      "role": "Senior Product Manager",
-      "location": "תל אביב",
-      "match": 89,
-      "date": "2026-09-08",
-      "job": "https://www.indexventures.com/startup-jobs/glow/senior-product-manager/",
+      "id": "s09-1",
+      "company": "FIBI - הבנק הבינלאומי",
+      "role": "Product Manager — Digital Unit",
+      "location": "ראשון לציון",
+      "match": 96,
+      "date": "2026-09-09",
+      "job": "https://bebee.com/il/jobs/product-manager-fibi-rishon-lezion--bs-il-875fa22d-34df-49f8-9020-71b976aa34ad",
       "cv": "",
-      "status": "active",
+      "status": "cv_requested",
       "daily": 1,
-      "note": "Apply; התאמה חזקה ל-E2E product ownership, B2B SaaS, technical product work, analytics, GTM ו-fast-moving startup; פער מרכזי הוא ניסיון ישיר ומוכח מול enterprise customers, בעוד cyber/AI/data domain הוא strong plus ולא חובה",
-      "updated": "2026-09-08",
-      "next": "לבדוק את עומק דרישת enterprise customers ולהחליט על הגשה"
+      "note": "Apply; התאמה חזקה מאוד ל-digital product lifecycle, strategy, business requirements, UX, analytics, cross-functional delivery ו-digital transformation; ניסיון פיננסי/בנקאי הוא יתרון ולא תנאי סף",
+      "updated": "2026-09-09",
+      "next": "להכין קורות חיים מותאמים ולהגיש"
     },
     {
-      "id": "s08-2",
-      "company": "Tufin",
-      "role": "Product Manager",
-      "location": "תל אביב — היברידי",
-      "match": 84,
-      "date": "2026-09-08",
-      "job": "https://emploive.com/jobs/3012416/product-manager-tufin",
+      "id": "s09-2",
+      "company": "Partnerize",
+      "role": "Senior Product Manager",
+      "location": "תל אביב",
+      "match": 95,
+      "date": "2026-09-09",
+      "job": "https://boards.greenhouse.io/partnerize/jobs/7982306003",
       "cv": "",
-      "status": "active",
+      "status": "cv_requested",
       "daily": 2,
-      "note": "Consider; roadmap, customer discovery, requirements, R&D/GTM, Agile ורקע בהנדסת תעשייה וניהול מתאימים; דרישת strong background ב-networking או network-security products היא פער חובה משמעותי",
-      "updated": "2026-09-08",
-      "next": "לשקול רק אם החברה פתוחה למועמד ללא רקע network security"
+      "note": "Apply; התאמה חזקה ל-B2B SaaS, strategy/roadmap, discovery, requirements, analytics, launch, adoption, retention, revenue ו-GTM; תפקיד Senior IC ללא דרישת domain טכנית חוסמת",
+      "updated": "2026-09-09",
+      "next": "להכין קורות חיים מותאמים ולהגיש"
     }
   ],
   "detailUpserts": [
     {
-      "id": "s08-1",
+      "id": "s09-1",
       "detail": {
-        "source": "Index Ventures / Glow job listing",
-        "language": "אנגלית",
-        "posted": "פורסמה מחדש 05.09.2026 ואומתה פעילה 08.09.2026",
-        "summary": "Senior Product Manager ל-Glow עם ownership על אזורי מוצר אסטרטגיים מקצה לקצה, כולל strategy, roadmap, discovery, launch, product analytics ו-GTM, בעבודה צמודה עם Engineering, Design, Security Research ו-Data Science.",
+        "source": "FIBI job listing / LinkedIn current listing cross-check",
+        "language": "עברית",
+        "posted": "מוצגת כפעילה מחדש ב-08-09.09.2026",
+        "summary": "מנהל/ת מוצר ביחידת הדיגיטל של הבנק הבינלאומי, עם אחריות עסקית על מוצרים ושירותים דיגיטליים לאורך כל מחזור החיים: אסטרטגיה, צרכים עסקיים, דרישות, עבודה עם טכנולוגיה ו-UX, מדידה, שיפור ועמידה בדרישות רגולטוריות.",
         "requirements": [
-          "5+ שנות Product Management",
-          "end-to-end strategy, roadmap, execution ו-launch",
-          "strong technical mindset ועבודה צמודה עם Engineering",
-          "עבודה ישירה עם enterprise customers ותרגום insights למוצר",
-          "product analytics, success metrics ו-cross-functional GTM",
-          "enterprise software, cybersecurity, AI או data products הם strong plus ולא חובה"
+          "3+ שנות Product Management בצד העסקי",
+          "הובלת מוצר דיגיטלי לאורך כל מחזור החיים",
+          "אסטרטגיית מוצר, ניתוח צרכים והתנהגות משתמשים",
+          "כתיבת דרישות עסקיות ועבודה עם צוותי פיתוח וטכנולוגיה",
+          "UX, data ו-analytics",
+          "הובלת ממשקים רבים; ניסיון פיננסי/בנקאי ו-digital transformation הם יתרונות"
         ],
-        "scoreExplanation": "89%: היקף ה-Product Management הרלוונטי, B2B SaaS, E2E ownership, APIs, analytics, UX, GTM ו-founder/startup execution מתאימים מאוד. הפחתת הציון נובעת בעיקר מדרישה לעבודה ישירה ומוכחת עם enterprise customers שאינה מתועדת בעומק מספיק; ניסיון cyber/AI/data הוא יתרון ולא תנאי חובה.",
+        "scoreExplanation": "96%: ניסיון של כ-5 שנים רלוונטיות בניהול מוצר, B2C/B2B SaaS, lifecycle מלא, requirements, UX, GA/Firebase, APIs, payments ו-cross-functional execution חופפים כמעט ישירות. הפער העיקרי הוא היעדר ניסיון בנקאי/פיננסי פורמלי, שמוגדר כעדיפות/יתרון ולא כתנאי סף.",
         "why": [
-          "CallApp for Business מספק B2B SaaS, roadmap, requirements, launches, analytics ועבודה חוצת Engineering, UX, Sales, Support ו-Operations.",
-          "APIs, integrations, payments וקריאת documentation מחזקים את ה-technical product mindset.",
-          "Tapuhi מוסיף 0-to-1 ownership, עבודה בסביבה יזמית, לקוחות, ספקים ו-commercial judgment.",
-          "GA/Firebase ו-data-informed optimization תואמים לדרישת product analytics ו-success metrics."
+          "CallApp for Business כולל roadmap, requirements, UX, development, launch, analytics ו-iteration במוצר דיגיטלי.",
+          "GA/Firebase ו-funnel analysis תומכים בדרישת data, user behavior ו-performance measurement.",
+          "APIs לתשלומים, CRM וחשבוניות מספקים חפיפה אמיתית לעבודה עם תהליכים עסקיים וטכנולוגיים.",
+          "Tapuhi מוסיף B2C eCommerce, customer journey, commercial ownership והקמת מוצר מאפס."
         ],
         "gaps": [
-          "ניסיון ישיר ומוכח מול enterprise customers אינו מתועד בעומק שהמשרה מבקשת.",
-          "אין ניסיון מקצועי מאומת ב-cybersecurity; המשרה מגדירה אותו כ-strong plus ולא כחובה.",
-          "אין ownership מאומת על AI או data product; גם אלה מוגדרים כיתרון."
+          "אין ניסיון מקצועי מאומת בבנק או בגוף פיננסי; זהו יתרון ולא דרישת חובה.",
+          "אין להציג expertise רגולטורי בנקאי מעבר לניסיון בעבודה עם payments ותהליכים עסקיים."
         ],
-        "verification": "אומתה פעילה ב-08.09.2026 בדף Index Ventures עבור Glow, עם קישור Apply; הדף מציג Tel Aviv ודרישות מלאות.",
-        "recommendation": "Apply — stretch איכותי מאוד; שווה הגשה אם ניתן להציג באופן מדויק customer-facing B2B experience בלי לטעון ל-enterprise scale שלא הוכח.",
+        "verification": "ב-09.09.2026 LinkedIn מציג את FIBI Product Manager בראשון לציון כפרסום מהיממה האחרונה; נוסח המשרה המלא כולל 3+ שנות PM, digital lifecycle, requirements, UX/data ויתרון לפיננסים.",
+        "recommendation": "Apply — התאמה גבוהה מאוד ואחת המשרות החזקות בסבב.",
         "cvMode": "tailored",
-        "cvPlan": "אם מגישים, להוביל עם B2B SaaS E2E ownership, technical product work, APIs/integrations, analytics, GTM ו-Tapuhi 0-to-1. לא לטעון לניסיון cyber או enterprise customers מעבר למה שניתן להגן עליו בראיון."
+        "cvPlan": "להוביל עם Digital Product / B2C+B2B SaaS, lifecycle מקצה לקצה, requirements, UX, analytics, payments/APIs ו-digital transformation. להשתמש ב-Tapuhi להוכחת consumer/eCommerce ownership. לא לטעון לניסיון בנקאי שלא קיים."
       }
     },
     {
-      "id": "s08-2",
+      "id": "s09-2",
       "detail": {
-        "source": "Tufin listing sourced from company careers via Emploive",
+        "source": "Partnerize / Greenhouse listing cross-checked via Greycroft job board",
         "language": "אנגלית",
-        "posted": "06.09.2026; אומתה פעילה 08.09.2026",
-        "summary": "Product Manager ל-Tufin Orchestration Suite עם ownership על roadmap, customer discovery, requirements, competitive research, release planning ו-GTM בעולמות network security policy management.",
+        "posted": "02.09.2026; אומתה פעילה 09.09.2026",
+        "summary": "Senior Product Manager כ-IC שמוביל pod חוצה Engineering, Product Design ו-Business: strategy, roadmap, customer discovery, requirements, delivery, launch, analytics, adoption, retention, revenue ו-Go-to-Market.",
         "requirements": [
-          "2+ שנות Product Management",
-          "strong background ב-networking או network security products והבנת cybersecurity",
-          "technical skills ויכולת להבין מערכת מורכבת",
-          "customer discovery ותרגום צרכים לפתרונות",
-          "עבודה עם R&D, Sales, Professional Services, Customer Success ו-Marketing",
-          "Industrial Engineering, hands-on development/testing ו-Scrum הם יתרונות"
+          "3+ שנות Product Management",
+          "ownership על product area או roadmap עם צוות cross-functional",
+          "customer discovery, analytics ו-problem solving",
+          "requirements, user stories, acceptance criteria ו-dependencies",
+          "Agile product development ו-prioritization",
+          "GTM, adoption ו-stakeholder alignment ללא ניהול ישיר"
         ],
-        "scoreExplanation": "84%: ניסיון Product Management, roadmap, customer requirements, APIs/integrations, cross-functional delivery, Agile ותואר בהנדסת תעשייה וניהול מתאימים היטב. עם זאת, strong background ב-networking/network-security products מופיע כדרישה מפורשת ואינו מאומת בפרופיל, ולכן זו משרת stretch ולא Apply ישיר.",
+        "scoreExplanation": "95%: B2B SaaS, E2E ownership, roadmap, discovery, requirements, UX, analytics, launches, GTM ועבודה חוצת Engineering/Sales/Support תואמים ישירות. אין במודעה דרישת domain קשיחה או טכנולוגיה שאין לניר, והוותק המבוקש 3+ תואם.",
         "why": [
-          "CallApp for Business כולל roadmap, requirements, releases ועבודה חוצת Engineering, Sales, Support ו-UX.",
-          "ניסיון API/integrations ורקע Full Stack תומכים ביכולת טכנית ובהבנת מערכות מורכבות.",
-          "B.Sc. בהנדסת תעשייה וניהול מופיע במשרה כיתרון חזק.",
-          "ניסיון Agile, Jira וכתיבת דרישות חופף לאחריות היומיומית."
+          "CallApp for Business מספק B2B SaaS ownership, roadmap, requirements, launches ו-measurement.",
+          "עבודה עם Engineering, UX, Sales, Support ו-Operations חופפת למבנה ה-cross-functional pod.",
+          "GA/Firebase, funnels ו-KPIs תומכים ב-success measures וב-data-informed iteration.",
+          "Tapuhi מוסיף customer discovery, commercial judgment ו-0-to-1 founder ownership."
         ],
         "gaps": [
-          "אין strong background מאומת ב-networking או network-security products, והמודעה מציגה זאת כדרישה.",
-          "אין ניסיון מקצועי מאומת ב-cybersecurity.",
-          "נדרשות נסיעות 3-4 פעמים בשנה."
+          "אין ניסיון ישיר מאומת ב-partnership/affiliate marketing platform; המשרה אינה מציגה אותו כתנאי חובה.",
+          "אין להמציא ownership על retention experiments או A/B testing אם לא בוצעו בפועל."
         ],
-        "verification": "אומתה ב-08.09.2026 במודעה המתעדת listing מ-06.09.2026, תל אביב Hybrid, עם דרישות מלאות ונתיב Apply.",
-        "recommendation": "Consider — להגיש רק אם מתברר שה-network-security background אינו מסנן קשיח בפועל.",
+        "verification": "אומתה ב-09.09.2026: Partnerize Senior Product Manager בתל אביב, Greenhouse Job ID 7982306003; המודעה מציגה 3+ שנות PM ותפקיד Senior IC עם ownership מלא.",
+        "recommendation": "Apply — התאמה ישירה מאוד לפרופיל B2B SaaS ו-E2E product ownership.",
         "cvMode": "tailored",
-        "cvPlan": "אם בוחרים להגיש, להדגיש B2B SaaS, technical requirements, APIs/integrations, roadmap, customer discovery, Agile ותואר IEM; לא לטעון ל-networking או cyber experience."
+        "cvPlan": "להוביל עם B2B SaaS, strategy/roadmap, customer discovery, requirements, cross-functional pod leadership, analytics, launch/adoption ו-GTM. להחליש ניסיון ישן שאינו מוצרי ולשמור את Tapuhi כהוכחת 0-to-1 ו-business ownership."
       }
     }
   ],

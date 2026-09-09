@@ -139,6 +139,23 @@ def main():
         if old_footer in source:
             source = source.replace(old_footer, new_footer, 1)
 
+        if '.sync-warning{' not in source:
+            css_anchor = '    .hint{color:var(--muted);font-size:13px;margin-right:auto}\n'
+            css_add = css_anchor + '    .sync-warning{display:none;align-items:center;gap:8px;background:#fff4dc;border:1px solid #e8bb64;color:#7a4a00;border-radius:10px;padding:10px 12px;margin:-2px 0 12px;font-size:14px;font-weight:700}.sync-warning.show{display:flex}.sync-warning strong{font-size:16px}.sync-badge{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 7px;border-radius:999px;background:#b86a00;color:#fff;font-size:12px;font-weight:900;margin-inline-start:6px}\n'
+            if css_anchor not in source:
+                raise RuntimeError("Could not locate hint CSS anchor")
+            source = source.replace(css_anchor, css_add, 1)
+
+        if 'id="syncWarning"' not in source:
+            tools_end = '    </div>\n    <div class="table-wrap">\n'
+            warning_html = '    </div>\n    <div id="syncWarning" class="sync-warning" role="status" aria-live="polite"><strong>⚠ שינויים ממתינים לסנכרון</strong><span id="syncWarningText"></span></div>\n    <div class="table-wrap">\n'
+            if tools_end not in source:
+                raise RuntimeError("Could not locate tools block end")
+            source = source.replace(tools_end, warning_html, 1)
+
+        if 'id="syncPendingCount"' not in source:
+            source = source.replace('<button id="copySummary">העתק שינויים לסנכרון</button>', '<button id="copySummary">העתק שינויים לסנכרון <span id="syncPendingCount" class="sync-badge" hidden>0</span></button>', 1)
+
         start = '    document.getElementById("copySummary").addEventListener("click",async function(){\n'
         end = '    document.getElementById("copyCvQueue").addEventListener'
         if start not in source or end not in source:
@@ -146,6 +163,12 @@ def main():
         head, tail = source.split(start, 1)
         _, rest = tail.split(end, 1)
         new_handler = (
+            '    function updateSyncIndicator(){\n'
+            '      const count=changes.length,badge=document.getElementById("syncPendingCount"),warning=document.getElementById("syncWarning"),text=document.getElementById("syncWarningText");\n'
+            '      if(badge){badge.textContent=count;badge.hidden=count===0;}\n'
+            '      if(warning){warning.classList.toggle("show",count>0);}\n'
+            '      if(text){text.textContent=count>0?count+" שינוי"+(count===1?"":"ים")+" נשמר"+(count===1?"":"ו")+" רק בדפדפן. יש להעתיק לסנכרון ולהדביק בשיחת ChatGPT לפני סימון כסונכרן.":"";}\n'
+            '    }\n'
             '    document.getElementById("copySummary").addEventListener("click",async function(){\n'
             '      const payload={type:"job_tracker_sync_delta",version:1,generatedAt:new Date().toISOString(),changes:changes.map(function(x){return{id:x.id,company:x.company,role:x.role,from:x.from,to:x.to,updated:x.updated,reason:x.reason||"",note:x.note||"",next:x.next||"",nextDate:x.nextDate||""};})};\n'
             '      if(!payload.changes.length){alert("אין שינויים מקומיים חדשים לסנכרון.");return;}\n'
@@ -153,6 +176,20 @@ def main():
             '    });\n'
         )
         source = head + new_handler + end + rest
+
+        save_anchor = 'changes.push({id:id,company:before.company,role:before.role,from:before.status,to:target,updated:now,reason:update.reason||"",note:update.note||"",next:update.next||"",nextDate:update.nextDate||""});localStorage.setItem(changesKey,JSON.stringify(changes));render();'
+        save_repl = save_anchor[:-9] + 'updateSyncIndicator();render();'
+        if save_anchor in source:
+            source = source.replace(save_anchor, save_repl, 1)
+
+        clear_anchor = 'changes.length=0;localStorage.setItem(changesKey,"[]");alert("רשימת השינויים נוקתה; הסטטוסים נשמרו.");'
+        clear_repl = 'changes.length=0;localStorage.setItem(changesKey,"[]");updateSyncIndicator();alert("רשימת השינויים נוקתה; הסטטוסים נשמרו.");'
+        if clear_anchor in source:
+            source = source.replace(clear_anchor, clear_repl, 1)
+
+        render_anchor = '    render();\n  </script>'
+        if render_anchor in source and '    updateSyncIndicator();\n    render();\n  </script>' not in source:
+            source = source.replace(render_anchor, '    updateSyncIndicator();\n    render();\n  </script>', 1)
 
     if source == original:
         print("No changes required")

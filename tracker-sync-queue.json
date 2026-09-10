@@ -1,18 +1,12 @@
 {
-  "requestId": "browser-sync-2026-09-10-141116",
-  "commitMessage": "Job tracker: sync 11 browser status changes",
+  "requestId": "cv-batch-2026-09-10-1714",
+  "commitMessage": "Job tracker: link 5 tailored CVs",
   "jobUpserts": [
-    {"id":"d26-5","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
-    {"id":"s07-1","status":"inactive","updated":"2026-09-10","reason":"המשרה נסגרה","note":"Apply; התאמה חזקה מאוד ל-growth, self-serve, monetization, KPI/funnels, UX, APIs ו-AI-assisted product workflows; אין פער חובה מהותי מאומת","next":"","nextDate":""},
-    {"id":"s01-14","status":"submitted","updated":"2026-09-10","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
-    {"id":"s09-1","status":"withdrawn","updated":"2026-09-10","reason":"מיקום לא מתאים","note":"Apply; התאמה חזקה מאוד ל-digital product lifecycle, strategy, business requirements, UX, analytics, cross-functional delivery ו-digital transformation; ניסיון פיננסי/בנקאי הוא יתרון ולא תנאי סף","next":"","nextDate":""},
-    {"id":"s06-1","status":"submitted","updated":"2026-09-10","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
-    {"id":"f-siira","status":"inactive","updated":"2026-09-10","reason":"המשרה נסגרה","note":"קישור הורדת האפליקציה קורס; לנסות שוב בהמשך","next":"","nextDate":""},
-    {"id":"f-cheq","status":"rejected_employer","updated":"2026-09-10","reason":"דחייה לאחר ריאיון","note":"ממתין לתשובת מכר לצורך הפניה פנימית; קישור ו-CV לא תועדו בצ׳קליסט","next":"","nextDate":""},
-    {"id":"d20-17","status":"inactive","updated":"2026-09-10","reason":"המשרה נסגרה","note":"אין נתיב הגשה פעיל: Apply מפנה ל-/#contact ללא טופס ברור","next":"","nextDate":""},
-    {"id":"m18","status":"rejected_employer","updated":"2026-09-10","reason":"דחייה לאחר ריאיון","note":"נקבע ראיון עם Dror Shem-Tov, Senior Product Manager ב-Comm-IT; פרופיל: https://www.linkedin.com/in/drorshemtov/; הכנה: Interview_Prep_Commit_Product_Manager_2026-08-31.md","next":"","nextDate":""},
-    {"id":"s01-15","status":"inactive","updated":"2026-09-10","reason":"המשרה נסגרה","note":"להגיש; project planning, budgets, reporting, process improvement ו-cross-functional execution","next":"","nextDate":""},
-    {"id":"s08-1","status":"cv_requested","updated":"2026-09-10","reason":"","note":"Apply; התאמה חזקה ל-E2E product ownership, B2B SaaS, technical product work, analytics, GTM ו-fast-moving startup; פער מרכזי הוא ניסיון ישיר ומוכח מול enterprise customers, בעוד cyber/AI/data domain הוא strong plus ולא חובה","next":"להכין קורות חיים ולצרף קישור","nextDate":""}
+    {"id":"s10-4","cv":"Applications/Nir_Shvarchberg_CV_BiltOn_Senior_Product_Manager.pdf","cvDocx":"Applications/Nir_Shvarchberg_CV_BiltOn_Senior_Product_Manager.docx","cvPdf":"Applications/Nir_Shvarchberg_CV_BiltOn_Senior_Product_Manager.pdf","status":"active","updated":"2026-09-10","next":"להגיש"},
+    {"id":"s10-3","cv":"Applications/Nir_Shvarchberg_CV_Meta_Product_Manager_Growth.pdf","cvDocx":"Applications/Nir_Shvarchberg_CV_Meta_Product_Manager_Growth.docx","cvPdf":"Applications/Nir_Shvarchberg_CV_Meta_Product_Manager_Growth.pdf","status":"active","updated":"2026-09-10","next":"להגיש"},
+    {"id":"s10-2","cv":"Applications/Nir_Shvarchberg_CV_Helfy_Product_Manager.pdf","cvDocx":"Applications/Nir_Shvarchberg_CV_Helfy_Product_Manager.docx","cvPdf":"Applications/Nir_Shvarchberg_CV_Helfy_Product_Manager.pdf","status":"active","updated":"2026-09-10","next":"להגיש"},
+    {"id":"s10-1","cv":"Applications/Nir_Shvarchberg_CV_IDX_Product_Manager.pdf","cvDocx":"Applications/Nir_Shvarchberg_CV_IDX_Product_Manager.docx","cvPdf":"Applications/Nir_Shvarchberg_CV_IDX_Product_Manager.pdf","status":"active","updated":"2026-09-10","next":"להגיש"},
+    {"id":"s08-1","cv":"Applications/Nir_Shvarchberg_CV_Glow_Senior_Product_Manager.pdf","cvDocx":"Applications/Nir_Shvarchberg_CV_Glow_Senior_Product_Manager.docx","cvPdf":"Applications/Nir_Shvarchberg_CV_Glow_Senior_Product_Manager.pdf","status":"active","updated":"2026-09-10","next":"להגיש"}
   ],
   "detailUpserts": [],
   "removeJobIds": [],

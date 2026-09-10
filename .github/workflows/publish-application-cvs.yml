@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/scripts/generate_application_pdfs.py'
+      - '.github/scripts/generate_application_pdfs_extra.py'
       - '.github/workflows/publish-application-cvs.yml'
   workflow_dispatch:
 
@@ -17,7 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate CV PDFs
-        run: python .github/scripts/generate_application_pdfs.py
+        run: |
+          python .github/scripts/generate_application_pdfs.py
+          python .github/scripts/generate_application_pdfs_extra.py
       - name: Commit generated PDFs
         run: |
           git config user.name "github-actions[bot]"

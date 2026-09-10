@@ -1,0 +1,31 @@
+name: Publish application CVs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/generate_application_pdfs.py'
+      - '.github/workflows/publish-application-cvs.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate CV PDFs
+        run: python .github/scripts/generate_application_pdfs.py
+      - name: Commit generated PDFs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Applications/*.pdf
+          if git diff --cached --quiet; then
+            echo "No CV PDF changes to commit"
+            exit 0
+          fi
+          git commit -m "Publish tailored CV PDFs"
+          git push

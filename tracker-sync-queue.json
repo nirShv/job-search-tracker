@@ -1,1 +1,203 @@
-{"requestId":"browser-sync-2026-09-09-1227","commitMessage":"Sync 11 browser job status changes","jobUpserts":[{"id":"d25-4","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},{"id":"d23-5","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},{"id":"d23-6","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},{"id":"l02-6","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},{"id":"d31-5","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},{"id":"d30-7","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},{"id":"d29-4","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},{"id":"d27-8","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},{"id":"d25-5","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},{"id":"d23-7","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},{"id":"d20-2","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""}],"detailUpserts":[],"removeJobIds":[],"removeDetailIds":[],"upgradeSyncButton":false}
+{
+  "requestId": "job-search-2026-09-10-a",
+  "commitMessage": "Job tracker: add PM roles from Sep 10 search",
+  "jobUpserts": [
+    {
+      "id": "s10-1",
+      "company": "IDX",
+      "role": "Product Manager",
+      "location": "תל אביב — מהמשרד",
+      "match": 97,
+      "date": "2026-09-10",
+      "job": "https://il.linkedin.com/jobs/view/product-manager-at-idx-4457232305",
+      "cv": "",
+      "status": "cv_requested",
+      "daily": 1,
+      "note": "Apply; התאמה חריגה ל-E2E product ownership, PRDs, APIs/documentation, data-informed decisions, Jira וכלי AI יומיומיים; AdTech הוא יתרון בלבד",
+      "updated": "2026-09-10",
+      "next": "להכין קורות חיים מותאמים ולהגיש"
+    },
+    {
+      "id": "s10-2",
+      "company": "Helfy",
+      "role": "Product Manager",
+      "location": "הרצליה",
+      "match": 96,
+      "date": "2026-09-10",
+      "job": "https://helfy.co/careers-2/co/herzliya/73.756/product-manager/all/",
+      "cv": "",
+      "status": "cv_requested",
+      "daily": 2,
+      "note": "Apply; התאמה חזקה מאוד ל-B2C/e-commerce, lifecycle מלא, UX, analytics, prioritization ו-cross-functional delivery; A/B testing ו-product at scale דורשים ניסוח מדויק",
+      "updated": "2026-09-10",
+      "next": "להכין קורות חיים מותאמים ולהגיש"
+    },
+    {
+      "id": "s10-3",
+      "company": "Meta",
+      "role": "Product Manager, Growth",
+      "location": "תל אביב",
+      "match": 94,
+      "date": "2026-09-10",
+      "job": "https://il.linkedin.com/jobs/view/product-manager-growth-at-meta-4463073285",
+      "cv": "",
+      "status": "cv_requested",
+      "daily": 3,
+      "note": "Apply; דרישות החובה מתאימות ל-product vision, requirements, quantitative data, user research, roadmap ו-cross-functional execution; large-scale consumer, A/B testing ו-AI practices הם preferred gaps",
+      "updated": "2026-09-10",
+      "next": "להכין קורות חיים מותאמים ולהגיש"
+    },
+    {
+      "id": "s10-4",
+      "company": "BiltOn",
+      "role": "Senior Product Manager",
+      "location": "רמת גן — היברידי",
+      "match": 90,
+      "date": "2026-09-10",
+      "job": "https://il.linkedin.com/jobs/view/senior-product-manager-at-bilton-4464109589",
+      "cv": "",
+      "status": "cv_requested",
+      "daily": 4,
+      "note": "Apply; התאמה חזקה ל-5+ שנות PM רלוונטיות, complex B2B SaaS, PRDs/UX, APIs, startup execution ושימוש יומיומי ב-Cursor/AI prototyping; עומק system architecture/data structures הוא פער שצריך לשמור עליו",
+      "updated": "2026-09-10",
+      "next": "להכין קורות חיים מותאמים ולהגיש"
+    },
+    {
+      "id": "s10-5",
+      "company": "morning by Green Invoice",
+      "role": "Product Manager",
+      "location": "תל אביב",
+      "match": 88,
+      "date": "2026-09-10",
+      "job": "https://il.linkedin.com/jobs/view/product-manager-at-morning-by-green-invoice-4462817097",
+      "cv": "",
+      "status": "active",
+      "daily": 5,
+      "note": "Consider; SaaS E2E ownership, business orientation, SMB understanding ו-analytics מתאימים מאוד; advanced product analytics, self-serve data querying ו-ownership מפורש על unit economics/retention הם פערים",
+      "updated": "2026-09-10",
+      "next": "לבדוק את דרישת ה-data querying ולהחליט על הגשה"
+    },
+    {
+      "id": "s10-6",
+      "company": "Popai / Team8",
+      "role": "Product Manager",
+      "location": "תל אביב — מהמשרד",
+      "match": 86,
+      "date": "2026-09-10",
+      "job": "https://il.linkedin.com/jobs/view/popai-product-manager-at-team8-4463262257",
+      "cv": "",
+      "status": "active",
+      "daily": 6,
+      "note": "Consider; E2E product ownership, discovery, roadmap, cross-functional work וכלי AI hands-on מתאימים; ניסיון ישיר עם לקוחות US ויכולת לבצע basic data analysis/simple PRs באופן עצמאי הם פערים",
+      "updated": "2026-09-10",
+      "next": "לבדוק את דרישת העבודה הישירה עם לקוחות US לפני הגשה"
+    }
+  ],
+  "detailUpserts": [
+    {
+      "id": "s10-1",
+      "detail": {
+        "source": "LinkedIn — IDX direct job listing",
+        "language": "אנגלית",
+        "posted": "פרסום פעיל שאותר מחדש ב-10.09.2026",
+        "summary": "Product Manager רוחבי ב-AdTech שמוביל מוצרים מקצה לקצה מ-discovery דרך requirements, sprint planning ו-QA ועד launch, analytics ו-iteration.",
+        "requirements": ["3+ שנות Product Management בחברת טכנולוגיה", "E2E ownership מ-discovery עד launch", "קריאת API documentation והבנת data schemas", "metrics ו-data-informed product decisions", "שימוש יומיומי בכלי AI כגון Claude/ChatGPT", "Jira או כלי PM דומים; עברית ואנגלית מצוינות"],
+        "scoreExplanation": "97%: הוותק, E2E ownership, requirements, Jira, APIs/documentation, GA/Firebase ושימוש hands-on בכלי AI חופפים כמעט ישירות. AdTech הוא nice-to-have ו-SQL מוגדר plus.",
+        "why": ["CallApp for Business מספק B2B SaaS ownership, requirements, releases ו-cross-functional delivery.", "ניסיון APIs לתשלומים, CRM וחשבוניות כולל קריאת documentation ותרגום לדרישות.", "GA/Firebase תומכים במדידה ו-iteration לאחר השקה.", "Cursor וכלי AI hands-on תואמים במפורש לדרך העבודה המבוקשת."],
+        "gaps": ["אין ניסיון AdTech מאומת; הוא מוגדר nice-to-have.", "SQL אינו חלק מהפרופיל שסופק כאן; במשרה הוא plus ולא דרישת חובה.", "המשרה היא מהמשרד בתל אביב."],
+        "verification": "אומתה ב-10.09.2026 כמשרת Product Manager פעילה של IDX בתל אביב עם מסלול הגשה.",
+        "recommendation": "Apply — אחת ההתאמות החזקות ביותר בסבב.",
+        "cvMode": "tailored",
+        "cvPlan": "להוביל עם B2B SaaS E2E ownership, APIs/documentation, PRDs, Jira, analytics ו-Cursor/AI-assisted execution. לא לטעון ל-AdTech או SQL שלא סופקו."
+      }
+    },
+    {
+      "id": "s10-2",
+      "detail": {
+        "source": "Helfy careers / current LinkedIn listing",
+        "language": "אנגלית",
+        "posted": "מוצגת כמשרה פעילה בהרצליה בספטמבר 2026",
+        "summary": "Product Manager ל-B2C digital healthcare עם אחריות על vision, research, specs, development, QA, launch, iteration, metrics ואופטימיזציית user journey.",
+        "requirements": ["2+ שנות Product Management, רצוי B2C/e-commerce", "ownership ו-shipping של מוצרים", "data-driven analytical mindset", "Agile/Scrum ועבודה cross-functional", "stakeholder management", "Healthtech/telemedicine הוא bonus"],
+        "scoreExplanation": "96%: B2C/e-commerce, lifecycle מלא, UX, requirements, analytics, Agile ו-cross-functional delivery תואמים ישירות. הפחתה בגלל A/B testing ו-scale שאינם מתועדים במפורש בפרופיל שסופק.",
+        "why": ["Tapuhi מספק 0-to-1 B2C e-commerce ownership והבנת customer journey.", "CallApp מספק research/requirements, UX, development, QA, launch ו-optimization.", "GA/Firebase תומכים בדרישת product metrics ו-data-driven prioritization.", "ניסיון APIs ותשלומים מתחבר ל-marketplace ול-flow דיגיטלי מורכב."],
+        "gaps": ["אין לטעון לבעלות על A/B testing אם לא בוצע בפועל.", "אין בפרופיל שסופק מדד מוכח של shipping at scale; יש להציג רק את היקף העבודה האמיתי.", "Healthtech הוא bonus ולא תנאי חובה."],
+        "verification": "דף הקריירה של Helfy והמודעה הנוכחית מציגים Product Manager בהרצליה עם מסלול הגשה פעיל.",
+        "recommendation": "Apply — התאמה גבוהה מאוד ל-B2C/e-commerce product ownership.",
+        "cvMode": "tailored",
+        "cvPlan": "להוביל עם B2C/e-commerce ב-Tapuhi, E2E product lifecycle ב-CallApp, UX, analytics, payments/APIs ו-data-informed optimization. לא להמציא A/B testing או scale metrics."
+      }
+    },
+    {
+      "id": "s10-3",
+      "detail": {
+        "source": "Meta / LinkedIn current listing",
+        "language": "אנגלית",
+        "posted": "10.09.2026 — פרסום חדש מהשעות האחרונות",
+        "summary": "Product Manager, Growth שמוביל strategy ו-roadmap לאזור מוצר, משתמש ב-user research ובנתונים כמותיים, ומניע Engineering, Design, Data Science ו-Research מ-concept עד launch.",
+        "requirements": ["3+ שנות Product Management או related field", "product vision ו-product requirements", "cross-functional lifecycle execution", "quantitative data ו-user research", "trade-offs וקבלת החלטות בעמימות", "תקשורת מוצרית לקהלים טכניים ולא-טכניים"],
+        "scoreExplanation": "94%: דרישות החובה מתאימות ישירות לניסיון ב-product ownership, requirements, analytics, discovery ו-cross-functional execution. הפערים העיקריים נמצאים ב-preferred qualifications: large-scale consumer, A/B/staged rollout ו-AI practices.",
+        "why": ["CallApp מספק roadmap, requirements, releases, analytics ו-cross-functional work.", "Tapuhi מוסיף B2C ownership, customer understanding ו-commercial judgment.", "GA/Firebase תומכים בקבלת החלטות כמותית ובמדדי מוצר.", "Cursor/AI tools מספקים בסיס ל-AI-assisted workflows בלי לטעון ל-AI product ownership."],
+        "gaps": ["אין ניסיון מאומת במוצר consumer בקנה המידה של Meta.", "A/B testing ו-staged rollout אינם מאומתים בפרופיל שסופק.", "Responsible AI, prompt/context engineering ו-agent orchestration הם preferred בלבד ואינם ניסיון מקצועי מאומת."],
+        "verification": "אומתה ב-10.09.2026 כמשרת Product Manager, Growth פעילה בתל אביב שפורסמה באותו יום.",
+        "recommendation": "Apply — דרישות החובה מתאימות, למרות פערי scale ב-preferred qualifications.",
+        "cvMode": "tailored",
+        "cvPlan": "להוביל עם B2C+B2B product ownership, quantitative decision-making, user needs, roadmap, requirements ו-cross-functional execution. לציין AI-assisted tools בלבד; לא להמציא large-scale/A-B/AI ownership."
+      }
+    },
+    {
+      "id": "s10-4",
+      "detail": {
+        "source": "BiltOn current job listing / company careers",
+        "language": "אנגלית",
+        "posted": "10.09.2026 — פרסום מהשעות האחרונות",
+        "summary": "Senior Product Manager IC ל-complex B2B SaaS, עם E2E ownership על modules, PRDs ו-UX flows, AI-assisted prototyping, R&D/Design/GTM ו-enterprise customer discovery.",
+        "requirements": ["5+ שנות hands-on Product Management ו-complex B2B SaaS", "עבודה עם R&D ו-Design", "שימוש יומיומי בכלי AI/prototyping/coding כגון Cursor", "APIs, system architecture, data structures ו-technical dependencies", "PRDs, user stories ו-UX flows", "עברית ואנגלית ברמה גבוהה"],
+        "scoreExplanation": "90%: B2B SaaS, E2E ownership, APIs, PRDs, UX, startup execution ו-Cursor מתאימים מאוד. הפער העיקרי הוא הדרישה לעומק טכני ב-system architecture/data structures/permissions מעבר לניסיון ה-API וה-Full Stack שסופק.",
+        "why": ["CallApp for Business מספק complex B2B SaaS ownership ועבודה עם Engineering/UX.", "API integrations ו-Full Stack course מחזקים technical fluency.", "Cursor תואם ישירות לדרישת AI-assisted prototyping/coding tools.", "Tapuhi מוסיף startup/0-to-1 ownership ו-commercial prioritization."],
+        "gaps": ["אין להציג deep system architecture או data-structure expertise שלא סופקו.", "Construction/field operations הם advantage בלבד ולא ניסיון מאומת בפרופיל שסופק.", "עבודה ישירה עם US enterprise customers היא advantage ואינה ניסיון מאומת כאן."],
+        "verification": "אומתה ב-10.09.2026 במודעה פעילה ובדף הקריירה של BiltOn, שמציג Senior Product Manager ברמת גן במודל Hybrid.",
+        "recommendation": "Apply — התאמה חזקה מאוד עם פער טכני אחד שצריך לנסח בזהירות.",
+        "cvMode": "tailored",
+        "cvPlan": "להוביל עם B2B SaaS, E2E ownership, PRDs/UX, APIs, R&D collaboration ו-Cursor/AI prototyping. לא לטעון ל-system architecture, construction או US-enterprise depth שלא סופקו."
+      }
+    },
+    {
+      "id": "s10-5",
+      "detail": {
+        "source": "morning by Green Invoice / LinkedIn current listing",
+        "language": "אנגלית",
+        "posted": "כ-5 ימים לפני 10.09.2026",
+        "summary": "Product Manager עצמאי וביזנס-אוריינטד לבעלות על domain מקצה לקצה: strategy, roadmap, pricing/ROI, KPIs, shipping, measurement ו-iteration עבור עצמאים ובעלי עסקים קטנים.",
+        "requirements": ["3+ שנות SaaS Product Management", "E2E ownership מ-discovery עד post-launch", "business models, unit economics, pricing, retention ו-ROI", "advanced product analytics", "self-serve data querying", "השפעה cross-functional ללא סמכות ישירה"],
+        "scoreExplanation": "88%: SaaS ownership, founder/business experience, SMB empathy, analytics ו-cross-functional execution מתאימים מאוד. הדרישה המפורשת ל-advanced analytics ול-self-serve data querying אינה נתמכת במלואה בפרופיל שסופק.",
+        "why": ["Tapuhi מספק ניסיון כבעל עסק, commercial judgment והיכרות עמוקה עם תפעול עסק קטן.", "CallApp מספק SaaS product lifecycle ו-data-informed optimization.", "GA/Firebase מספקים בסיס analytics אמיתי.", "ניסיון בתשלומים ו-e-commerce מחזק הבנה של monetization ו-customer journey."],
+        "gaps": ["Self-serve data querying ברמה מתקדמת אינו מתועד.", "Amplitude אינו כלי שסופק; הכלים המאומתים הם GA/Firebase.", "Ownership מפורש על ARR, unit economics ו-retention אינו מתועד במלואו."],
+        "verification": "אומתה ב-10.09.2026 כמשרת Product Manager פעילה של morning בתל אביב.",
+        "recommendation": "Consider — התאמה עסקית חזקה, אבל צריך לבדוק אם דרישת ה-data querying היא מסנן קשיח.",
+        "cvMode": "tailored",
+        "cvPlan": "אם מגישים, להוביל עם Tapuhi כ-founder/SMB experience, SaaS ownership, analytics, payments ו-commercial thinking. לא לטעון ל-Amplitude או advanced querying שלא סופקו."
+      }
+    },
+    {
+      "id": "s10-6",
+      "detail": {
+        "source": "Team8 / Popai current listing",
+        "language": "אנגלית",
+        "posted": "09-10.09.2026 — פרסום חדש",
+        "summary": "Product Manager ב-health AI platform עם ownership על strategy, roadmap ו-discovery-to-launch, קשר תכוף עם לקוחות US, עבודה עם Engineering/Data/CS/BD/Marketing ושימוש hands-on בכלי AI.",
+        "requirements": ["3+ שנות Product Management", "customer discovery ו-roadmap ownership", "AI tools כגון Claude/Codex לעבודה hands-on", "analytical thinking ו-execution", "ניסיון ישיר עם US clients/stakeholders", "Healthcare הוא significant advantage"],
+        "scoreExplanation": "86%: product ownership, discovery, cross-functional work וכלי AI מתאימים היטב. הפערים המשמעותיים הם ניסיון ישיר עם לקוחות US והציפייה לבצע basic data analysis, lightweight automations ו-simple PRs באופן עצמאי.",
+        "why": ["CallApp מספק B2B product ownership, customer needs ו-cross-functional delivery.", "Cursor וכלי AI hands-on תומכים ב-builder mindset.", "Full Stack course מחזק technical fluency.", "Tapuhi מוסיף 0-to-1 execution ויכולת לעבוד hands-on בסביבה קטנה."],
+        "gaps": ["ניסיון ישיר ומתמשך עם US clients אינו מתועד בפרופיל שסופק.", "לא סופק track record של simple PRs או lightweight automations כחלק מתפקיד PM.", "Healthcare הוא advantage ולא דרישת חובה."],
+        "verification": "אומתה ב-10.09.2026 כמשרה חדשה ופעילה דרך Team8/Popai בתל אביב.",
+        "recommendation": "Consider — מעניינת, אך דרישת US customer-facing hands-on היא פער אמיתי.",
+        "cvMode": "tailored",
+        "cvPlan": "אם מגישים, להדגיש B2B product ownership, discovery, AI-assisted prototyping ו-Full Stack fluency; לא להמציא US-client או code-contribution experience."
+      }
+    }
+  ],
+  "removeJobIds": [],
+  "removeDetailIds": [],
+  "upgradeSyncButton": false
+}

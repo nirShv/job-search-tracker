@@ -1,6 +1,6 @@
 {
-  "requestId": "job-search-2026-09-11-0831",
-  "commitMessage": "Job tracker: add Sep 11 PM search results",
+  "requestId": "job-search-2026-09-11-0831-r2",
+  "commitMessage": "Job tracker: add Aligned Senior Product Manager",
   "jobUpserts": [
     {
       "id": "s11-1",
@@ -16,21 +16,6 @@
       "note": "Apply; התאמה חזקה מאוד ל-5+ שנות PM, B2B SaaS, E2E discovery-to-launch, PRDs, UX, analytics/KPIs, GTM, עבודה חוצת Engineering/Design ושימוש עמוק בכלי AI ל-research/prototyping. Sales/revenue-tech ו-PLG הם יתרונות ולא ניסיון ישיר מאומת.",
       "updated": "2026-09-11",
       "next": "להכין קורות חיים ולצרף קישור"
-    },
-    {
-      "id": "s11-2",
-      "company": "Unipaas",
-      "role": "Product Manager",
-      "location": "תל אביב",
-      "match": 86,
-      "date": "2026-09-11",
-      "job": "https://www.unipaas.com/careers/product-manager",
-      "cv": "",
-      "status": "active",
-      "daily": 2,
-      "note": "Consider; התאמה חזקה ל-B2B SaaS, E2E ownership, APIs/integrations, payments, PRDs, UX, KPIs, Jira/Figma ו-Cursor/AI prototyping. הפער המרכזי הוא עומק payments ייעודי: acquiring, tokenization, payouts, settlements, reconciliation, refunds ו-chargebacks אינם ניסיון מאומת שסופק.",
-      "updated": "2026-09-11",
-      "next": "לשקול הגשה רק אם עומק ה-payments הנדרש אינו תנאי חוסם"
     }
   ],
   "detailUpserts": [
@@ -66,39 +51,6 @@
         "recommendation": "Apply בעדיפות גבוהה מאוד. להכין CV ייעודי המדגיש B2B SaaS, E2E ownership, analytics, UX, GTM ו-AI-assisted product workflow ללא טענה לניסיון sales-tech שלא סופק.",
         "cvMode": "tailored",
         "cvPlan": "להוביל עם CallApp for Business כ-B2B SaaS E2E, PRDs/UX, GA/Firebase, APIs ו-Cursor/AI prototyping; לחזק Tapuhi כ-0-to-1 ו-business ownership; לא לטעון לניסיון ישיר ב-sales/revenue tech או PLG מעבר לעובדות המאומתות."
-      }
-    },
-    {
-      "id": "s11-2",
-      "detail": {
-        "source": "אתר הקריירה הרשמי של Unipaas",
-        "language": "אנגלית",
-        "posted": "פעיל ואומת ב-11.09.2026",
-        "summary": "Product Manager טכני לפלטפורמת embedded payments בתל אביב, עם ownership מ-discovery ו-PRD ועד launch, measurement ו-iteration, עבודה על APIs, payment flows, integrations, UX, KPIs ושימוש יומיומי בכלי AI כולל Cursor ו-Figma.",
-        "requirements": [
-          "4+ שנות Product Management, רצוי B2B SaaS / Fintech",
-          "הובלת product squad ו-shipping של מוצרים מורכבים",
-          "ניסיון payments עמוק כולל acquiring, tokenization, payouts, settlements, reconciliation, refunds ו-chargebacks",
-          "APIs, integrations ו-platform/white-label products",
-          "KPIs, UX למורכבות B2B ועבודה טכנית עמוקה עם Engineering",
-          "שימוש יומיומי בכלי AI כולל ChatGPT/Claude, Cursor/Claude Code, Figma ו-Jira"
-        ],
-        "scoreExplanation": "86%: התאמה חזקה ל-B2B SaaS, E2E ownership, APIs, integrations, payments, UX, analytics, Jira/Figma ושימוש hands-on ב-Cursor. הפחתה משמעותית בגלל דרישת payments עמוקה וספציפית; הניסיון המאומת כולל סליקה ותשלומים אך לא acquiring, tokenization, payouts, settlements, reconciliation, refunds או chargebacks.",
-        "why": [
-          "CallApp כולל B2B SaaS, E2E delivery, subscriptions/payments, APIs ואינטגרציות ל-CRM וחשבוניות.",
-          "הניסיון עם Jira, Figma, GA/Firebase ו-Cursor מתאים ישירות לכלי העבודה ולגישה hands-on.",
-          "Tapuhi מוסיף ניסיון B2C eCommerce, תשלומים, customer journeys ו-0-to-1 ownership.",
-          "B.Sc. בהנדסת תעשייה וניהול ורקע Full Stack תומכים באוריינטציה הטכנית."
-        ],
-        "gaps": [
-          "אין ניסיון מאומת בעומק הנדרש ב-acquiring, tokenization, payouts, settlements, reconciliation, refunds ו-chargebacks.",
-          "אין ניסיון מאומת ב-ledger/accounting כמוצר; זה מוגדר nice-to-have.",
-          "אין לטעון ל-SQL אם אינו חלק מהפרופיל שסופק להרצה זו."
-        ],
-        "verification": "אומת ב-11.09.2026 באתר הקריירה הרשמי של Unipaas: דף המשרה פעיל ומכיל Apply Now.",
-        "recommendation": "Consider. התאמה גבוהה ברוב שכבות המוצר, אבל כדאי להגיש רק אם דרישת payments העמוקה מאפשרת ניסיון משיק ולא מחייבת בעלות קודמת על כל תחומי התשלום המפורטים.",
-        "cvMode": "none",
-        "cvPlan": "אם מחליטים להגיש: להדגיש B2B SaaS, APIs/integrations, subscriptions/payments, UX, analytics ו-AI prototyping; לשמור במפורש על גבול הניסיון בתחום payments ולא להוסיף מושגים שלא בוצעו."
       }
     }
   ],

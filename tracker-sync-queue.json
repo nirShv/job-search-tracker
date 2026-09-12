@@ -1,56 +1,106 @@
 {
-  "requestId": "job-search-2026-09-11-0831-r2",
-  "commitMessage": "Job tracker: add Aligned Senior Product Manager",
+  "requestId": "job-search-2026-09-12-0830-r1",
+  "commitMessage": "Job tracker: add ExpressVPN and Roojoom PM roles",
   "jobUpserts": [
     {
-      "id": "s11-1",
-      "company": "Aligned",
+      "id": "s12-1",
+      "company": "ExpressVPN",
       "role": "Senior Product Manager",
-      "location": "תל אביב — היברידי, 2–3 ימים במשרד",
-      "match": 96,
-      "date": "2026-09-11",
-      "job": "https://il.linkedin.com/jobs/view/senior-product-manager-at-aligned-4407736950",
+      "location": "תל אביב-יפו",
+      "match": 92,
+      "date": "2026-09-12",
+      "job": "https://il.linkedin.com/jobs/view/senior-product-manager-at-expressvpn-4465043135",
       "cv": "",
       "status": "cv_requested",
       "daily": 1,
-      "note": "Apply; התאמה חזקה מאוד ל-5+ שנות PM, B2B SaaS, E2E discovery-to-launch, PRDs, UX, analytics/KPIs, GTM, עבודה חוצת Engineering/Design ושימוש עמוק בכלי AI ל-research/prototyping. Sales/revenue-tech ו-PLG הם יתרונות ולא ניסיון ישיר מאומת.",
-      "updated": "2026-09-11",
+      "note": "Apply; התאמה חזקה ל-5+ שנות PM רלוונטיות, B2C+B2B SaaS, E2E discovery-to-optimization, UX, analytics, user journeys ו-cross-functional delivery. פערים: אין scale consumer מאומת ברמת מיליוני משתמשים, אין ownership מאומת על A/B experimentation, ואין ניסיון מקצועי ב-privacy/security.",
+      "updated": "2026-09-12",
       "next": "להכין קורות חיים ולצרף קישור"
+    },
+    {
+      "id": "s12-2",
+      "company": "Roojoom",
+      "role": "Senior B2C Product Manager",
+      "location": "רמת גן",
+      "match": 88,
+      "date": "2026-09-12",
+      "job": "https://il.linkedin.com/jobs/view/senior-b2c-product-manager-at-roojoom-4463432301",
+      "cv": "",
+      "status": "active",
+      "daily": 2,
+      "note": "Consider; התאמה חזקה ל-self-serve SMB/B2C, web+mobile, founder mindset, subscriptions/payments, Figma ו-AI-assisted prototyping. פערים מהותיים בדרישות continuous experimentation, direct data querying/cohorts/unit economics, pricing/packaging ownership ו-AI/voice product experience.",
+      "updated": "2026-09-12",
+      "next": "לבדוק את פערי experimentation, data querying ו-pricing לפני הגשה"
     }
   ],
   "detailUpserts": [
     {
-      "id": "s11-1",
+      "id": "s12-1",
       "detail": {
-        "source": "LinkedIn / לוחות משרות ישראליים שסורקים את המשרה הפעילה",
+        "source": "LinkedIn — ExpressVPN direct job listing",
         "language": "אנגלית",
-        "posted": "המשרה פעילה ואומתה מחדש ב-11.09.2026",
-        "summary": "Senior Product Manager ל-Aligned, מוצר B2B SaaS מסוג AI Deal Workspace. התפקיד כולל ownership מקצה לקצה, discovery, research, PRDs, עבודה עם Design ו-Engineering, launch/iteration, product analytics, UX, GTM ושימוש יומיומי בכלי AI למחקר, ניתוח ו-prototyping.",
+        "posted": "אומתה פעילה ב-12.09.2026; פרסום חדש מהימים האחרונים",
+        "summary": "Senior Product Manager למוצר consumer גלובלי בתחום privacy/security, עם ownership מקצה לקצה מ-discovery ו-ideation דרך launch, learning ו-optimization, עבודה עם Engineering, Design, Data ו-Marketing, ושימוש בנתונים וב-customer insights לקבלת החלטות.",
         "requirements": [
-          "5+ שנות Product Management, רצוי B2B SaaS ובסביבת startup מהירה",
-          "בעלות מקצה לקצה מ-discovery ועד launch ו-iteration",
-          "Product analytics, dashboards, KPIs ו-research להחלטות מוצר",
-          "UX instincts ועבודה צמודה עם Design ו-Engineering",
-          "חיבור החלטות מוצר ל-customer value ול-GTM",
-          "שימוש שוטף בכלי AI למחקר, ניתוח ו-prototyping"
+          "5+ שנות Product Management, רצוי B2C, SaaS, gaming או high-scale consumer",
+          "בעלות על features מ-ideation עד launch והשפעה מדידה",
+          "discovery, prioritization, experimentation ו-iteration",
+          "הבנת user behavior, engagement, trust ו-retention",
+          "עבודה חוצת Engineering, Design, Data ו-Marketing",
+          "עצמאות, hands-on execution ונוחות בעמימות"
         ],
-        "scoreExplanation": "96%: התאמה ישירה ל-B2B SaaS, ownership מקצה לקצה, PRDs/requirements, UX, analytics, KPIs, GTM, cross-functional execution ושימוש hands-on בכלי AI. הורדו מעט נקודות משום שאין ניסיון ישיר מאומת ב-sales/revenue tech או PLG, וההרגלים הספציפיים של remote-first async documentation אינם מתועדים לעומק.",
+        "scoreExplanation": "92%: התאמה חזקה לניסיון הרלוונטי המצטבר ב-B2C וב-B2B SaaS, ownership מקצה לקצה, UX, analytics, funnels, customer journeys ועבודה חוצת צוותים. הורדו נקודות בגלל היעדר ניסיון consumer מאומת בקנה מידה של מיליוני משתמשים, היעדר ownership מאומת על experimentation/A-B testing, והיעדר domain experience מקצועי ב-privacy/security.",
         "why": [
-          "CallApp for Business מספק ניסיון B2B SaaS מקצה לקצה, כולל discovery, requirements, launch, optimization ו-GTM.",
-          "הניסיון ב-GA/Firebase, funnels ו-KPIs מתאים לדרישה לקבלת החלטות מבוססת נתונים.",
-          "Jira/Figma, APIs, UX ועבודה מול Engineering וגורמים עסקיים מתאימים ישירות לאופי העבודה.",
-          "השימוש hands-on ב-Cursor וכלי AI לצורך בנייה ו-prototyping הוא התאמה חריגה לדרישה להשתמש ב-AI כחלק מ-workflow המוצר.",
-          "Tapuhi מוסיף 0-to-1, ownership עסקי ומוצרי, customer value ויכולת לפעול בסביבה יזמית."
+          "Tapuhi מספק B2C/eCommerce ו-founder-level ownership של מוצר ו-customer journey מאפס.",
+          "CallApp for Business מספק discovery, requirements, launch, optimization, mobile/web UX ו-data-informed product work.",
+          "GA/Firebase, funnels ו-KPIs מתאימים לדרישה לקבל החלטות לפי נתונים והתנהגות משתמשים.",
+          "עבודה עם Engineering, UX, Data, Marketing, Support וגורמים עסקיים מתאימה ישירות למבנה ה-cross-functional של התפקיד.",
+          "הניסיון hands-on והיכולת לפעול בסביבה עמומה ומהירה נתמכים גם בניסיון היזמי ב-Tapuhi."
         ],
         "gaps": [
-          "אין ניסיון מאומת ספציפי ב-sales tech או revenue tech; זהו bonus.",
-          "ניסיון PLG אינו מתועד במפורש כ-domain מקצועי נפרד.",
-          "remote-first ו-async documentation ברמת התרבות הספציפית של Aligned אינם ניסיון מאומת לעומק."
+          "אין ניסיון מאומת במוצר consumer בקנה מידה של מיליוני משתמשים.",
+          "A/B testing או ownership פורמלי על experimentation אינם מאומתים בפרופיל שסופק.",
+          "אין ניסיון מקצועי מאומת ב-privacy או cybersecurity; זהו domain של החברה ולא ניסיון שיש לטעון לו."
         ],
-        "verification": "אומת ב-11.09.2026: מודעת LinkedIn 4407736950 עדיין נגישה, ומקורות שנסרקו בימים האחרונים מציגים את אותה משרה כפעילה בתל אביב/היברידי עם 2–3 ימי משרד.",
-        "recommendation": "Apply בעדיפות גבוהה מאוד. להכין CV ייעודי המדגיש B2B SaaS, E2E ownership, analytics, UX, GTM ו-AI-assisted product workflow ללא טענה לניסיון sales-tech שלא סופק.",
+        "verification": "אומתה ב-12.09.2026 במודעת LinkedIn הישירה של ExpressVPN, Job ID 4465043135, בתל אביב-יפו עם מסלול הגשה פעיל.",
+        "recommendation": "Apply — התאמה גבוהה מאוד, עם פערי scale/experimentation שצריך להשאיר גלויים ומדויקים.",
         "cvMode": "tailored",
-        "cvPlan": "להוביל עם CallApp for Business כ-B2B SaaS E2E, PRDs/UX, GA/Firebase, APIs ו-Cursor/AI prototyping; לחזק Tapuhi כ-0-to-1 ו-business ownership; לא לטעון לניסיון ישיר ב-sales/revenue tech או PLG מעבר לעובדות המאומתות."
+        "cvPlan": "להוביל עם B2C + B2B SaaS product ownership, discovery-to-optimization, consumer journeys, UX, GA/Firebase/funnels, Tapuhi eCommerce ו-cross-functional shipping. לא לטעון ל-high-scale consumer, A/B ownership או privacy/security expertise שלא סופקו."
+      }
+    },
+    {
+      "id": "s12-2",
+      "detail": {
+        "source": "LinkedIn — Roojoom direct job listing",
+        "language": "אנגלית",
+        "posted": "אומתה פעילה ב-12.09.2026; פרסום חדש",
+        "summary": "Senior B2C Product Manager ל-PickMyCall, עוזר קולי מבוסס AI לעסקים קטנים. התפקיד כולל ownership על vision, strategy ו-roadmap ב-web/mobile, monetization, שימוש יומיומי בכלי AI, analytics, experimentation, customer interviews ועבודה צמודה עם Engineering, Customer Success ו-Growth.",
+        "requirements": [
+          "5+ שנות PM עם E2E ownership על self-serve consumer או micro-business/SMB web+mobile",
+          "startup/small autonomous team ויכולת לפעול כמעט כפונקציית מוצר מלאה",
+          "שימוש יומיומי בכלי AI ל-specs, design, prototypes ו-data exploration",
+          "funnels, cohorts, retention, unit economics ו-direct data querying",
+          "continuous experimentation על onboarding, activation, pricing ו-messaging",
+          "hands-on subscription pricing, packaging, trials, freemium/paywalls ו-Figma"
+        ],
+        "scoreExplanation": "88%: חפיפה חזקה ל-SMB/self-serve, B2C+B2B, web/mobile, founder mindset, subscriptions/payments, UX/Figma וכלי AI hands-on. הפחתה משמעותית בגלל דרישות מפורשות ל-continuous experimentation, cohorts/retention/unit economics, direct querying ו-pricing/packaging ownership שאינן מאומתות במלואן, וכן היעדר AI/voice product ownership.",
+        "why": [
+          "Tapuhi מספק founder-level 0-to-1, B2C/eCommerce, לקוחות, pricing/commercial context ותפעול hands-on.",
+          "CallApp for Business מספק self-serve SaaS, onboarding, activation, subscriptions, payments ו-web/mobile journeys.",
+          "Cursor וכלי AI נוספים תואמים ישירות ל-AI-native working style שהמשרה דורשת.",
+          "GA/Firebase, funnels ו-Figma תומכים בעבודה data-informed וב-product craft.",
+          "היכרות עם SMB דרך Tapuhi ו-CallApp מספקת חיבור אמיתי לקהל היעד של PickMyCall."
+        ],
+        "gaps": [
+          "אין ownership מאומת על continuous A/B experimentation או ניסויי pricing/messaging.",
+          "Direct data querying, cohorts, retention curves ו-unit economics ברמה שהמודעה דורשת אינם מתועדים במלואם.",
+          "Pricing/packaging/freemium/paywall ownership hands-on אינו מאומת לעומק הנדרש.",
+          "אין ownership מקצועי מאומת על AI/LLM/voice product; השימוש המאומת הוא בכלי AI כחלק מעבודת המוצר."
+        ],
+        "verification": "אומתה ב-12.09.2026 במודעת LinkedIn הישירה של Roojoom, Job ID 4463432301, ברמת גן עם כפתור הגשה פעיל.",
+        "recommendation": "Consider — התאמה רעיונית חזקה מאוד, אבל כמה דרישות analytics/experimentation/monetization הן פערים אמיתיים ולכן לא מומלץ להציג אותה כ-90+ Apply.",
+        "cvMode": "tailored",
+        "cvPlan": "אם מחליטים להגיש, להוביל עם Tapuhi כ-founder/SMB/B2C, CallApp self-serve SaaS, subscriptions/payments, UX/Figma ו-Cursor/AI prototyping. לא לטעון ל-A/B experimentation, direct querying, pricing/packaging depth או AI/voice ownership שלא סופקו."
       }
     }
   ],

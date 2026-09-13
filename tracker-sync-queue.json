@@ -1,106 +1,105 @@
 {
-  "requestId": "job-search-2026-09-12-0830-r1",
-  "commitMessage": "Job tracker: add ExpressVPN and Roojoom PM roles",
+  "requestId": "job-search-2026-09-13-0830-r1",
+  "commitMessage": "Job tracker: add Houzz Senior PM and Hello Heart B2C PM",
   "jobUpserts": [
     {
-      "id": "s12-1",
-      "company": "ExpressVPN",
+      "id": "s13-1",
+      "company": "Houzz",
       "role": "Senior Product Manager",
-      "location": "תל אביב-יפו",
-      "match": 92,
-      "date": "2026-09-12",
-      "job": "https://il.linkedin.com/jobs/view/senior-product-manager-at-expressvpn-4465043135",
+      "location": "ישראל, Remote",
+      "match": 93,
+      "date": "2026-09-13",
+      "job": "https://jobs.lever.co/houzz/72da2409-ced3-4817-92b6-69255daa9cd3",
       "cv": "",
       "status": "cv_requested",
       "daily": 1,
-      "note": "Apply; התאמה חזקה ל-5+ שנות PM רלוונטיות, B2C+B2B SaaS, E2E discovery-to-optimization, UX, analytics, user journeys ו-cross-functional delivery. פערים: אין scale consumer מאומת ברמת מיליוני משתמשים, אין ownership מאומת על A/B experimentation, ואין ניסיון מקצועי ב-privacy/security.",
-      "updated": "2026-09-12",
+      "note": "Apply; התאמה חזקה מאוד ל-5+ שנות PM, B2B SaaS E2E, workflows מורכבים, PRDs/backlog, UX, analytics, invoicing/payments ו-cross-functional execution. פערים: אין להציג data-modeling/platform-architecture depth שלא סופק, US accounting/job costing אינם ניסיון מאומת, ו-construction/remodeling הוא domain context בלבד.",
+      "updated": "2026-09-13",
       "next": "להכין קורות חיים ולצרף קישור"
     },
     {
-      "id": "s12-2",
-      "company": "Roojoom",
-      "role": "Senior B2C Product Manager",
-      "location": "רמת גן",
+      "id": "s13-2",
+      "company": "Hello Heart",
+      "role": "Senior Product Manager, B2C",
+      "location": "מחוז תל אביב",
       "match": 88,
-      "date": "2026-09-12",
-      "job": "https://il.linkedin.com/jobs/view/senior-b2c-product-manager-at-roojoom-4463432301",
+      "date": "2026-09-13",
+      "job": "https://il.linkedin.com/jobs/view/senior-product-manager-b2c-at-hello-heart-4452642126",
       "cv": "",
       "status": "active",
       "daily": 2,
-      "note": "Consider; התאמה חזקה ל-self-serve SMB/B2C, web+mobile, founder mindset, subscriptions/payments, Figma ו-AI-assisted prototyping. פערים מהותיים בדרישות continuous experimentation, direct data querying/cohorts/unit economics, pricing/packaging ownership ו-AI/voice product experience.",
-      "updated": "2026-09-12",
-      "next": "לבדוק את פערי experimentation, data querying ו-pricing לפני הגשה"
+      "note": "Consider; התאמה חזקה ל-5+ שנות PM, B2C/Tapuhi, 0-to-1, discovery/UXR, launch/GTM, growth journeys, analytics ו-cross-functional execution. פער מרכזי: proficiency מוכחת ב-A/B testing/experimentation אינה מאומתת; healthtech הוא preferred ולא חובה.",
+      "updated": "2026-09-13",
+      "next": "לבדוק את פער ה-A/B experimentation לפני הגשה"
     }
   ],
   "detailUpserts": [
     {
-      "id": "s12-1",
+      "id": "s13-1",
       "detail": {
-        "source": "LinkedIn — ExpressVPN direct job listing",
+        "source": "Houzz — Lever direct careers listing",
         "language": "אנגלית",
-        "posted": "אומתה פעילה ב-12.09.2026; פרסום חדש מהימים האחרונים",
-        "summary": "Senior Product Manager למוצר consumer גלובלי בתחום privacy/security, עם ownership מקצה לקצה מ-discovery ו-ideation דרך launch, learning ו-optimization, עבודה עם Engineering, Design, Data ו-Marketing, ושימוש בנתונים וב-customer insights לקבלת החלטות.",
+        "posted": "אומתה פעילה ב-13.09.2026; עמוד הקריירה הרשמי של Houzz מציג את המשרה בישראל",
+        "summary": "Senior Product Manager ל-Houzz Pro, עם ownership על Documents Track — מסע מסמכים פיננסי מקצה לקצה מ-bids/estimates דרך purchase/change orders ועד invoicing, תוך עבודה עם Engineering, Design, Payments, Reporting ו-Accounting.",
         "requirements": [
-          "5+ שנות Product Management, רצוי B2C, SaaS, gaming או high-scale consumer",
-          "בעלות על features מ-ideation עד launch והשפעה מדידה",
-          "discovery, prioritization, experimentation ו-iteration",
-          "הבנת user behavior, engagement, trust ו-retention",
-          "עבודה חוצת Engineering, Design, Data ו-Marketing",
-          "עצמאות, hands-on execution ונוחות בעמימות"
+          "5+ שנות Product Management עם ownership על workflows מורכבים ב-B2B SaaS",
+          "E2E product strategy, PRDs, backlog, sprint planning, launch ו-iteration",
+          "עבודה עם quantitative product analytics ו-performance metrics",
+          "יכולת לפרק workflow logic, status transitions ו-edge cases",
+          "עבודה חוצת Engineering, Design, Data, Sales ו-Support",
+          "יתרון ל-invoicing, billing, AP/AR, ERP integrations ו-accounting workflows"
         ],
-        "scoreExplanation": "92%: התאמה חזקה לניסיון הרלוונטי המצטבר ב-B2C וב-B2B SaaS, ownership מקצה לקצה, UX, analytics, funnels, customer journeys ועבודה חוצת צוותים. הורדו נקודות בגלל היעדר ניסיון consumer מאומת בקנה מידה של מיליוני משתמשים, היעדר ownership מאומת על experimentation/A-B testing, והיעדר domain experience מקצועי ב-privacy/security.",
+        "scoreExplanation": "93%: התאמה חזקה מאוד לניסיון ב-B2B SaaS, end-to-end ownership, PRDs/UX, analytics, payments/invoicing APIs, workflows עסקיים מורכבים ועבודה חוצת צוותים. הורדו נקודות משום שאין לטעון לעומק data modeling/platform architecture שלא סופק, ואין ניסיון מאומת ב-US accounting/job costing או construction operations.",
         "why": [
-          "Tapuhi מספק B2C/eCommerce ו-founder-level ownership של מוצר ו-customer journey מאפס.",
-          "CallApp for Business מספק discovery, requirements, launch, optimization, mobile/web UX ו-data-informed product work.",
-          "GA/Firebase, funnels ו-KPIs מתאימים לדרישה לקבל החלטות לפי נתונים והתנהגות משתמשים.",
-          "עבודה עם Engineering, UX, Data, Marketing, Support וגורמים עסקיים מתאימה ישירות למבנה ה-cross-functional של התפקיד.",
-          "הניסיון hands-on והיכולת לפעול בסביבה עמומה ומהירה נתמכים גם בניסיון היזמי ב-Tapuhi."
+          "CallApp for Business מספק B2B SaaS ownership מקצה לקצה, requirements, PRDs/UX, launch ו-optimization.",
+          "אינטגרציות תשלומים, חשבוניות ו-CRM מתחברות ישירות ל-financial workflows של Houzz Pro.",
+          "GA/Firebase ו-KPI/funnel work תומכים בדרישת data-informed prioritization ומדידת adoption.",
+          "Tapuhi מספק founder-level ownership, eCommerce, payments, תפעול ויכולת להבין workflows עסקיים אמיתיים.",
+          "Jira/Figma ועבודה צמודה עם Engineering, UX, QA, Data, Marketing, Support ו-Sales תואמים ל-cross-functional execution."
         ],
         "gaps": [
-          "אין ניסיון מאומת במוצר consumer בקנה מידה של מיליוני משתמשים.",
-          "A/B testing או ownership פורמלי על experimentation אינם מאומתים בפרופיל שסופק.",
-          "אין ניסיון מקצועי מאומת ב-privacy או cybersecurity; זהו domain של החברה ולא ניסיון שיש לטעון לו."
+          "אין להציג deep data-modeling או platform-architecture expertise מעבר למה שסופק.",
+          "US accounting, job costing ו-sales tax אינם ניסיון מקצועי מאומת.",
+          "Construction/remodeling/trade operations הם domain context של המוצר ולא ניסיון מאומת שיש לטעון לו."
         ],
-        "verification": "אומתה ב-12.09.2026 במודעת LinkedIn הישירה של ExpressVPN, Job ID 4465043135, בתל אביב-יפו עם מסלול הגשה פעיל.",
-        "recommendation": "Apply — התאמה גבוהה מאוד, עם פערי scale/experimentation שצריך להשאיר גלויים ומדויקים.",
+        "verification": "אומתה ב-13.09.2026 בעמוד Lever הרשמי של Houzz, משרה בישראל עם מסלול הגשה פעיל.",
+        "recommendation": "Apply — אחת ההתאמות החזקות ביותר כרגע, במיוחד בזכות B2B SaaS + invoicing/payments + workflow ownership.",
         "cvMode": "tailored",
-        "cvPlan": "להוביל עם B2C + B2B SaaS product ownership, discovery-to-optimization, consumer journeys, UX, GA/Firebase/funnels, Tapuhi eCommerce ו-cross-functional shipping. לא לטעון ל-high-scale consumer, A/B ownership או privacy/security expertise שלא סופקו."
+        "cvPlan": "Headline: Senior Product Manager | B2B SaaS, Financial Workflows & E2E Product Ownership. Summary: להוביל עם 5+ שנות PM, CallApp for Business, Tapuhi 0-to-1, complex user/business journeys, analytics ו-payments/invoicing APIs. Bullets: להעלות למעלה PRDs/UX, onboarding-to-payment workflows, API integrations, GA/Firebase, Jira/Figma ו-cross-functional delivery. ATS keywords אמיתיים: B2B SaaS, PRDs, workflows, invoicing, payments, integrations, analytics, backlog, UX, launch, optimization. לא לטעון ל-US accounting, job costing, construction או deep data-modeling expertise."
       }
     },
     {
-      "id": "s12-2",
+      "id": "s13-2",
       "detail": {
-        "source": "LinkedIn — Roojoom direct job listing",
+        "source": "LinkedIn — Hello Heart direct job listing",
         "language": "אנגלית",
-        "posted": "אומתה פעילה ב-12.09.2026; פרסום חדש",
-        "summary": "Senior B2C Product Manager ל-PickMyCall, עוזר קולי מבוסס AI לעסקים קטנים. התפקיד כולל ownership על vision, strategy ו-roadmap ב-web/mobile, monetization, שימוש יומיומי בכלי AI, analytics, experimentation, customer interviews ועבודה צמודה עם Engineering, Customer Success ו-Growth.",
+        "posted": "אומתה פעילה ב-13.09.2026; LinkedIn מציג את המשרה כפרסום מהשבוע האחרון",
+        "summary": "Founding-style Senior Product Manager ליוזמת B2C חדשה, עם market validation, UXR, launch/GTM, acquisition-engagement-retention, metrics ועבודה עם Engineering, Design, Data Science, Analytics וגורמים מסחריים.",
         "requirements": [
-          "5+ שנות PM עם E2E ownership על self-serve consumer או micro-business/SMB web+mobile",
-          "startup/small autonomous team ויכולת לפעול כמעט כפונקציית מוצר מלאה",
-          "שימוש יומיומי בכלי AI ל-specs, design, prototypes ו-data exploration",
-          "funnels, cohorts, retention, unit economics ו-direct data querying",
-          "continuous experimentation על onboarding, activation, pricing ו-messaging",
-          "hands-on subscription pricing, packaging, trials, freemium/paywalls ו-Figma"
+          "5+ שנות Product Management בסביבה מהירה וצומחת",
+          "consumer product concept-to-launch ו-product strategy",
+          "data-driven decision making ו-UX research",
+          "growth across acquisition, engagement and retention",
+          "cross-functional work עם Engineering, Design, Data Science, Analytics ו-commercial teams",
+          "proficiency ב-A/B testing, experimentation ו-iterative development"
         ],
-        "scoreExplanation": "88%: חפיפה חזקה ל-SMB/self-serve, B2C+B2B, web/mobile, founder mindset, subscriptions/payments, UX/Figma וכלי AI hands-on. הפחתה משמעותית בגלל דרישות מפורשות ל-continuous experimentation, cohorts/retention/unit economics, direct querying ו-pricing/packaging ownership שאינן מאומתות במלואן, וכן היעדר AI/voice product ownership.",
+        "scoreExplanation": "88%: התאמה חזקה ל-B2C/eCommerce, founder-level 0-to-1, discovery, user research, launch/GTM, growth journeys, analytics ו-cross-functional execution. הפחתה משמעותית בגלל דרישה מפורשת ל-proficiency ב-A/B testing/experimentation שאינה מאומתת בפרופיל שסופק; healthtech/B2B2C הם preferred ולא חובה.",
         "why": [
-          "Tapuhi מספק founder-level 0-to-1, B2C/eCommerce, לקוחות, pricing/commercial context ותפעול hands-on.",
-          "CallApp for Business מספק self-serve SaaS, onboarding, activation, subscriptions, payments ו-web/mobile journeys.",
-          "Cursor וכלי AI נוספים תואמים ישירות ל-AI-native working style שהמשרה דורשת.",
-          "GA/Firebase, funnels ו-Figma תומכים בעבודה data-informed וב-product craft.",
-          "היכרות עם SMB דרך Tapuhi ו-CallApp מספקת חיבור אמיתי לקהל היעד של PickMyCall."
+          "Tapuhi מספק consumer/eCommerce product שנבנה מאפס, כולל customer journey, launch ו-ongoing optimization.",
+          "CallApp מספק discovery, requirements, mobile/web journeys, launch, analytics ו-cross-functional delivery.",
+          "GA/Firebase, funnels ו-KPIs תומכים בדרישה לקבל החלטות על בסיס נתונים.",
+          "הניסיון היזמי והעבודה בסביבה רזה מתאימים ל-founding PM initiative ול-market validation.",
+          "B.Sc. בהנדסת תעשייה וניהול עומד בכיוון הכמותי המועדף."
         ],
         "gaps": [
-          "אין ownership מאומת על continuous A/B experimentation או ניסויי pricing/messaging.",
-          "Direct data querying, cohorts, retention curves ו-unit economics ברמה שהמודעה דורשת אינם מתועדים במלואם.",
-          "Pricing/packaging/freemium/paywall ownership hands-on אינו מאומת לעומק הנדרש.",
-          "אין ownership מקצועי מאומת על AI/LLM/voice product; השימוש המאומת הוא בכלי AI כחלק מעבודת המוצר."
+          "A/B testing ו-formal experimentation proficiency אינם ניסיון מאומת בפרופיל שסופק.",
+          "אין ניסיון מקצועי מאומת ב-healthtech; במודעה זה preferred ולא דרישת חובה.",
+          "אין לטעון ל-clinical product ownership או Data Science ownership שלא סופקו."
         ],
-        "verification": "אומתה ב-12.09.2026 במודעת LinkedIn הישירה של Roojoom, Job ID 4463432301, ברמת גן עם כפתור הגשה פעיל.",
-        "recommendation": "Consider — התאמה רעיונית חזקה מאוד, אבל כמה דרישות analytics/experimentation/monetization הן פערים אמיתיים ולכן לא מומלץ להציג אותה כ-90+ Apply.",
+        "verification": "אומתה ב-13.09.2026 במודעת LinkedIn הישירה של Hello Heart, Job ID 4452642126, עם מסלול הגשה פעיל.",
+        "recommendation": "Consider — התאמה גבוהה מאוד ברמת המוצר, אך דרישת A/B experimentation מפורשת ולכן נשארת מתחת ל-90 ולא עוברת אוטומטית ל-CV.",
         "cvMode": "tailored",
-        "cvPlan": "אם מחליטים להגיש, להוביל עם Tapuhi כ-founder/SMB/B2C, CallApp self-serve SaaS, subscriptions/payments, UX/Figma ו-Cursor/AI prototyping. לא לטעון ל-A/B experimentation, direct querying, pricing/packaging depth או AI/voice ownership שלא סופקו."
+        "cvPlan": "אם מחליטים להגיש: להוביל עם Tapuhi B2C/0-to-1, CallApp discovery-to-optimization, UX/user feedback, launch/GTM, GA/Firebase ו-growth journeys. לא לטעון ל-A/B experimentation, clinical ownership או Data Science ownership שלא סופקו."
       }
     }
   ],

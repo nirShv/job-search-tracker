@@ -1,108 +1,28 @@
 {
-  "requestId": "job-search-2026-09-14-0830-r1",
-  "commitMessage": "Job tracker: add Wix WOW and Lema AI Senior PM",
+  "requestId": "browser-sync-2026-09-14-134532",
+  "commitMessage": "Job tracker: sync browser status changes",
   "jobUpserts": [
-    {
-      "id": "s14-1",
-      "company": "Wix",
-      "role": "Product Manager - WOW",
-      "location": "תל אביב",
-      "match": 94,
-      "date": "2026-09-14",
-      "job": "https://careers.wix.com/position/oracle-1cde0a80-e2b2-587b-95d6-dd600388f932-T1788788675-744000148163629",
-      "cv": "",
-      "status": "cv_requested",
-      "daily": 1,
-      "note": "Apply; התאמה חזקה מאוד ל-E2E ownership, strategy/roadmap, market+user research, BI/KPIs, UX, cross-functional execution ו-data-informed optimization. פער: אין ניסיון מקצועי מאומת בעולמות visual/web-design, motion או media products; אין לטעון ל-scale של מיליוני משתמשים כניסיון קודם.",
-      "updated": "2026-09-14",
-      "next": "להכין קורות חיים ולצרף קישור"
-    },
-    {
-      "id": "s14-2",
-      "company": "Lema AI",
-      "role": "Senior Product Manager",
-      "location": "תל אביב-יפו",
-      "match": 93,
-      "date": "2026-09-14",
-      "job": "https://il.linkedin.com/jobs/view/senior-product-manager-at-lema-ai-4443782439",
-      "cv": "",
-      "status": "cv_requested",
-      "daily": 2,
-      "note": "Apply; התאמה חזקה ל-5+ שנות PM, B2B SaaS, startup/0-to-1, discovery-to-launch, analytics, GTM ועבודה עם Engineering/Design/Sales/CS. פערים: enterprise executive-customer depth אינו מתועד בעומק המבוקש; אין ניסיון מקצועי מאומת ב-cyber/GRC/TPRM או ownership של AI Agents, שהם Bonus במשרה זו.",
-      "updated": "2026-09-14",
-      "next": "להכין קורות חיים ולצרף קישור"
-    }
+    {"id":"d26-5","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
+    {"id":"s07-1","status":"inactive","updated":"2026-09-10","reason":"המשרה נסגרה","note":"Apply; התאמה חזקה מאוד ל-growth, self-serve, monetization, KPI/funnels, UX, APIs ו-AI-assisted product workflows; אין פער חובה מהותי מאומת","next":"","nextDate":""},
+    {"id":"s01-14","status":"submitted","updated":"2026-09-10","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
+    {"id":"s09-1","status":"withdrawn","updated":"2026-09-10","reason":"מיקום לא מתאים","note":"Apply; התאמה חזקה מאוד ל-digital product lifecycle, strategy, business requirements, UX, analytics, cross-functional delivery ו-digital transformation; ניסיון פיננסי/בנקאי הוא יתרון ולא תנאי סף","next":"","nextDate":""},
+    {"id":"s06-1","status":"submitted","updated":"2026-09-10","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
+    {"id":"f-siira","status":"inactive","updated":"2026-09-10","reason":"המשרה נסגרה","note":"קישור הורדת האפליקציה קורס; לנסות שוב בהמשך","next":"","nextDate":""},
+    {"id":"f-cheq","status":"rejected_employer","updated":"2026-09-10","reason":"דחייה לאחר ריאיון","note":"ממתין לתשובת מכר לצורך הפניה פנימית; קישור ו-CV לא תועדו בצ׳קליסט","next":"","nextDate":""},
+    {"id":"d20-17","status":"inactive","updated":"2026-09-10","reason":"המשרה נסגרה","note":"אין נתיב הגשה פעיל: Apply מפנה ל-/#contact ללא טופס ברור","next":"","nextDate":""},
+    {"id":"m18","status":"rejected_employer","updated":"2026-09-10","reason":"דחייה לאחר ריאיון","note":"נקבע ראיון עם Dror Shem-Tov, Senior Product Manager ב-Comm-IT; פרופיל: https://www.linkedin.com/in/drorshemtov/; הכנה: Interview_Prep_Commit_Product_Manager_2026-08-31.md","next":"","nextDate":""},
+    {"id":"s01-15","status":"inactive","updated":"2026-09-10","reason":"המשרה נסגרה","note":"להגיש; project planning, budgets, reporting, process improvement ו-cross-functional execution","next":"","nextDate":""},
+    {"id":"s10-2","status":"submitted","updated":"2026-09-14","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
+    {"id":"s09-2","status":"submitted","updated":"2026-09-14","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
+    {"id":"s06-2","status":"submitted","updated":"2026-09-14","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
+    {"id":"d30-8","status":"cv_requested","updated":"2026-09-14","reason":"","note":"לשייך גרסת IS Project Manager; לבדוק רמת תפקיד","next":"להכין קורות חיים ולצרף קישור","nextDate":""},
+    {"id":"s10-5","status":"cv_requested","updated":"2026-09-14","reason":"","note":"Consider; SaaS E2E ownership, business orientation, SMB understanding ו-analytics מתאימים מאוד; advanced product analytics, self-serve data querying ו-ownership מפורש על unit economics/retention הם פערים","next":"להכין קורות חיים ולצרף קישור","nextDate":""},
+    {"id":"d30-10","status":"submitted","updated":"2026-09-14","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
+    {"id":"d25-7","status":"cv_requested","updated":"2026-09-14","reason":"","note":"CV ייעודי ל-portfolio, governance ודיגיטציית תהליכים","next":"להכין קורות חיים ולצרף קישור","nextDate":""},
+    {"id":"d21-4","status":"cv_requested","updated":"2026-09-14","reason":"","note":"ממתין לבחירת ניר; CV ייעודי מומלץ","next":"להכין קורות חיים ולצרף קישור","nextDate":""},
+    {"id":"d20-5","status":"submitted","updated":"2026-09-14","reason":"","note":"","next":"להמתין לתגובה","nextDate":""}
   ],
-  "detailUpserts": [
-    {
-      "id": "s14-1",
-      "detail": {
-        "source": "Wix Careers — direct company listing",
-        "language": "אנגלית",
-        "posted": "אומתה פעילה ב-14.09.2026; LinkedIn הציג את המשרה כחדשה מהיממה האחרונה והעמוד הרשמי של Wix פתוח להגשה",
-        "summary": "Product Manager בצוות WOW של Wix, עם ownership מלא על מוצר מהגדרת אסטרטגיה ו-roadmap דרך market/user research, BI, KPIs, development, launch ושיפור מתמשך של חוויות web-design ו-visual innovation.",
-        "requirements": [
-          "Full product ownership מה-inception ועד production",
-          "Strategy, roadmap ו-product lifecycle מלא",
-          "Market research, user research, BI, KPIs ו-data analysis",
-          "עבודה צמודה עם PMs, UX, developers ו-designers",
-          "Usability testing ושיפור מתמשך של המוצר",
-          "עצמאות, collaboration ויכולת לפתור בעיות מורכבות בסביבה אג׳ילית"
-        ],
-        "scoreExplanation": "94%: התאמה חזקה מאוד ל-end-to-end ownership, roadmap, discovery, UX, analytics/KPIs, launch/optimization ועבודה חוצת Engineering/UX/Design. הורדו נקודות בגלל domain ייחודי של visual web design, media/motion וחוויות יצירתיות שאינו ניסיון מקצועי מאומת בפרופיל, וכן משום שאין לטעון לניסיון קודם בסקייל של מיליוני משתמשים.",
-        "why": [
-          "CallApp for Business מספק ownership מקצה לקצה, requirements, UX flows, roadmap, launch ו-continuous improvement.",
-          "GA4/Firebase, funnels ו-KPIs תומכים בדרישת BI, user-data analysis ומדידת ביצועי מוצר.",
-          "Jira/Figma ועבודה עם Engineering, UX, QA, Data, Marketing ו-business teams תואמים ל-cross-functional execution.",
-          "Tapuhi מוסיף 0-to-1, consumer/eCommerce ownership ויכולת לקחת מוצר מרעיון להפעלה ולשיפור בפועל.",
-          "השימוש hands-on ב-Cursor וכלי AI תומך בסביבת Wix החדשנית בלי לטעון ל-AI product ownership."
-        ],
-        "gaps": [
-          "אין ניסיון מקצועי מאומת ב-visual web design, motion או media products.",
-          "אין לטעון לניסיון קודם במוצר המשרת מיליוני משתמשים; זהו הסקייל של Wix ולא של המוצרים הקודמים.",
-          "אין להוסיף מומחיות design tooling או טכנולוגיות web מתקדמות שלא סופקו."
-        ],
-        "verification": "אומתה ב-14.09.2026 בעמוד Wix Careers הישיר עם Apply Now פעיל; LinkedIn job listings הציגו Product Manager - WOW בתל אביב מהיממה האחרונה.",
-        "recommendation": "Apply — התאמה גבוהה מאוד לליבת עבודת Product, עם פער domain שניתן להסביר ולא תנאי סף מפורש.",
-        "cvMode": "tailored",
-        "cvPlan": "Headline: Product Manager | B2C & B2B Digital Products, UX, Analytics & E2E Ownership. Summary: להוביל עם 5+ שנות PM, product lifecycle מלא, user/business discovery, roadmap, UX, GA/Firebase ו-0-to-1 ב-Tapuhi. Bullets: להעלות CallApp roadmap/requirements/UX/analytics ו-Tapuhi consumer product ownership; להדגיש Figma, cross-functional delivery ו-data-informed optimization. ATS keywords אמיתיים: product strategy, roadmap, user research, market research, KPIs, BI/analytics, UX, product lifecycle, launch, optimization, cross-functional. לא לטעון ל-motion/media expertise או prior millions-scale ownership."
-      }
-    },
-    {
-      "id": "s14-2",
-      "detail": {
-        "source": "LinkedIn — Lema AI direct job listing",
-        "language": "אנגלית",
-        "posted": "אומתה פעילה ב-14.09.2026; LinkedIn והאינדקסים הציבוריים מציגים את המשרה כפתוחה",
-        "summary": "Senior Product Manager ב-B2B SaaS startup בתחום third-party risk, עם ownership על אזורי מוצר חדשים מ-discovery ואסטרטגיה ועד launch/iteration, customer discovery, analytics, Engineering/Design ו-GTM.",
-        "requirements": [
-          "5+ שנות Product Management ב-B2B SaaS, רצוי startup",
-          "בנייה והרחבה של מוצרים מורכבים ומבוססי-נתונים מ-0 ועד launch",
-          "Product strategy, roadmap ויכולת להשפיע על executive stakeholders",
-          "Analytics/BI ו-qualitative insights לצורך prioritization ומדידת success",
-          "עבודה עם Engineering, Design, Sales ו-Customer Success",
-          "Cybersecurity/GRC/TPRM ו-AI Agents הם Bonus Points במודעה"
-        ],
-        "scoreExplanation": "93%: התאמה גבוהה ל-B2B SaaS, 5+ שנות product ownership, startup/0-to-1, discovery, requirements, analytics, GTM ו-cross-functional delivery. הורדו נקודות משום שאין ניסיון מקצועי מאומת ב-cyber/GRC/TPRM, אין ownership מקצועי של AI Agents, ועומק עבודה ישירה מול senior enterprise customers אינו מתועד ברמה שהמשרה מתארת; שני תחומי ה-domain מוגדרים כ-bonus ולא כחובה.",
-        "why": [
-          "CallApp for Business מספק B2B SaaS ownership, roadmap, requirements, integrations, launch, analytics ו-customer/business feedback loops.",
-          "Tapuhi מספק founder-level 0-to-1 בסביבת startup, כולל product, business, operations ו-GTM.",
-          "GA/Firebase ונתוני מוצר/תפעול תומכים ב-data-informed prioritization ומדידת outcomes.",
-          "ניסיון בעבודה עם Engineering, UX, Sales, Support, Marketing וגורמים עסקיים תואם ל-cross-functional/GTM model.",
-          "Cursor וכלי AI משמשים בפועל ל-research, requirements, UX exploration ו-prototyping, בלי לטעון ל-AI product ownership."
-        ],
-        "gaps": [
-          "אין ניסיון מקצועי מאומת ב-Cybersecurity, GRC או Third-Party Risk Management; אלה Bonus Points במודעה.",
-          "אין ownership מקצועי מאומת על AI Agents, autonomous systems או intelligent decision automation; גם זה Bonus במשרת Senior זו.",
-          "עבודה ישירה ורציפה מול VP/CISO ו-enterprise executive customers אינה מתועדת בעומק המבוקש; אין להציג אותה כניסיון קיים."
-        ],
-        "verification": "אומתה ב-14.09.2026 במודעת LinkedIn של Lema AI למשרת Senior Product Manager, וכן במקורות ציבוריים עדכניים המציגים את התפקיד כפתוח.",
-        "recommendation": "Apply — התאמה גבוהה מאוד לליבת ה-B2B SaaS/0-to-1/GTM; פערי cyber ו-AI-agent הם יתרונות במודעה ולא תנאי סף.",
-        "cvMode": "tailored",
-        "cvPlan": "Headline: Senior Product Manager | B2B SaaS, 0-to-1 & Data-Informed Product Execution. Summary: להוביל עם 5+ שנות PM, CallApp B2B SaaS, Tapuhi founder/0-to-1, discovery→launch→optimization, analytics, APIs ו-GTM. Bullets: להדגיש customer/business discovery, PRDs, roadmap, API integrations, GA/Firebase, cross-functional execution, Sales/Support/Marketing feedback loops ו-Cursor prototyping. ATS keywords אמיתיים: B2B SaaS, product strategy, roadmap, discovery, 0-to-1, analytics, product requirements, GTM, adoption, customer value, cross-functional. לא לטעון ל-cyber/GRC/TPRM, enterprise executive depth או AI-agent ownership שלא סופקו."
-      }
-    }
-  ],
+  "detailUpserts": [],
   "removeJobIds": [],
   "removeDetailIds": [],
   "upgradeSyncButton": false

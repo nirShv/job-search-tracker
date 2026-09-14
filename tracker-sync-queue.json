@@ -1,26 +1,43 @@
 {
-  "requestId": "browser-sync-2026-09-14-134532",
-  "commitMessage": "Job tracker: sync browser status changes",
+  "requestId": "cv-complete-2026-09-14-1655",
+  "commitMessage": "Job tracker: link 4 completed CVs",
   "jobUpserts": [
-    {"id":"d26-5","status":"submitted","updated":"2026-09-09","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
-    {"id":"s07-1","status":"inactive","updated":"2026-09-10","reason":"המשרה נסגרה","note":"Apply; התאמה חזקה מאוד ל-growth, self-serve, monetization, KPI/funnels, UX, APIs ו-AI-assisted product workflows; אין פער חובה מהותי מאומת","next":"","nextDate":""},
-    {"id":"s01-14","status":"submitted","updated":"2026-09-10","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
-    {"id":"s09-1","status":"withdrawn","updated":"2026-09-10","reason":"מיקום לא מתאים","note":"Apply; התאמה חזקה מאוד ל-digital product lifecycle, strategy, business requirements, UX, analytics, cross-functional delivery ו-digital transformation; ניסיון פיננסי/בנקאי הוא יתרון ולא תנאי סף","next":"","nextDate":""},
-    {"id":"s06-1","status":"submitted","updated":"2026-09-10","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
-    {"id":"f-siira","status":"inactive","updated":"2026-09-10","reason":"המשרה נסגרה","note":"קישור הורדת האפליקציה קורס; לנסות שוב בהמשך","next":"","nextDate":""},
-    {"id":"f-cheq","status":"rejected_employer","updated":"2026-09-10","reason":"דחייה לאחר ריאיון","note":"ממתין לתשובת מכר לצורך הפניה פנימית; קישור ו-CV לא תועדו בצ׳קליסט","next":"","nextDate":""},
-    {"id":"d20-17","status":"inactive","updated":"2026-09-10","reason":"המשרה נסגרה","note":"אין נתיב הגשה פעיל: Apply מפנה ל-/#contact ללא טופס ברור","next":"","nextDate":""},
-    {"id":"m18","status":"rejected_employer","updated":"2026-09-10","reason":"דחייה לאחר ריאיון","note":"נקבע ראיון עם Dror Shem-Tov, Senior Product Manager ב-Comm-IT; פרופיל: https://www.linkedin.com/in/drorshemtov/; הכנה: Interview_Prep_Commit_Product_Manager_2026-08-31.md","next":"","nextDate":""},
-    {"id":"s01-15","status":"inactive","updated":"2026-09-10","reason":"המשרה נסגרה","note":"להגיש; project planning, budgets, reporting, process improvement ו-cross-functional execution","next":"","nextDate":""},
-    {"id":"s10-2","status":"submitted","updated":"2026-09-14","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
-    {"id":"s09-2","status":"submitted","updated":"2026-09-14","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
-    {"id":"s06-2","status":"submitted","updated":"2026-09-14","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
-    {"id":"d30-8","status":"cv_requested","updated":"2026-09-14","reason":"","note":"לשייך גרסת IS Project Manager; לבדוק רמת תפקיד","next":"להכין קורות חיים ולצרף קישור","nextDate":""},
-    {"id":"s10-5","status":"cv_requested","updated":"2026-09-14","reason":"","note":"Consider; SaaS E2E ownership, business orientation, SMB understanding ו-analytics מתאימים מאוד; advanced product analytics, self-serve data querying ו-ownership מפורש על unit economics/retention הם פערים","next":"להכין קורות חיים ולצרף קישור","nextDate":""},
-    {"id":"d30-10","status":"submitted","updated":"2026-09-14","reason":"","note":"","next":"להמתין לתגובה","nextDate":""},
-    {"id":"d25-7","status":"cv_requested","updated":"2026-09-14","reason":"","note":"CV ייעודי ל-portfolio, governance ודיגיטציית תהליכים","next":"להכין קורות חיים ולצרף קישור","nextDate":""},
-    {"id":"d21-4","status":"cv_requested","updated":"2026-09-14","reason":"","note":"ממתין לבחירת ניר; CV ייעודי מומלץ","next":"להכין קורות חיים ולצרף קישור","nextDate":""},
-    {"id":"d20-5","status":"submitted","updated":"2026-09-14","reason":"","note":"","next":"להמתין לתגובה","nextDate":""}
+    {
+      "id": "s10-5",
+      "cv": "Applications/Nir_Shvarchberg_CV_morning_Green_Invoice_Product_Manager.pdf",
+      "cvDocx": "Applications/Nir_Shvarchberg_CV_morning_Green_Invoice_Product_Manager.docx",
+      "cvPdf": "Applications/Nir_Shvarchberg_CV_morning_Green_Invoice_Product_Manager.pdf",
+      "status": "active",
+      "updated": "2026-09-14",
+      "next": "להגיש"
+    },
+    {
+      "id": "d30-8",
+      "cv": "Applications/Nir_Shvarchberg_CV_Afeka_Information_Systems_Project_Manager.pdf",
+      "cvDocx": "Applications/Nir_Shvarchberg_CV_Afeka_Information_Systems_Project_Manager.docx",
+      "cvPdf": "Applications/Nir_Shvarchberg_CV_Afeka_Information_Systems_Project_Manager.pdf",
+      "status": "active",
+      "updated": "2026-09-14",
+      "next": "להגיש"
+    },
+    {
+      "id": "d25-7",
+      "cv": "Applications/Nir_Shvarchberg_CV_Delek_Israel_PMO.pdf",
+      "cvDocx": "Applications/Nir_Shvarchberg_CV_Delek_Israel_PMO.docx",
+      "cvPdf": "Applications/Nir_Shvarchberg_CV_Delek_Israel_PMO.pdf",
+      "status": "active",
+      "updated": "2026-09-14",
+      "next": "להגיש"
+    },
+    {
+      "id": "d21-4",
+      "cv": "Applications/Nir_Shvarchberg_CV_Papaya_Global_Product_Manager.pdf",
+      "cvDocx": "Applications/Nir_Shvarchberg_CV_Papaya_Global_Product_Manager.docx",
+      "cvPdf": "Applications/Nir_Shvarchberg_CV_Papaya_Global_Product_Manager.pdf",
+      "status": "active",
+      "updated": "2026-09-14",
+      "next": "להגיש"
+    }
   ],
   "detailUpserts": [],
   "removeJobIds": [],

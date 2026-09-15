@@ -1,5 +1,5 @@
 {
-  "requestId": "pm-search-2026-09-15-0831",
+  "requestId": "pm-search-2026-09-15-0845-fix",
   "commitMessage": "Job tracker: add Sep 15 PM search results",
   "jobUpserts": [
     {
@@ -30,16 +30,20 @@
   "detailUpserts": [
     {
       "id": "s15-1",
-      "fit": ["כ-5 שנות ניסיון רלוונטי בניהול מוצר מול דרישת 4+ שנים", "B2B SaaS ownership מ-discovery ו-PRDs דרך delivery, launch ו-optimization", "ניסיון מאומת ב-APIs ואינטגרציות כולל payments, CRM ו-invoicing", "GA/Firebase ו-data-informed prioritization", "שימוש hands-on ב-Cursor, Claude/ChatGPT וכלי AI לפרוטוטייפינג ועבודת מוצר"],
-      "gaps": ["אין ניסיון מאומת בעומק של acquiring, tokenization, payouts, settlements, reconciliation, refunds ו-chargebacks", "Mixpanel ו-FullStory אינם כלים שסופקו", "SQL אינו חלק מהפרופיל המאומת"],
-      "recommendation": "Apply",
-      "cvPlan": "להוביל עם B2B SaaS E2E ownership ב-CallApp for Business, APIs/integrations ותשלומים, onboarding/subscriptions, GA/Firebase ו-Cursor/AI-assisted prototyping. לחזק Tapuhi כ-founder עם payments, pricing ו-commercial ownership. לא לטעון ל-Mixpanel, FullStory, SQL או payment-rail depth שלא סופקו. ATS: B2B SaaS, product discovery, PRD, APIs, integrations, payments, onboarding, subscriptions, product analytics, Jira, Figma, Cursor."
+      "detail": {
+        "fit": ["כ-5 שנות ניסיון רלוונטי בניהול מוצר מול דרישת 4+ שנים", "B2B SaaS ownership מ-discovery ו-PRDs דרך delivery, launch ו-optimization", "ניסיון מאומת ב-APIs ואינטגרציות כולל payments, CRM ו-invoicing", "GA/Firebase ו-data-informed prioritization", "שימוש hands-on ב-Cursor, Claude/ChatGPT וכלי AI לפרוטוטייפינג ועבודת מוצר"],
+        "gaps": ["אין ניסיון מאומת בעומק של acquiring, tokenization, payouts, settlements, reconciliation, refunds ו-chargebacks", "Mixpanel ו-FullStory אינם כלים שסופקו", "SQL אינו חלק מהפרופיל המאומת"],
+        "recommendation": "Apply",
+        "cvPlan": "להוביל עם B2B SaaS E2E ownership ב-CallApp for Business, APIs/integrations ותשלומים, onboarding/subscriptions, GA/Firebase ו-Cursor/AI-assisted prototyping. לחזק Tapuhi כ-founder עם payments, pricing ו-commercial ownership. לא לטעון ל-Mixpanel, FullStory, SQL או payment-rail depth שלא סופקו. ATS: B2B SaaS, product discovery, PRD, APIs, integrations, payments, onboarding, subscriptions, product analytics, Jira, Figma, Cursor."
+      }
     },
     {
       "id": "s15-2",
-      "fit": ["ניסיון B2B SaaS וניהול מוצר end-to-end", "עבודה צמודה עם Engineering/UX ותרגום צרכים לדרישות", "ניסיון APIs/integrations ויכולת טכנית", "שימוש hands-on בכלי AI מתאים לסביבת agentic AI"],
-      "gaps": ["אין ניסיון מקצועי מאומת ב-cybersecurity", "אין ניסיון מאומת ב-agent security", "עומק enterprise-security אינו מתועד"],
-      "recommendation": "Consider"
+      "detail": {
+        "fit": ["ניסיון B2B SaaS וניהול מוצר end-to-end", "עבודה צמודה עם Engineering/UX ותרגום צרכים לדרישות", "ניסיון APIs/integrations ויכולת טכנית", "שימוש hands-on בכלי AI מתאים לסביבת agentic AI"],
+        "gaps": ["אין ניסיון מקצועי מאומת ב-cybersecurity", "אין ניסיון מאומת ב-agent security", "עומק enterprise-security אינו מתועד"],
+        "recommendation": "Consider"
+      }
     }
   ],
   "removeJobIds": [],

@@ -1,45 +1,47 @@
 {
-  "requestId": "cv-complete-2026-09-14-1655",
-  "commitMessage": "Job tracker: link 4 completed CVs",
+  "requestId": "pm-search-2026-09-15-0831",
+  "commitMessage": "Job tracker: add Sep 15 PM search results",
   "jobUpserts": [
     {
-      "id": "s10-5",
-      "cv": "Applications/Nir_Shvarchberg_CV_morning_Green_Invoice_Product_Manager.pdf",
-      "cvDocx": "Applications/Nir_Shvarchberg_CV_morning_Green_Invoice_Product_Manager.docx",
-      "cvPdf": "Applications/Nir_Shvarchberg_CV_morning_Green_Invoice_Product_Manager.pdf",
-      "status": "active",
-      "updated": "2026-09-14",
-      "next": "להגיש"
+      "id": "s15-1",
+      "company": "Unipaas",
+      "role": "Product Manager",
+      "location": "Tel Aviv, Israel",
+      "url": "https://www.unipaas.com/careers/product-manager",
+      "match": 92,
+      "status": "cv_requested",
+      "updated": "2026-09-15",
+      "next": "להכין קורות חיים ייעודיים ואז להגיש",
+      "note": "Apply. התאמה חזקה ל-B2B SaaS, E2E ownership, APIs/integrations, payments, UX, analytics ו-AI-assisted product work. פערים: אין ניסיון מאומת בעומק של acquiring/tokenization/payouts/settlements/reconciliation/refunds/chargebacks; Mixpanel/FullStory ו-SQL אינם כלים מאומתים בפרופיל."
     },
     {
-      "id": "d30-8",
-      "cv": "Applications/Nir_Shvarchberg_CV_Afeka_Information_Systems_Project_Manager.pdf",
-      "cvDocx": "Applications/Nir_Shvarchberg_CV_Afeka_Information_Systems_Project_Manager.docx",
-      "cvPdf": "Applications/Nir_Shvarchberg_CV_Afeka_Information_Systems_Project_Manager.pdf",
+      "id": "s15-2",
+      "company": "Dash Security",
+      "role": "Product Manager",
+      "location": "Tel Aviv, Israel",
+      "url": "https://dash.security/careers/product-manager",
+      "match": 84,
       "status": "active",
-      "updated": "2026-09-14",
-      "next": "להגיש"
-    },
-    {
-      "id": "d25-7",
-      "cv": "Applications/Nir_Shvarchberg_CV_Delek_Israel_PMO.pdf",
-      "cvDocx": "Applications/Nir_Shvarchberg_CV_Delek_Israel_PMO.docx",
-      "cvPdf": "Applications/Nir_Shvarchberg_CV_Delek_Israel_PMO.pdf",
-      "status": "active",
-      "updated": "2026-09-14",
-      "next": "להגיש"
-    },
-    {
-      "id": "d21-4",
-      "cv": "Applications/Nir_Shvarchberg_CV_Papaya_Global_Product_Manager.pdf",
-      "cvDocx": "Applications/Nir_Shvarchberg_CV_Papaya_Global_Product_Manager.docx",
-      "cvPdf": "Applications/Nir_Shvarchberg_CV_Papaya_Global_Product_Manager.pdf",
-      "status": "active",
-      "updated": "2026-09-14",
-      "next": "להגיש"
+      "updated": "2026-09-15",
+      "next": "לשקול הגשה",
+      "note": "Consider. התאמה ל-E2E product execution, B2B SaaS, technical collaboration ו-AI interest; הפער המרכזי הוא היעדר ניסיון מקצועי מאומת ב-cybersecurity/agent security ו-enterprise security domain."
     }
   ],
-  "detailUpserts": [],
+  "detailUpserts": [
+    {
+      "id": "s15-1",
+      "fit": ["כ-5 שנות ניסיון רלוונטי בניהול מוצר מול דרישת 4+ שנים", "B2B SaaS ownership מ-discovery ו-PRDs דרך delivery, launch ו-optimization", "ניסיון מאומת ב-APIs ואינטגרציות כולל payments, CRM ו-invoicing", "GA/Firebase ו-data-informed prioritization", "שימוש hands-on ב-Cursor, Claude/ChatGPT וכלי AI לפרוטוטייפינג ועבודת מוצר"],
+      "gaps": ["אין ניסיון מאומת בעומק של acquiring, tokenization, payouts, settlements, reconciliation, refunds ו-chargebacks", "Mixpanel ו-FullStory אינם כלים שסופקו", "SQL אינו חלק מהפרופיל המאומת"],
+      "recommendation": "Apply",
+      "cvPlan": "להוביל עם B2B SaaS E2E ownership ב-CallApp for Business, APIs/integrations ותשלומים, onboarding/subscriptions, GA/Firebase ו-Cursor/AI-assisted prototyping. לחזק Tapuhi כ-founder עם payments, pricing ו-commercial ownership. לא לטעון ל-Mixpanel, FullStory, SQL או payment-rail depth שלא סופקו. ATS: B2B SaaS, product discovery, PRD, APIs, integrations, payments, onboarding, subscriptions, product analytics, Jira, Figma, Cursor."
+    },
+    {
+      "id": "s15-2",
+      "fit": ["ניסיון B2B SaaS וניהול מוצר end-to-end", "עבודה צמודה עם Engineering/UX ותרגום צרכים לדרישות", "ניסיון APIs/integrations ויכולת טכנית", "שימוש hands-on בכלי AI מתאים לסביבת agentic AI"],
+      "gaps": ["אין ניסיון מקצועי מאומת ב-cybersecurity", "אין ניסיון מאומת ב-agent security", "עומק enterprise-security אינו מתועד"],
+      "recommendation": "Consider"
+    }
+  ],
   "removeJobIds": [],
   "removeDetailIds": [],
   "upgradeSyncButton": false

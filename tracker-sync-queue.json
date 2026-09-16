@@ -1,47 +1,66 @@
 {
-  "requestId": "pm-search-2026-09-15-0845-fix",
-  "commitMessage": "Job tracker: add Sep 15 PM search results",
+  "requestId": "pm-search-2026-09-16-1112",
+  "commitMessage": "Job tracker: add Sep 16 PM search results",
   "jobUpserts": [
     {
-      "id": "s15-1",
-      "company": "Unipaas",
+      "id": "s16-1",
+      "company": "ScaleOps",
       "role": "Product Manager",
-      "location": "Tel Aviv, Israel",
-      "url": "https://www.unipaas.com/careers/product-manager",
-      "match": 92,
-      "status": "cv_requested",
-      "updated": "2026-09-15",
-      "next": "להכין קורות חיים ייעודיים ואז להגיש",
-      "note": "Apply. התאמה חזקה ל-B2B SaaS, E2E ownership, APIs/integrations, payments, UX, analytics ו-AI-assisted product work. פערים: אין ניסיון מאומת בעומק של acquiring/tokenization/payouts/settlements/reconciliation/refunds/chargebacks; Mixpanel/FullStory ו-SQL אינם כלים מאומתים בפרופיל."
+      "location": "Tel Aviv",
+      "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4919672101",
+      "match": 85,
+      "status": "active",
+      "updated": "2026-09-16",
+      "next": "לשקול הגשה לאחר בדיקת פער ה-DevOps/infrastructure",
+      "note": "Consider. התאמה חזקה ל-B2B SaaS, E2E ownership, roadmap, requirements, discovery, KPIs, startup/0-to-1 ו-cross-functional execution. הפער המרכזי הוא דרישה מפורשת לניסיון infrastructure platforms, developer tools או DevOps products, שאינו ניסיון מקצועי מאומת בפרופיל."
     },
     {
-      "id": "s15-2",
-      "company": "Dash Security",
-      "role": "Product Manager",
-      "location": "Tel Aviv, Israel",
-      "url": "https://dash.security/careers/product-manager",
-      "match": 84,
+      "id": "s16-2",
+      "company": "Venice",
+      "role": "Senior Product Manager",
+      "location": "Tel Aviv-Yafo",
+      "url": "https://il.linkedin.com/jobs/view/senior-product-manager-at-venice-4466505697",
+      "match": 87,
       "status": "active",
-      "updated": "2026-09-15",
-      "next": "לשקול הגשה",
-      "note": "Consider. התאמה ל-E2E product execution, B2B SaaS, technical collaboration ו-AI interest; הפער המרכזי הוא היעדר ניסיון מקצועי מאומת ב-cybersecurity/agent security ו-enterprise security domain."
+      "updated": "2026-09-16",
+      "next": "לשקול הגשה לאחר בדיקת פערי cyber ו-enterprise customer depth",
+      "note": "Consider. התאמה טובה ל-5+ שנות PM רלוונטיות, E2E ownership, roadmap, discovery, UX/Engineering collaboration, GTM ושימוש hands-on בכלי AI. פערים: אין ניסיון מקצועי מאומת ב-cybersecurity/IAM/PAM, ועבודה ישירה לאורך lifecycle מול Fortune-200 enterprise security teams אינה מתועדת בעומק המבוקש."
+    },
+    {
+      "id": "s16-3",
+      "company": "Melio",
+      "role": "Senior Product Manager",
+      "location": "Tel Aviv-Yafo",
+      "url": "https://portfolio.watershed.vc/companies/melio/jobs/93195592-senior-product-manager",
+      "match": 86,
+      "status": "active",
+      "updated": "2026-09-16",
+      "next": "לשקול הגשה לאחר בדיקת דרישת enterprise B2B",
+      "note": "Consider. התאמה ל-B2B product ownership, payments, complex integrations, requirements, UX, analytics ו-cross-functional execution. הפער המרכזי הוא דרישה ל-5+ שנות PM של B2B products עבור large companies/enterprises ול-complex integration projects עם לקוחות גדולים; עומק כזה מול enterprise customers אינו מתועד בפרופיל שסופק."
     }
   ],
   "detailUpserts": [
     {
-      "id": "s15-1",
+      "id": "s16-1",
       "detail": {
-        "fit": ["כ-5 שנות ניסיון רלוונטי בניהול מוצר מול דרישת 4+ שנים", "B2B SaaS ownership מ-discovery ו-PRDs דרך delivery, launch ו-optimization", "ניסיון מאומת ב-APIs ואינטגרציות כולל payments, CRM ו-invoicing", "GA/Firebase ו-data-informed prioritization", "שימוש hands-on ב-Cursor, Claude/ChatGPT וכלי AI לפרוטוטייפינג ועבודת מוצר"],
-        "gaps": ["אין ניסיון מאומת בעומק של acquiring, tokenization, payouts, settlements, reconciliation, refunds ו-chargebacks", "Mixpanel ו-FullStory אינם כלים שסופקו", "SQL אינו חלק מהפרופיל המאומת"],
-        "recommendation": "Apply",
-        "cvPlan": "להוביל עם B2B SaaS E2E ownership ב-CallApp for Business, APIs/integrations ותשלומים, onboarding/subscriptions, GA/Firebase ו-Cursor/AI-assisted prototyping. לחזק Tapuhi כ-founder עם payments, pricing ו-commercial ownership. לא לטעון ל-Mixpanel, FullStory, SQL או payment-rail depth שלא סופקו. ATS: B2B SaaS, product discovery, PRD, APIs, integrations, payments, onboarding, subscriptions, product analytics, Jira, Figma, Cursor."
+        "fit": ["כ-5 שנות ניסיון רלוונטי בניהול מוצר ו-B2B SaaS", "E2E ownership, roadmap, requirements ו-delivery", "customer/business discovery ותרגום צרכים לפיצ'רים", "GA/Firebase ו-KPI-oriented product work", "Tapuhi מספק founder/0-to-1 ownership בסביבה יזמית"],
+        "gaps": ["אין ניסיון מקצועי מאומת ב-infrastructure platforms", "אין ניסיון מקצועי מאומת ב-DevOps/SRE products או developer tools", "אין להציג cloud infrastructure expertise שלא סופקה"],
+        "recommendation": "Consider"
       }
     },
     {
-      "id": "s15-2",
+      "id": "s16-2",
       "detail": {
-        "fit": ["ניסיון B2B SaaS וניהול מוצר end-to-end", "עבודה צמודה עם Engineering/UX ותרגום צרכים לדרישות", "ניסיון APIs/integrations ויכולת טכנית", "שימוש hands-on בכלי AI מתאים לסביבת agentic AI"],
-        "gaps": ["אין ניסיון מקצועי מאומת ב-cybersecurity", "אין ניסיון מאומת ב-agent security", "עומק enterprise-security אינו מתועד"],
+        "fit": ["כ-5 שנות ניסיון רלוונטי בניהול מוצר", "E2E ownership מ-discovery ו-roadmap עד launch ו-iteration", "עבודה עם Engineering ו-UX ויכולת לתרגם בעיות מורכבות לדרישות", "GTM ו-cross-functional execution", "שימוש hands-on ב-Cursor וכלי AI למחקר, specs ו-prototyping"],
+        "gaps": ["אין ניסיון מקצועי מאומת ב-cybersecurity, IAM או PAM", "עבודה ישירה ורציפה עם Fortune-200 enterprise security teams אינה מתועדת", "אין ownership מקצועי מאומת על agentic AI product"],
+        "recommendation": "Consider"
+      }
+    },
+    {
+      "id": "s16-3",
+      "detail": {
+        "fit": ["B2B product ownership ו-E2E lifecycle", "ניסיון מאומת ב-payments ובאינטגרציות", "requirements ויכולת לחבר צורך עסקי לביצוע טכנולוגי", "עבודה חוצת Engineering, UX, Data, Marketing, Operations וגורמים עסקיים", "Tapuhi מוסיף founder/commercial ownership"],
+        "gaps": ["5+ שנות PM של B2B products עבור large companies/enterprises אינן מתועדות במלואן", "עומק של complex integration projects ישירות עם large enterprise customers אינו מאומת", "אין להציג enterprise-customer scale שלא סופק"],
         "recommendation": "Consider"
       }
     }

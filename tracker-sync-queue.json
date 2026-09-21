@@ -1,13 +1,15 @@
 {
-  "requestId": "pm-search-2026-09-20-dedup-melio",
-  "commitMessage": "Job tracker: deduplicate Melio Sep 20 result",
+  "requestId": "pm-search-2026-09-21-0900",
+  "commitMessage": "Job tracker: add Sep 21 PM search results",
   "jobUpserts": [
-    {"id":"s16-3","company":"Melio","role":"Senior Product Manager","location":"Tel Aviv-Yafo","url":"https://portfolio.watershed.vc/companies/melio/jobs/93195592-senior-product-manager","match":88,"status":"active","updated":"2026-09-20","next":"לשקול הגשה לאחר בדיקת דרישת enterprise B2B","note":"Consider. התאמה חזקה ל-B2B product ownership, payments, complex integrations, product lifecycle, roadmap, requirements, UX, metrics ו-cross-functional execution. הפער המרכזי הוא דרישה ל-5+ שנות PM של B2B products עבור large companies/enterprises ול-complex integration projects עם לקוחות גדולים; עומק כזה מול enterprise customers אינו מתועד במלואו."}
+    {"id":"s21-1","company":"Cyera","role":"Product Manager","location":"Tel Aviv District, Israel","url":"https://il.linkedin.com/jobs/view/product-manager-at-cyera-4465031295","match":86,"status":"active","updated":"2026-09-21","next":"לבדוק ולהגיש אם תחום הסייבר אינו דרישת סף","note":"Consider. התאמה חזקה ל-SaaS, product strategy, APIs, technical requirements, roadmap ו-cross-functional delivery. הפער המרכזי הוא שאין ניסיון מקצועי מאומת בסייבר/cloud security או data security."},
+    {"id":"s21-2","company":"Obligo","role":"Product Manager – Renter Growth & Conversion","location":"Tel Aviv","url":"https://job-boards.greenhouse.io/obligo/jobs/6192810004","match":82,"status":"active","updated":"2026-09-21","next":"לשקול הגשה מול דרישת consumer fintech עמוקה","note":"Consider. התאמה טובה ל-B2C funnels, payments, UX, analytics, experimentation ו-end-to-end ownership. הפערים: המשרה מבקשת consumer-facing fintech, deep payments/fintech landscape, יכולת pull your own data וניסיון ML/risk; אלה אינם מתועדים בעומק המבוקש."}
   ],
   "detailUpserts": [
-    {"id":"s16-3","detail":{"fit":["כ-5 שנות ניסיון רלוונטי בניהול מוצר","B2B SaaS ו-product lifecycle מלא מ-research/discovery עד launch ו-iteration","ניסיון אמיתי ב-payments וב-API integrations","roadmap, requirements, metrics ו-cross-functional execution","Tapuhi מוסיף הבנת SMB, commercial judgment ו-payments"],"gaps":["המודעה מבקשת ניסיון B2B עבור large companies and enterprises; עומק זה אינו מאומת במלואו","complex integration projects with large customers/companies אינם מתועדים בעומק המבוקש","PLG הוא nice-to-have ולא ניסיון מאומת כ-domain נפרד"],"recommendation":"Consider"}}
+    {"id":"s21-1","detail":{"fit":["כ-5 שנות ניסיון רלוונטי בניהול מוצר עם ownership מקצה לקצה","ניסיון B2B SaaS ו-B2C digital products","עבודה עם APIs ותרגום צרכים לדרישות מוצר טכניות","roadmap, launch, optimization ועבודה חוצת Engineering, UX ו-GTM","רקע טכני מקורס Full Stack ושימוש hands-on בכלי AI"],"gaps":["אין ניסיון מקצועי מאומת בסייבר או data security","אין ניסיון מאומת ב-cloud security platforms","עבודה עם data science/security teams אינה מתועדת כ-domain מרכזי"],"recommendation":"Consider"}},
+    {"id":"s21-2","detail":{"fit":["ניסיון B2C ו-D2C משמעותי מ-Tapuhi","ניסיון אמיתי בתשלומים, checkout ו-customer journeys","GA/Firebase וניתוח funnels והתנהגות משתמשים","ownership מקצה לקצה, UX, pricing ו-cross-functional execution","ניסיון API integrations מתאים לעבודה בתוך partner touchpoints"],"gaps":["המודעה דורשת consumer-facing fintech וניסיון זה אינו מאומת כ-domain מקצועי","deep understanding of payments and fintech landscape רחב יותר מהניסיון המתועד","pull your own data עשוי לרמוז על SQL/analysis hands-on שאינו מאומת","ML-driven qualification, underwriting/risk אינם ניסיון מתועד"],"recommendation":"Consider"}}
   ],
-  "removeJobIds": ["s20-1"],
-  "removeDetailIds": ["s20-1"],
+  "removeJobIds": [],
+  "removeDetailIds": [],
   "upgradeSyncButton": false
 }

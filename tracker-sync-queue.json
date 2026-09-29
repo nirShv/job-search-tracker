@@ -1,11 +1,19 @@
 {
-  "requestId": "pm-search-2026-09-24-0900",
-  "commitMessage": "Job tracker: add Sep 24 PM search result",
+  "requestId": "pm-search-2026-09-29-full-scan",
+  "commitMessage": "Job tracker: add Sep 29 verified PM search results and CVs",
   "jobUpserts": [
-    {"id":"s24-1","company":"Cato Networks","role":"Product Manager Pricing","location":"Tel Aviv District, Israel","url":"https://www.catonetworks.com/careers/careers-post/4970396101/?gh_jid=4970396101","match":89,"status":"active","updated":"2026-09-24","next":"לשקול הגשה; לחזק pricing/packaging ו-commercial ownership בלי לטעון לעומק שלא קיים","note":"Consider. התאמה חזקה ל-B2B SaaS, pricing/packaging, monetization, commercial strategy, analytics, customer journeys, launches ו-cross-functional execution. פערים: המשרה מבקשת deep understanding של pricing governance/discounting ועסקאות strategic/enterprise; עומק כזה אינו מאומת. Cybersecurity הוא preferred ולא חובה."}
+    {"id":"s29-1","company":"Pango","role":"Product Manager - Billing Platform","match":97,"status":"active","updated":"2026-09-29"},
+    {"id":"s29-2","company":"Zota","role":"Product Manager","match":96,"status":"active","updated":"2026-09-29"},
+    {"id":"s29-3","company":"Microsoft","role":"Product Manager II - Microsoft Education","match":94,"status":"active","updated":"2026-09-29"},
+    {"id":"s29-4","company":"QuantHealth","role":"Technical Product Manager","match":90,"status":"active","updated":"2026-09-29"},
+    {"id":"s29-5","company":"TOP SOFT","role":"Senior Product Manager","match":84,"status":"active","updated":"2026-09-29"}
   ],
   "detailUpserts": [
-    {"id":"s24-1","detail":{"fit":["CallApp for Business כולל pricing, packaging, subscriptions, paywall placement ו-monetization במוצר B2B SaaS","Tapuhi מוסיף commercial ownership, pricing, payments, budget ו-go-to-market של עסק D2C","GA4/Firebase וניתוח funnels/customer behavior תומכים בהחלטות data-informed","ניסיון E2E עם Product/Engineering ועם Marketing, Sales, Operations ותפעול השקות","B.Sc. בהנדסת תעשייה וניהול תואם לדרישת התואר האנליטי"],"gaps":["אין ניסיון מקצועי מאומת ב-cybersecurity/SASE; במודעה זה preferred ולא תנאי חובה","אין לטעון ל-deep pricing governance, discounting frameworks או enterprise deal pricing מעבר לניסיון שסופק","אין MBA; הוא Advantage בלבד"],"recommendation":"Consider"}}
+    {"id":"s29-1","cvMode":"tailored","cvReady":true},
+    {"id":"s29-2","cvMode":"tailored","cvReady":true},
+    {"id":"s29-3","cvMode":"tailored","cvReady":true},
+    {"id":"s29-4","cvMode":"tailored","cvReady":true},
+    {"id":"s29-5","cvMode":"none","cvReady":false}
   ],
   "removeJobIds": [],
   "removeDetailIds": [],

@@ -1,20 +1,13 @@
 {
-  "requestId": "pm-search-2026-09-29-full-scan",
-  "commitMessage": "Job tracker: add Sep 29 verified PM search results and CVs",
+  "requestId": "job-tracker-sync-delta-2026-09-30T212326903Z",
+  "commitMessage": "Job tracker: sync Sep 30 status changes",
   "jobUpserts": [
-    {"id":"s29-1","company":"Pango","role":"Product Manager - Billing Platform","match":97,"status":"active","updated":"2026-09-29"},
-    {"id":"s29-2","company":"Zota","role":"Product Manager","match":96,"status":"active","updated":"2026-09-29"},
-    {"id":"s29-3","company":"Microsoft","role":"Product Manager II - Microsoft Education","match":94,"status":"active","updated":"2026-09-29"},
-    {"id":"s29-4","company":"QuantHealth","role":"Technical Product Manager","match":90,"status":"active","updated":"2026-09-29"},
-    {"id":"s29-5","company":"TOP SOFT","role":"Senior Product Manager","match":84,"status":"active","updated":"2026-09-29"}
+    {"id":"s10-1","status":"inactive","updated":"2026-09-16","reason":"המשרה נסגרה","next":"","nextDate":""},
+    {"id":"s14-1","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""},
+    {"id":"s13-1","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""},
+    {"id":"s14-2","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""}
   ],
-  "detailUpserts": [
-    {"id":"s29-1","cvMode":"tailored","cvReady":true},
-    {"id":"s29-2","cvMode":"tailored","cvReady":true},
-    {"id":"s29-3","cvMode":"tailored","cvReady":true},
-    {"id":"s29-4","cvMode":"tailored","cvReady":true},
-    {"id":"s29-5","cvMode":"none","cvReady":false}
-  ],
+  "detailUpserts": [],
   "removeJobIds": [],
   "removeDetailIds": [],
   "upgradeSyncButton": false

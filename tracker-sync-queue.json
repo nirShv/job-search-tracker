@@ -1,10 +1,8 @@
 {
-  "requestId": "job-tracker-sync-delta-2026-09-30T220936908Z",
-  "commitMessage": "Job tracker: sync Sep 30 submitted statuses",
+  "requestId": "job-tracker-sync-delta-2026-09-30T221351898Z",
+  "commitMessage": "Job tracker: sync ExpressVPN submitted status",
   "jobUpserts": [
-    {"id":"s11-1","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""},
-    {"id":"s23-1","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""},
-    {"id":"s15-1","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""}
+    {"id":"s12-1","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""}
   ],
   "detailUpserts": [],
   "removeJobIds": [],

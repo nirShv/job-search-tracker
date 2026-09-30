@@ -1,11 +1,10 @@
 {
-  "requestId": "job-tracker-sync-delta-2026-09-30T212326903Z",
-  "commitMessage": "Job tracker: sync Sep 30 status changes",
+  "requestId": "job-tracker-sync-delta-2026-09-30T220936908Z",
+  "commitMessage": "Job tracker: sync Sep 30 submitted statuses",
   "jobUpserts": [
-    {"id":"s10-1","status":"inactive","updated":"2026-09-16","reason":"המשרה נסגרה","next":"","nextDate":""},
-    {"id":"s14-1","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""},
-    {"id":"s13-1","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""},
-    {"id":"s14-2","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""}
+    {"id":"s11-1","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""},
+    {"id":"s23-1","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""},
+    {"id":"s15-1","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""}
   ],
   "detailUpserts": [],
   "removeJobIds": [],

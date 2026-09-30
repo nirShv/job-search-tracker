@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/cv-publish/*.b64'
-      - '.github/cv-publish-chunks/**'
+      - '.github/cv-publish-chunks/**/.ready'
       - '.github/workflows/publish-encoded-cv.yml'
 
 permissions:
@@ -42,9 +42,9 @@ jobs:
             rm "$src"
           done
 
-          dirs=(.github/cv-publish-chunks/*.pdf)
-          for dir in "${dirs[@]}"; do
-            [ -d "$dir" ] || continue
+          ready_files=(.github/cv-publish-chunks/*.pdf/.ready)
+          for ready in "${ready_files[@]}"; do
+            dir=$(dirname "$ready")
             name=$(basename "$dir")
             parts=("$dir"/*.part)
             if [ ${#parts[@]} -eq 0 ]; then

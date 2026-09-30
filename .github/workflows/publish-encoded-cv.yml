@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/cv-publish/*.b64'
+      - '.github/cv-publish-chunks/**'
       - '.github/workflows/publish-encoded-cv.yml'
 
 permissions:
@@ -28,11 +29,8 @@ jobs:
           set -euo pipefail
           mkdir -p Applications
           shopt -s nullglob
+
           files=(.github/cv-publish/*.b64)
-          if [ ${#files[@]} -eq 0 ]; then
-            echo "No encoded CV artifacts to publish"
-            exit 0
-          fi
           for src in "${files[@]}"; do
             name=$(basename "$src" .b64)
             case "$name" in
@@ -44,15 +42,32 @@ jobs:
             rm "$src"
           done
 
+          dirs=(.github/cv-publish-chunks/*.pdf)
+          for dir in "${dirs[@]}"; do
+            [ -d "$dir" ] || continue
+            name=$(basename "$dir")
+            parts=("$dir"/*.part)
+            if [ ${#parts[@]} -eq 0 ]; then
+              echo "No chunks found for $name"
+              exit 1
+            fi
+            tmp=$(mktemp)
+            cat "${parts[@]}" > "$tmp"
+            base64 --decode "$tmp" > "Applications/$name"
+            rm "$tmp"
+            test -s "Applications/$name"
+            rm -rf "$dir"
+          done
+
       - name: Commit published CVs
         shell: bash
         run: |
-          if git diff --quiet -- Applications .github/cv-publish; then
+          if git diff --quiet -- Applications .github/cv-publish .github/cv-publish-chunks; then
             echo "No CV changes to commit"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Applications .github/cv-publish
+          git add Applications .github/cv-publish .github/cv-publish-chunks
           git commit -m "Publish tailored CV artifact"
           git push origin HEAD:main

@@ -1,8 +1,37 @@
 {
-  "requestId": "job-tracker-sync-delta-2026-09-30T221351898Z",
-  "commitMessage": "Job tracker: sync ExpressVPN submitted status",
+  "requestId": "job-search-2026-10-07-idt-horizon-001",
+  "commitMessage": "Job tracker: add verified IDT and Horizon PM roles",
   "jobUpserts": [
-    {"id":"s12-1","status":"submitted","updated":"2026-09-30","next":"להמתין לתגובה","nextDate":""}
+    {
+      "id": "oct07-idt-pos",
+      "company": "IDT Corporation / National Retail Solutions",
+      "role": "Product Manager – Mobile & Multi-Location POS",
+      "location": "Jerusalem / Minsk — hybrid, 3 office days weekly",
+      "job": "https://jobs.lever.co/idt/1472d18d-72db-40fc-84d6-66bdfc08ed71",
+      "url": "https://jobs.lever.co/idt/1472d18d-72db-40fc-84d6-66bdfc08ed71",
+      "match": 86,
+      "date": "2026-10-07",
+      "status": "active",
+      "daily": 1,
+      "updated": "2026-10-07",
+      "next": "לבדוק התאמת מיקום וניסיון Mobile PM ולהגיש אם מתאים",
+      "note": "Consider (86%). Fit: B2B/SMB SaaS, founding/building products from scratch, merchant operations, payments/integrations, discovery-to-launch, UX, analytics, engineering/design/GTM. Gaps: requires 2+ years leading mobile features (not independently verified); POS direct experience is bonus; Jerusalem hybrid three days may be less convenient. Official Lever listing verified 2026-10-07."
+    },
+    {
+      "id": "oct07-horizon-46935",
+      "company": "Horizon Technologies",
+      "role": "מנהל/ת פרויקטים ומוצר דיגיטלי – השירות הדיגיטלי והשלטון המקומי",
+      "location": "ירושלים/מודיעין — היברידי",
+      "job": "https://horizontech.co.il/שירותים/קריירה/משרה/?c=46935",
+      "url": "https://horizontech.co.il/שירותים/קריירה/משרה/?c=46935",
+      "match": 82,
+      "date": "2026-10-07",
+      "status": "active",
+      "daily": 1,
+      "updated": "2026-10-07",
+      "next": "לבחון התאמה למיקום ולניהול פרויקטים ציבוריים",
+      "note": "Consider (82%). Fit: requirements, user journeys, SDLC/Agile, backlog, APIs and integrations, UX, stakeholder management, digital services. Gaps: public-sector procurement and local government domain not verified; role has significant project-management emphasis and Jerusalem/Modiin location. Official company listing checked 2026-10-07."
+    }
   ],
   "detailUpserts": [],
   "removeJobIds": [],

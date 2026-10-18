@@ -1,29 +1,29 @@
 {
-  "requestId": "job-search-2026-10-18-wix-editor-002",
-  "commitMessage": "Add Wix Editor Platform PM role",
+  "requestId": "job-search-2026-10-18-base44-003",
+  "commitMessage": "Add Base44 Product Manager role",
   "jobUpserts": [
     {
-      "id": "oct18-wix-editor-platform",
-      "company": "Wix",
-      "role": "Product Manager – Wix Editor Platform",
+      "id": "oct18-base44-pm",
+      "company": "Base44 (Wix)",
+      "role": "Product Manager – Base44",
       "location": "Tel Aviv, Israel",
-      "job": "https://careers.wix.com/position/oracle-02bdc9c7-b3a0-5d87-8acf-81da3719210a-T1791985098-744000155520955",
-      "match": 87,
+      "job": "https://careers.wix.com/position/oracle-bae92baf-9383-54fe-b396-32fa2ce83cbf-T1791961696-744000155517674",
+      "match": 86,
       "date": "2026-10-18",
       "status": "active",
       "updated": "2026-10-18",
-      "next": "Consider: verify platform PM experience before applying",
-      "note": "Consider. Fit: 5+ years PM, B2C, APIs, AI-assisted prototyping, analytics, engineering collaboration. Gaps: dedicated infrastructure/platform PM ownership and global scale not verified."
+      "next": "Consider: assess AI/LLM product ownership gap",
+      "note": "Consider. Fit: 5+ years PM, 0-to-1 founder, APIs, Full Stack training, Cursor and AI prototyping, analytics. Gaps: direct AI/LLM/agent product ownership not verified; developer platform depth limited."
     }
   ],
   "detailUpserts": [
     {
-      "id": "oct18-wix-editor-platform",
+      "id": "oct18-base44-pm",
       "detail": {
-        "source": "Wix official careers, verified 2026-10-18",
-        "summary": "Cross-platform APIs and Wix Editor infrastructure for AI-driven commerce.",
-        "requirements": "5+ years PM, APIs/system architecture, B2C, platform PM, hands-on AI tools, global companies.",
-        "scoreExplanation": "87% Consider. Strong API/B2C/AI tools fit; no verified dedicated platform PM ownership."
+        "source": "Wix/Base44 official careers, verified 2026-10-18",
+        "summary": "Own an AI-native product from discovery to growth, including agent capabilities and integrations.",
+        "requirements": "5+ years PM, technical SaaS, hands-on AI products/LLMs, analytics, founder/builder mindset.",
+        "scoreExplanation": "86% Consider. Strong builder profile; production AI product PM requirement is not verified."
       }
     }
   ],

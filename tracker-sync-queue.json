@@ -1,29 +1,29 @@
 {
-  "requestId": "job-search-2026-10-18-base44-003",
-  "commitMessage": "Add Base44 Product Manager role",
+  "requestId": "job-search-2026-10-18-firstconnect-004",
+  "commitMessage": "Add First Connect Insurtech PM role",
   "jobUpserts": [
     {
-      "id": "oct18-base44-pm",
-      "company": "Base44 (Wix)",
-      "role": "Product Manager – Base44",
-      "location": "Tel Aviv, Israel",
-      "job": "https://careers.wix.com/position/oracle-bae92baf-9383-54fe-b396-32fa2ce83cbf-T1791961696-744000155517674",
-      "match": 86,
+      "id": "oct18-firstconnect-insurtech",
+      "company": "First Connect Insurance",
+      "role": "Senior Product Manager – Insurtech Platform",
+      "location": "Israel / Tel Aviv, hybrid, US Pacific overlap",
+      "job": "https://job-boards.greenhouse.io/firstconnectinsurance/jobs/5408489008",
+      "match": 82,
       "date": "2026-10-18",
       "status": "active",
       "updated": "2026-10-18",
-      "next": "Consider: assess AI/LLM product ownership gap",
-      "note": "Consider. Fit: 5+ years PM, 0-to-1 founder, APIs, Full Stack training, Cursor and AI prototyping, analytics. Gaps: direct AI/LLM/agent product ownership not verified; developer platform depth limited."
+      "next": "Consider: assess migrations and compliance experience",
+      "note": "Consider. Fit: B2B SaaS, product discovery, UX, API integrations, 0-to-1 product building, analytics. Gaps: required large platform migrations and compliance product experience not verified; US Pacific overlap."
     }
   ],
   "detailUpserts": [
     {
-      "id": "oct18-base44-pm",
+      "id": "oct18-firstconnect-insurtech",
       "detail": {
-        "source": "Wix/Base44 official careers, verified 2026-10-18",
-        "summary": "Own an AI-native product from discovery to growth, including agent capabilities and integrations.",
-        "requirements": "5+ years PM, technical SaaS, hands-on AI products/LLMs, analytics, founder/builder mindset.",
-        "scoreExplanation": "86% Consider. Strong builder profile; production AI product PM requirement is not verified."
+        "source": "Official Greenhouse employer posting, verified 2026-10-18",
+        "summary": "Own agency structures, roles/permissions, compliance, sign-in and account management platform.",
+        "requirements": "5+ years PM, customer discovery, migration/rearchitecture leadership, trust/compliance product, US Pacific overlap.",
+        "scoreExplanation": "82% Consider. Strong SaaS and systems thinking; missing verified major migration and compliance experience."
       }
     }
   ],

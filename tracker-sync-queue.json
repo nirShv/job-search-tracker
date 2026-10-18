@@ -1,22 +1,32 @@
 {
-  "requestId": "job-search-2026-10-18-fullpath-001",
-  "commitMessage": "Add verified Fullpath PM job",
+  "requestId": "job-search-2026-10-18-wix-editor-002",
+  "commitMessage": "Add Wix Editor Platform PM role",
   "jobUpserts": [
     {
-      "id": "oct18-fullpath-digital-ad",
-      "company": "Fullpath",
-      "role": "Product Manager – Digital Advertising",
-      "location": "Tel Aviv or Jerusalem",
-      "job": "https://www.fullpath.com/careers/co/israel-jerusalem/3D.37F-41.10D/product-manager-digital-advertising/all/",
-      "match": 89,
+      "id": "oct18-wix-editor-platform",
+      "company": "Wix",
+      "role": "Product Manager – Wix Editor Platform",
+      "location": "Tel Aviv, Israel",
+      "job": "https://careers.wix.com/position/oracle-02bdc9c7-b3a0-5d87-8acf-81da3719210a-T1791985098-744000155520955",
+      "match": 87,
       "date": "2026-10-18",
       "status": "active",
       "updated": "2026-10-18",
-      "next": "Review and apply",
-      "note": "Apply. B2B SaaS, product discovery, analytics, integrations and AI tools. No verified AdTech product or OEM compliance background."
+      "next": "Consider: verify platform PM experience before applying",
+      "note": "Consider. Fit: 5+ years PM, B2C, APIs, AI-assisted prototyping, analytics, engineering collaboration. Gaps: dedicated infrastructure/platform PM ownership and global scale not verified."
     }
   ],
-  "detailUpserts": [],
+  "detailUpserts": [
+    {
+      "id": "oct18-wix-editor-platform",
+      "detail": {
+        "source": "Wix official careers, verified 2026-10-18",
+        "summary": "Cross-platform APIs and Wix Editor infrastructure for AI-driven commerce.",
+        "requirements": "5+ years PM, APIs/system architecture, B2C, platform PM, hands-on AI tools, global companies.",
+        "scoreExplanation": "87% Consider. Strong API/B2C/AI tools fit; no verified dedicated platform PM ownership."
+      }
+    }
+  ],
   "removeJobIds": [],
   "removeDetailIds": [],
   "upgradeSyncButton": false

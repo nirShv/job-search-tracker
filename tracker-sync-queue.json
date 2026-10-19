@@ -1,19 +1,19 @@
 {
-  "requestId": "pm-search-2026-10-19-shavit-1",
-  "commitMessage": "Add Shavit AI PM",
+  "requestId": "pm-search-2026-10-19-guidde-2",
+  "commitMessage": "Add Guidde Builder PM",
   "jobUpserts": [
     {
-      "id": "oct19-shavit-ai-pm-4479030748",
-      "company": "Shavit Software",
-      "role": "AI Product Manager",
-      "location": "Tel Aviv District",
-      "job": "https://il.linkedin.com/jobs/view/ai-product-manager-at-shavit-software-4479030748",
-      "match": 82,
+      "id": "oct19-guidde-builder-pm-4821256101",
+      "company": "Guidde",
+      "role": "Builder Product Manager",
+      "location": "Tel Aviv; hybrid",
+      "job": "https://job-boards.eu.greenhouse.io/guidde/jobs/4821256101",
+      "match": 81,
       "date": "2026-10-19",
       "status": "active",
       "updated": "2026-10-19",
-      "next": "Consider: AI product experience gap",
-      "note": "Strong product delivery and AI tools; professional AI product ownership not verified."
+      "next": "Consider: enterprise and shipped AI requirements",
+      "note": "B2B SaaS, startup, discovery and UX fit; enterprise and shipped AI experience unverified."
     }
   ],
   "detailUpserts": [],

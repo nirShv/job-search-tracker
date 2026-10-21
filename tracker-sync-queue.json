@@ -1,22 +1,45 @@
 {
-  "requestId": "pm-search-2026-10-19-guidde-2",
-  "commitMessage": "Add Guidde Builder PM",
+  "requestId": "pm-search-2026-10-21-shipin-cargo-1",
+  "commitMessage": "Track ShipIn Cargo Module Product Manager",
   "jobUpserts": [
     {
-      "id": "oct19-guidde-builder-pm-4821256101",
-      "company": "Guidde",
-      "role": "Builder Product Manager",
-      "location": "Tel Aviv; hybrid",
-      "job": "https://job-boards.eu.greenhouse.io/guidde/jobs/4821256101",
-      "match": 81,
-      "date": "2026-10-19",
+      "id": "oct21-shipin-cargo-pm-4476437904",
+      "company": "ShipIn Systems",
+      "role": "Product Manager – Cargo Module",
+      "location": "Herzliya; office/hybrid arrangement for this role unconfirmed; vessel/port travel",
+      "job": "https://il.linkedin.com/jobs/view/product-manager-at-shipin-systems-4476437904",
+      "match": 85,
+      "date": "2026-10-21",
       "status": "active",
-      "updated": "2026-10-19",
-      "next": "Consider: enterprise and shipped AI requirements",
-      "note": "B2B SaaS, startup, discovery and UX fit; enterprise and shipped AI experience unverified."
+      "updated": "2026-10-21",
+      "next": "Consider: verify mandatory hardware+SaaS product experience and willingness for port/vessel visits",
+      "note": "85% Consider. B2B product execution, PRDs/backlog, discovery, analytics, AI tools, engineering/operations background fit. Gap: no verified PM ownership of integrated hardware+SaaS products; maritime experience absent."
     }
   ],
-  "detailUpserts": [],
+  "detailUpserts": [
+    {
+      "id": "oct21-shipin-cargo-pm-4476437904",
+      "detail": {
+        "source": "ShipIn Systems LinkedIn job 4476437904, checked 2026-10-21",
+        "summary": "Own Cargo Module roadmap execution, backlog, PRDs, customer validation, release planning and KPI tracking across vessel segments.",
+        "requirements": "2–4 years PM in multidisciplinary B2B products combining hardware and SaaS; hands-on customer/field validation; travel to ports and vessels; technical/analytical degree.",
+        "why": [
+          "B2B SaaS end-to-end PM execution",
+          "Requirements, PRDs, prioritization and delivery with R&D and UX",
+          "Analytics, KPI-driven optimization and customer discovery",
+          "Industrial engineering and HP Indigo operations/logistics background",
+          "Hands-on use of AI tools"
+        ],
+        "gaps": [
+          "Required hardware+SaaS product management experience is not verified",
+          "Maritime domain experience not documented",
+          "On-site vessel/port visits and travel required"
+        ],
+        "scoreExplanation": "85% Consider: strong product/delivery and industrial operations fit; key hardware+SaaS PM requirement unverified.",
+        "recommendation": "Consider; no CV automatically below 90%."
+      }
+    }
+  ],
   "removeJobIds": [],
   "removeDetailIds": [],
   "upgradeSyncButton": false

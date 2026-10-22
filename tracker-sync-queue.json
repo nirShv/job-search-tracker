@@ -1,35 +1,43 @@
 {
-  "requestId": "pm-search-2026-10-22-two-openings-v2",
-  "commitMessage": "Add two PM opportunities",
-  "jobUpserts": [
+  "requestId": "pm-search-2026-10-22-detail-short",
+  "commitMessage": "Add job detail summaries",
+  "jobUpserts": [],
+  "detailUpserts": [
     {
       "id": "oct22-trullion-pm-4480271184",
-      "company": "Trullion",
-      "role": "Product Manager – Lease Accounting & AI",
-      "location": "Tel Aviv, hybrid 3 office days/week",
-      "job": "https://trullion.com/careers/co/tel-aviv/78.37C/product-manager/all/",
-      "match": 84,
-      "date": "2026-10-22",
-      "status": "active",
-      "updated": "2026-10-22",
-      "next": "Consider: verify AI product and lease accounting requirements",
-      "note": "B2B SaaS, discovery, delivery and analytics fit; no verified AI production PM or lease accounting experience."
+      "detail": {
+        "summary": "B2B SaaS accounting and AI product; 4+ years PM; hybrid 3 office days",
+        "why": [
+          "PM lifecycle",
+          "B2B SaaS",
+          "APIs",
+          "Analytics"
+        ],
+        "gaps": [
+          "Production AI experience",
+          "Lease accounting"
+        ],
+        "recommendation": "Consider"
+      }
     },
     {
       "id": "oct22-finout-technical-pm-4481255562",
-      "company": "Finout",
-      "role": "Technical Product Manager – Enrichment",
-      "location": "Tel Aviv District, hybrid",
-      "job": "https://il.linkedin.com/jobs/view/technical-product-manager-at-finout-4481255562",
-      "match": 81,
-      "date": "2026-10-22",
-      "status": "active",
-      "updated": "2026-10-22",
-      "next": "Consider: verify Kubernetes and cloud cost domain requirements",
-      "note": "B2B SaaS, APIs, analytics, AI prototyping fit; missing Kubernetes and cloud FinOps product depth."
+      "detail": {
+        "summary": "Cloud cost attribution and technical data products; 3+ years PM",
+        "why": [
+          "Technical PM",
+          "APIs",
+          "Analytics",
+          "AI prototyping"
+        ],
+        "gaps": [
+          "Kubernetes expertise",
+          "FinOps experience"
+        ],
+        "recommendation": "Consider"
+      }
     }
   ],
-  "detailUpserts": [],
   "removeJobIds": [],
   "removeDetailIds": [],
   "upgradeSyncButton": false

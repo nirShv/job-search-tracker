@@ -1,157 +1,46 @@
 {
-  "requestId": "pm-search-2026-10-25-4jobs-unipaas-dedup",
-  "commitMessage": "Track four PM roles and merge Unipaas duplicate",
+  "requestId": "pm-search-2026-10-26-render-growth-3d590080",
+  "commitMessage": "Track monday.com render.ai Growth Product Manager (Oct 26)",
   "jobUpserts": [
     {
-      "id": "oct25-connecteam-website-pm-6227878004",
-      "company": "Connecteam",
-      "role": "Website Product Manager",
-      "location": "Tel Aviv District, hybrid",
-      "job": "https://connecteam.com/careers/6227878004/",
-      "match": 92,
-      "date": "2026-10-25",
-      "status": "cv_requested",
-      "updated": "2026-10-25",
-      "next": "CV DOCX/PDF created and saved in ChatGPT Library; GitHub PDF publication and link pending",
-      "note": "Apply (92). B2B SaaS, WordPress/WooCommerce, web journeys, mobile-first UX, GA4/Firebase, conversion optimization and AI prototyping. Gaps: formal A/B testing and large-scale web SEO/page-speed ownership not verified."
-    },
-    {
-      "id": "oct25-optibus-rail-0to1-senior-pm",
-      "company": "Optibus",
-      "role": "Senior Product Manager, Rail (0→1)",
-      "location": "Israel, hybrid (3 days office)",
-      "job": "https://optibus.com/company/careers/jobs/co/product/85.471/senior-product-manager-rail0%E2%86%921/",
-      "match": 91,
-      "date": "2026-10-25",
-      "status": "cv_requested",
-      "updated": "2026-10-25",
-      "next": "CV DOCX/PDF created and saved in ChatGPT Library; GitHub PDF publication and link pending",
-      "note": "Apply (91). Built D2C product from zero to paying customers, B2B SaaS ownership, discovery, MVP, Figma/Cursor prototyping, GTM and operations. Gaps: no rail/transit domain experience; senior B2B SaaS PM tenure is near the minimum."
-    },
-    {
-      "id": "oct25-applied-ai-transformation-r2630808",
-      "company": "Applied Materials – Israel",
-      "role": "AI Transformation Product Manager",
-      "location": "Rehovot, Israel (work model not specified)",
-      "job": "https://jobs.appliedmaterials.com/job/rehovot/ai-transformation-product-manager/95/102322209472",
-      "match": 88,
-      "date": "2026-10-23",
-      "status": "active",
-      "updated": "2026-10-25",
-      "next": "Apply: emphasize HP Indigo data-driven operations, project delivery, and hands-on AI tools; no automatic CV below 90",
-      "note": "Apply (88). Industrial engineering, HP Indigo process analytics, stakeholder coordination, technical projects, metrics and Cursor prototyping. Gaps: enterprise GenAI transformation ownership and extracting data directly from ticketing systems not verified. Job ID R2630808, posted 2026-10-23."
-    },
-    {
-      "id": "oct25-nym-clinical-coding-pm",
-      "company": "Nym Health",
-      "role": "Product Manager – Clinical Coding, Revenue Cycle, AI",
-      "location": "Tel Aviv, on-site",
-      "job": "https://nym.health/job/co/tlv/13.471/product-manager-clinical-coding-revenue-cycle-ai/all/",
+      "id": "oct26-monday-render-growth-pm-99f55839",
+      "company": "monday.com (render.ai)",
+      "role": "Growth Product Manager",
+      "location": "Tel Aviv, hybrid (company general policy: usually 3 days in office)",
+      "job": "https://jobs.ashbyhq.com/monday.com/99f55839-e6b8-41e4-8c86-0f3e1082c256/application",
       "match": 82,
-      "date": "2026-10-21",
+      "date": "2026-10-25",
       "status": "active",
-      "updated": "2026-10-25",
-      "next": "Consider: assess domain ramp-up and AI/ML product experience requirements",
-      "note": "Consider (82). 5+ years relevant PM, complex workflows, B2B SaaS, APIs, data analysis, healthcare systems exposure. Gaps: clinical coding/US revenue cycle expertise and production AI model evaluation experience not verified."
-    },
-    {
-      "id": "s15-1",
-      "job": "https://www.unipaas.com/careers/product-manager",
-      "date": "2026-09-05",
-      "location": "Tel Aviv, hybrid"
+      "updated": "2026-10-26",
+      "next": "Consider: review 5+ years specialized growth ownership, SQL and experimentation requirements before applying; no automatic CV below 90",
+      "note": "Consider (82). Relevant self-serve onboarding, activation, subscription/paywall packaging and pricing, website/signup ownership, GA4 funnels, and Tapuhi 0-to-1. Gaps: 5+ years specifically in growth PM with measurable revenue impact, own SQL plus Mixpanel/Amplitude/PostHog, formal A/B tests and measurable referral loops not verified."
     }
   ],
   "detailUpserts": [
     {
-      "id": "oct25-connecteam-website-pm-6227878004",
+      "id": "oct26-monday-render-growth-pm-99f55839",
       "detail": {
-        "source": "Official Connecteam careers, checked 2026-10-25; job ID 6227878004",
-        "summary": "Website Product Manager in Marketing; website strategy, WordPress, conversion funnels, performance, SEO and AI tools; Tel Aviv hybrid",
-        "requirements": "3+ years website management or digital SaaS product ownership; WordPress/plugins/templates/integrations; CRO, GA4-type analytics, HTML/CSS, SEO/page speed; A/B testing responsibilities",
+        "source": "Official monday.com Ashby application 99f55839-e6b8-41e4-8c86-0f3e1082c256; job posted 2026-10-25 per OlehJobs, checked 2026-10-26; LinkedIn ID 4483388046",
+        "summary": "Growth PM for render.ai, monday.com's AI venture; own activation, monetization, plan packaging, website/pricing/signup messaging, feature discovery, expansion and growth experiments.",
+        "requirements": "5+ years in growth PM at self-serve product with measurable revenue impact; paywalls/pricing/trials; onboarding/activation; persona segmentation; referral growth loops; SQL and Mixpanel/Amplitude/PostHog; formal experiments and statistical judgment; specs and feature flags.",
         "why": [
-          "B2B SaaS product and web onboarding ownership",
-          "Hands-on WordPress/WooCommerce, Contact Form 7 and ACF",
-          "GA4/Firebase funnels, mobile-first UX and conversion improvements",
-          "Cross-functional web delivery and eCommerce from zero",
-          "Cursor and AI-assisted web prototyping"
+          "CallApp for Business: signup-to-activation journey, paywall and subscription plans",
+          "Hands-on GA4/Firebase funnel instrumentation and data-informed optimization",
+          "WordPress/WooCommerce and website, pricing, signup UX ownership",
+          "Tapuhi: 0-to-1 self-serve digital product and commercial launch",
+          "Jira/Figma, cross-functional delivery and Cursor-assisted prototyping"
         ],
         "gaps": [
-          "Formal A/B experimentation track record not verified",
-          "Enterprise-scale website architecture, SEO and page-speed ownership not fully established"
-        ],
-        "recommendation": "Apply",
-        "scoreExplanation": "92%: unusually close match to web product, WordPress, CRO and SaaS requirements; CV ready locally but publication pending."
-      }
-    },
-    {
-      "id": "oct25-optibus-rail-0to1-senior-pm",
-      "detail": {
-        "source": "Official Optibus careers, checked 2026-10-25; role advertised around 2026-10-22",
-        "summary": "Build Rail planning product from zero to one; discovery, design partners, MVP, first customers, GTM, roadmaps and AI-assisted prototyping",
-        "requirements": "5-7+ years senior PM; 3+ B2B SaaS; proven zero-to-one paying customers; Figma/prototyping; AI tools; hybrid 3 office days",
-        "why": [
-          "Tapuhi 0-to-1 product and paying customers",
-          "CallApp B2B SaaS product ownership and full lifecycle",
-          "Discovery, roadmap, requirements, MVP and cross-functional execution",
-          "Figma/Cursor prototyping and AI-assisted workflows",
-          "HP Indigo operations and logistics domain familiarity"
-        ],
-        "gaps": [
-          "No rail/transit planning domain experience documented",
-          "Senior-level B2B SaaS tenure near minimum"
-        ],
-        "recommendation": "Apply",
-        "scoreExplanation": "91%: strong builder/0-to-1 match, B2B SaaS and AI prototyping; CV ready locally but publication pending."
-      }
-    },
-    {
-      "id": "oct25-applied-ai-transformation-r2630808",
-      "detail": {
-        "source": "Applied Materials official careers; posted 2026-10-23; job ID R2630808",
-        "summary": "Internal AI transformation product and program execution, adoption metrics, stakeholder feedback and productivity playbooks",
-        "requirements": "B.Sc.; 8+ years professional experience and project management; technical transformation background; metrics and data extraction from systems; hands-on GenAI prototyping",
-        "why": [
-          "Industrial Engineering B.Sc. and HP Indigo analytics background",
-          "Cross-functional project management and operational improvements",
-          "Hands-on Cursor and AI prototypes",
-          "GA4/Firebase KPIs, dashboards and data-informed decisions",
-          "Requirements and delivery with Engineering and stakeholders"
-        ],
-        "gaps": [
-          "Enterprise-wide GenAI adoption/transformation track record not verified",
-          "Direct extraction from ticketing systems and deep R&D tooling not verified"
-        ],
-        "recommendation": "Apply",
-        "scoreExplanation": "88%: strong cross-functional and analytical fit, but specialized internal AI transformation and systems extraction gaps."
-      }
-    },
-    {
-      "id": "oct25-nym-clinical-coding-pm",
-      "detail": {
-        "source": "Official Nym Health careers, checked 2026-10-25; listings published around 2026-10-19 to 21",
-        "summary": "PM for AI clinical coding and medical revenue cycle; requirements, engineering/AI research, backlog, performance metrics and rollout",
-        "requirements": "4+ PM in complex software/data; technical degree; healthcare coding and AI quality evaluation advantageous",
-        "why": [
-          "5+ years relevant PM and end-to-end delivery",
-          "Experience with complex business workflows and APIs",
-          "Data-driven product decisions and analytics",
-          "Medical systems project management background",
-          "Technical foundation from Full Stack training"
-        ],
-        "gaps": [
-          "No clinical coding, ICD/CPT or US revenue cycle expertise",
-          "No verified AI/ML production product or model-quality evaluation experience"
+          "No verified 5+ years specifically owning growth PM with measured revenue impact",
+          "No verified independent SQL, Mixpanel, Amplitude or PostHog usage",
+          "Formal A/B testing/statistical experimentation and referral loop outcomes not documented"
         ],
         "recommendation": "Consider",
-        "scoreExplanation": "82%: product/process skills transferable; healthcare coding and AI engine specialization material."
+        "scoreExplanation": "82%: highly relevant activation/paywall/web growth surface, but multiple explicit hard requirements lack verified evidence; not eligible for automatic CV."
       }
     }
   ],
-  "removeJobIds": [
-    "s05-5"
-  ],
-  "removeDetailIds": [
-    "s05-5"
-  ],
+  "removeJobIds": [],
+  "removeDetailIds": [],
   "upgradeSyncButton": false
 }

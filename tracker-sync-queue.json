@@ -1,42 +1,43 @@
 {
-  "requestId": "pm-search-2026-10-26-render-growth-3d590080",
-  "commitMessage": "Track monday.com render.ai Growth Product Manager (Oct 26)",
+  "requestId": "pm-search-2026-10-27-navan-flights-0ccd530c",
+  "commitMessage": "Track Navan Senior Product Manager Flights (Oct 27)",
   "jobUpserts": [
     {
-      "id": "oct26-monday-render-growth-pm-99f55839",
-      "company": "monday.com (render.ai)",
-      "role": "Growth Product Manager",
-      "location": "Tel Aviv, hybrid (company general policy: usually 3 days in office)",
-      "job": "https://jobs.ashbyhq.com/monday.com/99f55839-e6b8-41e4-8c86-0f3e1082c256/application",
+      "id": "oct27-navan-senior-pm-flights-4483581577",
+      "company": "Navan",
+      "role": "Senior Product Manager – Flights (Navan Edge)",
+      "location": "Tel Aviv; hybrid (company policy: 4 office days/week)",
+      "job": "https://il.linkedin.com/jobs/view/senior-product-manager-flights-at-navan-4483581577",
       "match": 82,
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "status": "active",
-      "updated": "2026-10-26",
-      "next": "Consider: review 5+ years specialized growth ownership, SQL and experimentation requirements before applying; no automatic CV below 90",
-      "note": "Consider (82). Relevant self-serve onboarding, activation, subscription/paywall packaging and pricing, website/signup ownership, GA4 funnels, and Tapuhi 0-to-1. Gaps: 5+ years specifically in growth PM with measurable revenue impact, own SQL plus Mixpanel/Amplitude/PostHog, formal A/B tests and measurable referral loops not verified."
+      "updated": "2026-10-27",
+      "next": "Consider: verify travel domain and formal experimentation expectations; no automatic CV below 90",
+      "note": "Consider (82). Fits B2C/self-serve SaaS PM, customer journeys, conversion funnels, checkout/payments integrations, analytics and cross-functional delivery. Gaps: no verified flight/OTA domain, formal A/B experimentation or production agentic booking experience. 4 office days/week."
     }
   ],
   "detailUpserts": [
     {
-      "id": "oct26-monday-render-growth-pm-99f55839",
+      "id": "oct27-navan-senior-pm-flights-4483581577",
       "detail": {
-        "source": "Official monday.com Ashby application 99f55839-e6b8-41e4-8c86-0f3e1082c256; job posted 2026-10-25 per OlehJobs, checked 2026-10-26; LinkedIn ID 4483388046",
-        "summary": "Growth PM for render.ai, monday.com's AI venture; own activation, monetization, plan packaging, website/pricing/signup messaging, feature discovery, expansion and growth experiments.",
-        "requirements": "5+ years in growth PM at self-serve product with measurable revenue impact; paywalls/pricing/trials; onboarding/activation; persona segmentation; referral growth loops; SQL and Mixpanel/Amplitude/PostHog; formal experiments and statistical judgment; specs and feature flags.",
+        "source": "Navan LinkedIn job 4483581577 checked 2026-10-27; JobRise Greenhouse listing 8314104 posted 2026-10-26; Built In current job 11875983",
+        "summary": "Own the Navan Edge flight booking journey from search to checkout and post-booking, including AI-assisted recommendations, ranking, personalization and conversion.",
+        "requirements": "5+ years PM in consumer, marketplace, travel, e-commerce, AI or SaaS; strong conversion funnel optimization, behavioral analytics and experimentation; agentic AI product thinking; travel/flight experience strongly preferred.",
         "why": [
-          "CallApp for Business: signup-to-activation journey, paywall and subscription plans",
-          "Hands-on GA4/Firebase funnel instrumentation and data-informed optimization",
-          "WordPress/WooCommerce and website, pricing, signup UX ownership",
-          "Tapuhi: 0-to-1 self-serve digital product and commercial launch",
-          "Jira/Figma, cross-functional delivery and Cursor-assisted prototyping"
+          "CallApp for Business: B2B/B2C self-service onboarding, activation and monetization journeys",
+          "Tapuhi: 0-to-1 e-commerce and end-to-end customer experience",
+          "API integrations including payment, CRM and invoicing flows",
+          "GA4/Firebase measurement, conversion funnel analysis and optimization",
+          "Jira/Figma delivery, cross-functional leadership and hands-on AI prototyping"
         ],
         "gaps": [
-          "No verified 5+ years specifically owning growth PM with measured revenue impact",
-          "No verified independent SQL, Mixpanel, Amplitude or PostHog usage",
-          "Formal A/B testing/statistical experimentation and referral loop outcomes not documented"
+          "No verified flight, airline, OTA or travel marketplace product experience (strong preference)",
+          "Formal A/B experiment design and statistical test outcomes not documented",
+          "No verified production agentic booking/recommendation product ownership",
+          "Hybrid company policy involves four office days weekly"
         ],
         "recommendation": "Consider",
-        "scoreExplanation": "82%: highly relevant activation/paywall/web growth surface, but multiple explicit hard requirements lack verified evidence; not eligible for automatic CV."
+        "scoreExplanation": "82%: relevant consumer funnel, checkout, SaaS and AI tooling experience, but important travel-specific, experimentation and agentic product gaps."
       }
     }
   ],

@@ -1,43 +1,75 @@
 {
-  "requestId": "pm-search-2026-10-27-navan-flights-0ccd530c",
-  "commitMessage": "Track Navan Senior Product Manager Flights (Oct 27)",
+  "requestId": "pm-search-2026-10-28-hp-malam-03526222",
+  "commitMessage": "Track HP Digital Printing and Malam Product Manager roles (Oct 28)",
   "jobUpserts": [
     {
-      "id": "oct27-navan-senior-pm-flights-4483581577",
-      "company": "Navan",
-      "role": "Senior Product Manager – Flights (Navan Edge)",
-      "location": "Tel Aviv; hybrid (company policy: 4 office days/week)",
-      "job": "https://il.linkedin.com/jobs/view/senior-product-manager-flights-at-navan-4483581577",
+      "id": "oct28-hp-digital-printing-pm-3169166",
+      "company": "HP",
+      "role": "Product Manager – Digital Printing Systems",
+      "location": "Ness Ziona, Israel; full-time (work model not specified)",
+      "job": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Ness-Ziona-Center-District-Israel/Product-Manager---Digital-Printing-Systems_3169166-1",
       "match": 82,
-      "date": "2026-10-26",
+      "date": "2026-10-27",
       "status": "active",
-      "updated": "2026-10-27",
-      "next": "Consider: verify travel domain and formal experimentation expectations; no automatic CV below 90",
-      "note": "Consider (82). Fits B2C/self-serve SaaS PM, customer journeys, conversion funnels, checkout/payments integrations, analytics and cross-functional delivery. Gaps: no verified flight/OTA domain, formal A/B experimentation or production agentic booking experience. 4 office days/week."
+      "updated": "2026-10-28",
+      "next": "Consider: assess mandatory multidisciplinary hardware product ownership; HP Indigo background is relevant but not equivalent",
+      "note": "Consider (82). Direct prior HP Indigo manufacturing/warehouse/production context, statistical Kit Replacement project, B2B product delivery, cross-functional requirements and Industrial Engineering degree. Gaps: no verified ownership of hardware-based product roadmap, global industrial equipment P&L, product launches or hardware product management; work mode unknown."
+    },
+    {
+      "id": "oct28-malam-systems-pm-drushim-38603766",
+      "company": "Malam מערכות",
+      "role": "Product Manager – Technical Software",
+      "location": "Tel Aviv, hybrid; near train",
+      "job": "https://www.drushim.co.il/job/38603766/eb4fcf1a/",
+      "match": 86,
+      "date": "2026-10-25",
+      "status": "active",
+      "updated": "2026-10-28",
+      "next": "Apply: verify whether approximately 5 years of PM including Tapuhi and CallApp meets strict 'more than 5 years' requirement",
+      "note": "Apply (86). End-to-end PM, PRDs, technical and functional requirements, roadmap, Agile/Jira, Engineering/UX and stakeholder work, analytics, strong English, BSc Industrial Engineering and Full Stack background. Gap: advert explicitly asks MORE than 5 years of PM; approximately 5 years including entrepreneurial product ownership may be borderline; hiring client/domain not identified."
     }
   ],
   "detailUpserts": [
     {
-      "id": "oct27-navan-senior-pm-flights-4483581577",
+      "id": "oct28-hp-digital-printing-pm-3169166",
       "detail": {
-        "source": "Navan LinkedIn job 4483581577 checked 2026-10-27; JobRise Greenhouse listing 8314104 posted 2026-10-26; Built In current job 11875983",
-        "summary": "Own the Navan Edge flight booking journey from search to checkout and post-booking, including AI-assisted recommendations, ranking, personalization and conversion.",
-        "requirements": "5+ years PM in consumer, marketplace, travel, e-commerce, AI or SaaS; strong conversion funnel optimization, behavioral analytics and experimentation; agentic AI product thinking; travel/flight experience strongly preferred.",
+        "source": "HP Workday job requisition 3169166; JobRise first posted 2026-10-27; TheJobsMap description checked 2026-10-28",
+        "summary": "End-to-end accountability for complex digital printing systems, product investment decisions, B2B market and customer insight, roadmaps, multidisciplinary hardware/software product delivery, trials and launch.",
+        "requirements": "Proven product management of multidisciplinary hardware-based technology products; industrial equipment or integrated hardware/software product and new launch experience; market sizing, P&L, cross-functional sales/marketing; engineering degree an advantage.",
         "why": [
-          "CallApp for Business: B2B/B2C self-service onboarding, activation and monetization journeys",
-          "Tapuhi: 0-to-1 e-commerce and end-to-end customer experience",
-          "API integrations including payment, CRM and invoicing flows",
-          "GA4/Firebase measurement, conversion funnel analysis and optimization",
-          "Jira/Figma delivery, cross-functional leadership and hands-on AI prototyping"
+          "Direct prior experience at HP Indigo across warehouse, production line and finished goods interfaces",
+          "Kit Replacement project: statistically analyzed production line service calls and improved spare-parts availability",
+          "B2B SaaS product discovery, requirements, prioritization, execution and launch experience",
+          "BSc Industrial Engineering and Management and strong cross-functional process optimization experience"
         ],
         "gaps": [
-          "No verified flight, airline, OTA or travel marketplace product experience (strong preference)",
-          "Formal A/B experiment design and statistical test outcomes not documented",
-          "No verified production agentic booking/recommendation product ownership",
-          "Hybrid company policy involves four office days weekly"
+          "No verified product management ownership of a multidisciplinary hardware-based product (central requirement)",
+          "No verified global equipment P&L, investment decisions or hardware product launch ownership",
+          "Work model is not stated; prior HP Indigo role was operations/project rather than hardware PM"
         ],
         "recommendation": "Consider",
-        "scoreExplanation": "82%: relevant consumer funnel, checkout, SaaS and AI tooling experience, but important travel-specific, experimentation and agentic product gaps."
+        "scoreExplanation": "82%: uniquely relevant HP Indigo domain and product/project capabilities, but a significant hardware PM requirement gap."
+      }
+    },
+    {
+      "id": "oct28-malam-systems-pm-drushim-38603766",
+      "detail": {
+        "source": "Drushim IL Malam מערכות job 38603766 posted 2026-10-25; Alion verified Oct 2026",
+        "summary": "Technical Product Manager, end-to-end software product definition and launch, functional/technical specs, roadmap, data analysis, UX, engineering, marketing and internal customer collaboration.",
+        "requirements": "More than five years as Product Manager; technical software development understanding; Agile and engineering collaboration; strong interpersonal skills and English.",
+        "why": [
+          "Approximately five years of relevant PM ownership across CallApp for Business and Tapuhi",
+          "Product discovery, functional requirements, PRDs, roadmap and Agile/Jira execution",
+          "Engineering, UX and business stakeholders plus APIs and integration background",
+          "Industrial Engineering BSc, Full Stack coursework and strong English",
+          "Data-driven product optimization with GA4/Firebase and SQL"
+        ],
+        "gaps": [
+          "Explicitly more than five years PM required; documented experience is approximately five including Tapuhi",
+          "Actual client/product domain not specified in listing"
+        ],
+        "recommendation": "Apply",
+        "scoreExplanation": "86%: strong core product and technical execution fit, with a borderline years-of-experience threshold."
       }
     }
   ],

@@ -1,40 +1,42 @@
 {
-  "requestId": "pm-search-2026-11-01-elad-38624134-dce45cf3",
-  "commitMessage": "Track Elad Software enterprise product role (Nov 1)",
+  "requestId": "pm-search-2026-11-09-similarweb-8273657-8769bab2",
+  "commitMessage": "Track Similarweb AI Transformation Product Manager (Nov 9)",
   "jobUpserts": [
     {
-      "id": "nov01-elad-product-manager-38624134",
-      "company": "Elad Software",
-      "role": "מנהל/ת מוצר טכנולוגי – מערכות מידע מורכבות",
-      "location": "Jerusalem, Israel; hybrid (days not specified)",
-      "job": "https://www.drushim.co.il/job/38624134/c4af2ebf/",
-      "match": 84,
-      "date": "2026-10-31",
+      "id": "nov09-similarweb-ai-transformation-pm-8273657",
+      "company": "Similarweb",
+      "role": "Product Manager – AI Transformation",
+      "location": "Tel Aviv, Israel; 3 days/week in office",
+      "job": "https://job-boards.greenhouse.io/similarweb/jobs/8273657",
+      "match": 88,
+      "date": "2026-11-09",
       "status": "active",
-      "updated": "2026-11-01",
-      "next": "Consider: confirm Jerusalem hybrid schedule and whether enterprise PM experience is mandatory beyond relevant project experience",
-      "note": "Consider (84). Strong end-to-end product discovery, PRDs, roadmaps, backlog, Agile, integrations, business systems and Industrial Engineering education. Gaps: 4+ years specifically managing complex enterprise IS products within large organizations not fully verified; Jerusalem commute."
+      "updated": "2026-11-09",
+      "next": "Apply: verify practical LLM/agents and analytics depth; tailor CV on request (score below 90)",
+      "note": "Apply (88). 4+ years PM, 0-to-1 business building, workflow discovery, SaaS, APIs, AI-assisted Cursor prototyping, cross-functional delivery and ROI orientation. Gaps: no verified AI-agent product launched in production; limited documented BI tools and advanced LLM architecture. Posting date not independently confirmed; verified live Nov 9."
     }
   ],
   "detailUpserts": [
     {
-      "id": "nov01-elad-product-manager-38624134",
+      "id": "nov09-similarweb-ai-transformation-pm-8273657",
       "detail": {
-        "source": "Elad Software Drushim job 38624134, verified 2026-11-01",
-        "summary": "Lead complex enterprise information-system product from strategy and business requirements to development, deployment, and optimization; coordinate architecture, engineering, UX, QA and senior stakeholders.",
-        "requirements": "Relevant academic degree; 4+ years technological product management emphasizing complex information systems and large organizations; full lifecycle launches; functional specifications, backlog, Agile, enterprise integration and stakeholder leadership.",
+        "source": "Similarweb Greenhouse job 8273657, verified live 2026-11-09; posting date not displayed",
+        "summary": "Internal AI transformation PM: discover and redesign workflows, prototype AI/agents/API automations, pilot and scale solutions across sales, finance, operations and other business functions.",
+        "requirements": "4+ years PM; 0-to-1 products preferred; discovery; AI-native tooling and independent prototyping; understanding of LLMs, agents, APIs, automation, data; business ROI; cross-functional stakeholder work; 3 days in Tel Aviv office; application asks for BI/SQL self-rating.",
         "why": [
-          "Approximately five years relevant PM across Tapuhi and CallApp for Business",
-          "Hands-on PRDs, backlog, roadmap, Agile and cross-functional delivery",
-          "Experience with APIs and integrations across payments, CRM and invoicing",
-          "Industrial Engineering & Management degree and HP Indigo business-process background"
+          "About five years PM across Tapuhi and CallApp for Business",
+          "Built business and product from zero at Tapuhi, including business-process discovery",
+          "Hands-on APIs and integrations across CRM, payments and invoicing",
+          "Uses Cursor and other AI-assisted tools to prototype; full-stack background",
+          "Experience with GA4/Firebase analytics and cross-functional product delivery"
         ],
         "gaps": [
-          "No fully verified four years specifically owning enterprise information systems as PM in large organizations",
-          "Jerusalem commute and exact hybrid days need confirmation"
+          "Production deployment of LLM/agent systems not verified",
+          "Advanced BI tools and depth of LLM/agent architecture not verified",
+          "Date of initial posting not independently confirmed"
         ],
-        "recommendation": "Consider",
-        "scoreExplanation": "84%: strong functional and technical product overlap; enterprise-scale PM requirement and location reduce confidence."
+        "recommendation": "Apply",
+        "scoreExplanation": "88%: unusually strong builder/process/AI tooling overlap; missing proven production agent deployments and BI depth keep score below 90."
       }
     }
   ],

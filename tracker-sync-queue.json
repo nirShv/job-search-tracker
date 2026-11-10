@@ -1,42 +1,111 @@
 {
-  "requestId": "pm-search-2026-11-09-similarweb-8273657-8769bab2",
-  "commitMessage": "Track Similarweb AI Transformation Product Manager (Nov 9)",
+  "requestId": "pm-search-2026-11-10-walkme-fullpath-huskeys-f39792a0",
+  "commitMessage": "Track three relevant PM roles discovered Nov 10",
   "jobUpserts": [
     {
-      "id": "nov09-similarweb-ai-transformation-pm-8273657",
-      "company": "Similarweb",
-      "role": "Product Manager – AI Transformation",
-      "location": "Tel Aviv, Israel; 3 days/week in office",
-      "job": "https://job-boards.greenhouse.io/similarweb/jobs/8273657",
-      "match": 88,
-      "date": "2026-11-09",
+      "id": "nov10-walkme-product-manager-4a69295b",
+      "company": "WalkMe",
+      "role": "Product Manager",
+      "location": "Tel Aviv, Israel — hybrid",
+      "job": "https://jobs.lever.co/walkme/4a69295b-7007-46e9-8c47-f642ac0c9d5a",
+      "match": 89,
+      "date": "2026-11-10",
       "status": "active",
-      "updated": "2026-11-09",
-      "next": "Apply: verify practical LLM/agents and analytics depth; tailor CV on request (score below 90)",
-      "note": "Apply (88). 4+ years PM, 0-to-1 business building, workflow discovery, SaaS, APIs, AI-assisted Cursor prototyping, cross-functional delivery and ROI orientation. Gaps: no verified AI-agent product launched in production; limited documented BI tools and advanced LLM architecture. Posting date not independently confirmed; verified live Nov 9."
+      "updated": "2026-11-10",
+      "next": "Apply: tailor CV on request (score below 90); verify vacancy and AI feature ownership with recruiter",
+      "note": "Apply (89). B2B SaaS PM 3+ years, discovery to launch, roadmap, customer-facing requirements, analytics, cross-functional delivery, technical background and hands-on AI tools. Gap: production AI-driven features not verified; CS degree preferred not held. Listed Nov 5; direct Lever URL returned 403 to crawler. Distinct from previously rejected WalkMe PLG role."
+    },
+    {
+      "id": "nov10-fullpath-activation-52-27e",
+      "company": "Fullpath",
+      "role": "Product Manager – Activation",
+      "location": "Tel Aviv or Jerusalem, Israel; work model unconfirmed",
+      "job": "https://www.fullpath.com/careers/co/israel-tel-aviv/52.27E/product-manager-activation/all/",
+      "match": 83,
+      "date": "2026-11-10",
+      "status": "active",
+      "updated": "2026-11-10",
+      "next": "Consider: verify ownership of campaign/messaging platforms and US customer exposure before applying",
+      "note": "Consider (83). B2B SaaS lifecycle, discovery/specification, APIs and CRM/payment integrations, analytics, customer engagement and GTM. Gaps: must-have ownership of scaled email/SMS or audience orchestration platform and US customer experience not verified. Discovered Nov 5; distinct from existing Fullpath Digital Advertising role."
+    },
+    {
+      "id": "nov10-huskeys-platform-experience-2eecb99f",
+      "company": "Huskeys",
+      "role": "Product Manager, Platform Experience",
+      "location": "Tel Aviv, Israel; work model unconfirmed",
+      "job": "https://jobs.ashbyhq.com/huskeys/2eecb99f-1de1-45f3-8276-aba55ce22bd5",
+      "match": 81,
+      "date": "2026-11-10",
+      "status": "active",
+      "updated": "2026-11-10",
+      "next": "Consider only if cybersecurity/networking product background requirement is flexible",
+      "note": "Consider (81). B2B SaaS, startup ownership, technical specifications, UX simplification, analytics, customer discovery, daily AI prototyping. Major gap: job explicitly requires cybersecurity/networking/infrastructure product experience, not verified. Posted Nov 3; different role from prior Huskeys GTM Operations Engineer submission."
     }
   ],
   "detailUpserts": [
     {
-      "id": "nov09-similarweb-ai-transformation-pm-8273657",
+      "id": "nov10-walkme-product-manager-4a69295b",
       "detail": {
-        "source": "Similarweb Greenhouse job 8273657, verified live 2026-11-09; posting date not displayed",
-        "summary": "Internal AI transformation PM: discover and redesign workflows, prototype AI/agents/API automations, pilot and scale solutions across sales, finance, operations and other business functions.",
-        "requirements": "4+ years PM; 0-to-1 products preferred; discovery; AI-native tooling and independent prototyping; understanding of LLMs, agents, APIs, automation, data; business ROI; cross-functional stakeholder work; 3 days in Tel Aviv office; application asks for BI/SQL self-rating.",
+        "source": "WalkMe Lever listing 4a69295b; Goozali listing added 2026-11-05; employer Lever page blocked automated fetch",
+        "summary": "Own B2B SaaS product lifecycle and AI-enabled digital adoption features from discovery through launch, adoption and measurable value.",
+        "requirements": "3+ years B2B SaaS PM, strong technical orientation, ideation-to-launch, data-driven prioritization, customer-facing presentations, fluent English; AI feature delivery and data product background preferred.",
         "why": [
-          "About five years PM across Tapuhi and CallApp for Business",
-          "Built business and product from zero at Tapuhi, including business-process discovery",
-          "Hands-on APIs and integrations across CRM, payments and invoicing",
-          "Uses Cursor and other AI-assisted tools to prototype; full-stack background",
-          "Experience with GA4/Firebase analytics and cross-functional product delivery"
+          "CallApp for Business and Tapuhi B2B SaaS product ownership",
+          "Discovery, PRDs, roadmaps and cross-functional delivery",
+          "GA4/Firebase and analytics-led iteration",
+          "API integrations and full-stack background",
+          "Hands-on Cursor/AI prototyping"
         ],
         "gaps": [
-          "Production deployment of LLM/agent systems not verified",
-          "Advanced BI tools and depth of LLM/agent architecture not verified",
-          "Date of initial posting not independently confirmed"
+          "Shipped production AI/agent features not verified",
+          "Computer Science degree preferred; holds Industrial Engineering & Management degree",
+          "Employer Lever page access returned 403; listing visible via secondary job aggregator"
         ],
         "recommendation": "Apply",
-        "scoreExplanation": "88%: unusually strong builder/process/AI tooling overlap; missing proven production agent deployments and BI depth keep score below 90."
+        "scoreExplanation": "89%: strong PM and SaaS fit; AI delivery evidence and direct source access keep below 90."
+      }
+    },
+    {
+      "id": "nov10-fullpath-activation-52-27e",
+      "detail": {
+        "source": "Fullpath official career posting /israel-tel-aviv/52.27E; discovered on Goozali 2026-11-05",
+        "summary": "Own Audience Activation roadmap, customer campaign challenges, inbound technical specs, outbound launches and adoption.",
+        "requirements": "3+ years scaled B2B SaaS PM; ownership of messaging/campaign platform; US customers; technical background; English; customer enablement.",
+        "why": [
+          "B2B SaaS PM across Tapuhi and CallApp for Business",
+          "CRM, payments and API integration experience",
+          "Customer discovery and requirements execution",
+          "Product launch and optimization",
+          "Analytics and technical product fluency"
+        ],
+        "gaps": [
+          "Direct ownership of scaled email/SMS or audience orchestration not verified",
+          "US customer engagement experience not verified",
+          "Work arrangement not specified"
+        ],
+        "recommendation": "Consider",
+        "scoreExplanation": "83%: strong adjacent SaaS product experience, but specialized campaign platform ownership is stated as a requirement."
+      }
+    },
+    {
+      "id": "nov10-huskeys-platform-experience-2eecb99f",
+      "detail": {
+        "source": "Huskeys Ashby posting 2eecb99f; Goozali lists publication 2026-11-03",
+        "summary": "Improve core platform experience and technical capabilities of security management product through customer research, UX, prototyping, specifications and adoption metrics.",
+        "requirements": "3+ years B2B technical SaaS PM; startup; cybersecurity/networking/infrastructure product experience; analytics; customer conversations; daily AI tools.",
+        "why": [
+          "Technical B2B SaaS product work",
+          "Startup product ownership and fast execution",
+          "UX, product discovery and technical specs",
+          "GA/Firebase product analytics",
+          "Hands-on AI prototyping"
+        ],
+        "gaps": [
+          "Required cybersecurity/networking/infrastructure product experience not verified",
+          "Specific security-team workflows and cloud expertise not verified"
+        ],
+        "recommendation": "Consider",
+        "scoreExplanation": "81%: execution and tools align; security-domain requirement is substantial."
       }
     }
   ],

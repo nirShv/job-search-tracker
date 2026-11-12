@@ -1,42 +1,42 @@
 {
-  "requestId": "pm-search-2026-11-11-april-growth-7680e5b9",
-  "commitMessage": "Track april Growth DIY Tax Filing PM role discovered Nov 11",
+  "requestId": "pm-search-2026-11-12-nayax-unattended-2c27f151",
+  "commitMessage": "Track Nayax Unattended Retail PM role verified Nov 12",
   "jobUpserts": [
     {
-      "id": "nov11-april-growth-diy-82ee39db",
-      "company": "april",
-      "role": "Product Manager, Growth (DIY Tax Filing)",
-      "location": "Tel Aviv, Israel — hybrid",
-      "job": "https://jobs.ashbyhq.com/april/82ee39db-dbac-4930-aa85-a399ef802aba",
-      "match": 87,
-      "date": "2026-11-11",
+      "id": "nov12-nayax-unattended-retail",
+      "company": "Nayax",
+      "role": "Product Manager – Unattended Retail",
+      "location": "Herzliya Hills, Israel; work model not confirmed",
+      "job": "https://www.nayax.com/careers/product/product-manager-unattended-retail/",
+      "match": 89,
+      "date": "2026-11-12",
       "status": "active",
-      "updated": "2026-11-11",
-      "next": "Apply: tailor CV on request (below 90); verify direct A/B experimentation ownership and US tax-domain expectations",
-      "note": "Apply (87). Posted Nov 8, 2026. B2C self-service conversion funnel, checkout/payment and document upload flows, B2B partner configuration, APIs, analytics/SQL, monetization and product execution match Tapuhi/CallApp. Gaps: US tax filing domain and independently run A/B testing not verified. Official Ashby job 82ee39db-dbac-4930-aa85-a399ef802aba."
+      "updated": "2026-11-12",
+      "next": "Apply: prepare tailored CV on request (below 90); clarify unattended retail hardware domain and US strategic account overlap",
+      "note": "Apply (89). First seen Nov 5-6 2026, verified official listing Nov 12. PM 2+ years, PRDs/BRDs, payment flows, APIs, strategic US accounts, AI-assisted documentation and cross-functional execution fit Tapuhi/CallApp. Gaps: unattended retail/vending/IoT hardware, acquiring/chargebacks, enterprise US account delivery not verified. Different role from historical Nayax Project Manager – Retail (submitted)."
     }
   ],
   "detailUpserts": [
     {
-      "id": "nov11-april-growth-diy-82ee39db",
+      "id": "nov12-nayax-unattended-retail",
       "detail": {
-        "source": "Official april Ashby listing 82ee39db-dbac-4930-aa85-a399ef802aba; Nov 8 posting date confirmed by Goozali/LandOffer",
-        "summary": "Own consumer self-service US tax filing journey across onboarding, identity verification, document upload, review, payment and filing acceptance; improve conversion, monetization and partner configuration.",
-        "requirements": "4+ years PM; growth funnels, analytical SQL skills, A/B experimentation, B2C customer journey, fintech/B2B partner flows, cross-functional execution.",
+        "source": "Nayax official careers Product Manager – Unattended Retail; independently first seen Nov 5-6, 2026 (Scouter/ABL)",
+        "summary": "Own roadmap, feature prioritization and requirements for unattended micro-markets, kiosks and smart coolers, including payment experience and strategic US client rollout.",
+        "requirements": "2+ years PM; PRDs/BRDs/user stories; payment methods and checkout, hardware-software integrations; AI tools hands-on; excellent English; US timezone overlap. Unattended retail, acquiring, enterprise clients are advantages.",
         "why": [
-          "Tapuhi B2C e-commerce journeys and payment/checkout integrations",
-          "CallApp for Business and Tapuhi B2B SaaS and API integrations",
-          "Discovery, PRDs, roadmap, launch and optimization",
-          "GA4/Firebase analytics and SQL experience",
-          "0-to-1 ownership and monetization understanding"
+          "Product discovery, PRDs, execution and roadmap ownership at Tapuhi and CallApp for Business",
+          "B2C checkout and payments API integration experience",
+          "B2B SaaS, CRM and cross-functional client/business requirements",
+          "Hands-on AI tools including Cursor and prototypes",
+          "Industrial Engineering degree and analytical product/project background"
         ],
         "gaps": [
-          "Direct ownership of A/B testing not verified",
-          "US tax filing and IRS-specific product experience not verified",
-          "Experience with US banking/fintech partner requirements not established"
+          "No verified unattended retail, vending, IoT device or smart-cooler product experience",
+          "No verified acquiring, chargeback, payment-device or fraud/risk ownership",
+          "Direct ownership of US tier-one enterprise implementation not established"
         ],
         "recommendation": "Apply",
-        "scoreExplanation": "87%: strong consumer funnel and SaaS integration fit; specialized US tax domain and experimentation gaps keep below automatic CV threshold."
+        "scoreExplanation": "89%: close fit across payment flows, API/PRDs and AI-enabled product operations; hardware retail specialization and US strategic account delivery remain material gaps."
       }
     }
   ],
